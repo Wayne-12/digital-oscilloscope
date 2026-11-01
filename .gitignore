@@ -9,3 +9,6 @@ __pycache__/
 
 /FPGA/sim/expected/
 /FPGA/sim/vectors/
+
+/source/FPGA/sim/expected/
+/source/FPGA/sim/vectors/
