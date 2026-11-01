@@ -1,0 +1,9 @@
+{
+  "rows": 16384,
+  "display_calibrated": true,
+  "max_formula_error_volts": 3.3306690738754696e-16,
+  "mean_nominal_volts": 0.49434333028083033,
+  "mean_display_volts": 0.5016542314007383,
+  "target_mV": 35,
+  "max_profile_bound_mV": 30.993154494606088
+}

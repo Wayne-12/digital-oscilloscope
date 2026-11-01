@@ -1,0 +1,1653 @@
+{
+  "plan_sha256": "98debc2e26ffd6f969f93a963bf1646f17b56b4e5ae51a3a05d5747116992b7f",
+  "bitstream": {
+    "path": "D:\\示波器\\FPGA\\output\\analysis_1024_921600_20261026\\scope_analysis_1024_25m.bit",
+    "expected": "e69221cabb545f2de1bee2b12d8493a1ad43083c7928a519f45ac4312fb1ea0d",
+    "actual": "e69221cabb545f2de1bee2b12d8493a1ad43083c7928a519f45ac4312fb1ea0d",
+    "match": true
+  },
+  "original_build_sources": [
+    {
+      "path": "FPGA/rtl/common/scope_pkg.sv",
+      "expected": "aca9119daeb8eb0fec8d87b488ff8daa647df2597f35c0493797a9e658878757",
+      "actual": "aca9119daeb8eb0fec8d87b488ff8daa647df2597f35c0493797a9e658878757",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/common/multires_pkg.sv",
+      "expected": "e9d5c1c09b9adda43d0b21759c1afaf960c95ef888f78bfda71513cd64376b3f",
+      "actual": "e9d5c1c09b9adda43d0b21759c1afaf960c95ef888f78bfda71513cd64376b3f",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/common/protocol_pkg.sv",
+      "expected": "df8b3f5d0f93744d346d449153c68c13c98ec3d6d068539c4a452f841406ba19",
+      "actual": "df8b3f5d0f93744d346d449153c68c13c98ec3d6d068539c4a452f841406ba19",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/common/fft_window_pkg.sv",
+      "expected": "45e90ae93db7075bc30b73f36f6f939240a322b4160aded665c63fb7b24935c9",
+      "actual": "45e90ae93db7075bc30b73f36f6f939240a322b4160aded665c63fb7b24935c9",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/common/spectrum_pkg.sv",
+      "expected": "dcac5fd176c8f26e3e6cb2e2519c9c68a42b8ed172050bb0a76fdd0921ac54b1",
+      "actual": "dcac5fd176c8f26e3e6cb2e2519c9c68a42b8ed172050bb0a76fdd0921ac54b1",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/byte_fifo.sv",
+      "expected": "41abb1c01a4541c868c418b45869f9d22aed159b5ed7635a81ced7624d9f8a55",
+      "actual": "41abb1c01a4541c868c418b45869f9d22aed159b5ed7635a81ced7624d9f8a55",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/frame_rx.sv",
+      "expected": "2ddf359d9d7b0200831c60912659ee9985a4d3c2ff37acd3510344379d824e1b",
+      "actual": "2ddf359d9d7b0200831c60912659ee9985a4d3c2ff37acd3510344379d824e1b",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/frame_tx.sv",
+      "expected": "fd63d70b8656a1d3dc913e5487008e8c47448607ba21240a35302e51ab0f6d18",
+      "actual": "fd63d70b8656a1d3dc913e5487008e8c47448607ba21240a35302e51ab0f6d18",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/protocol_commands.sv",
+      "expected": "21a201b0f05e8c8822fa14048814c2e1bce16ce41fbbe925be376ee0cc7ea24d",
+      "actual": "21a201b0f05e8c8822fa14048814c2e1bce16ce41fbbe925be376ee0cc7ea24d",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/protocol_envelope_tx.sv",
+      "expected": "630ef2aa164b166504dbfad7e5492ba260f02fed7f8c8b0ca460eef1f4d662bd",
+      "actual": "630ef2aa164b166504dbfad7e5492ba260f02fed7f8c8b0ca460eef1f4d662bd",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/protocol_wave_tx.sv",
+      "expected": "4736c5aff04a407c709cba9706ee3043d3ac0626f1c13225596895f989a0218e",
+      "actual": "4736c5aff04a407c709cba9706ee3043d3ac0626f1c13225596895f989a0218e",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/scope_protocol_core.sv",
+      "expected": "2d96747a92f37d55d49fce686fb2d81c05ed990f90268e6f1989248e301dffa8",
+      "actual": "2d96747a92f37d55d49fce686fb2d81c05ed990f90268e6f1989248e301dffa8",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/scope_uart_endpoint.sv",
+      "expected": "1ce8e4e7e76183be9e05031fa31fd5dac7829739d27b3e43cd9df0740a15bab0",
+      "actual": "1ce8e4e7e76183be9e05031fa31fd5dac7829739d27b3e43cd9df0740a15bab0",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/uart_rx.sv",
+      "expected": "d8f9e01a2b3cc4d4bf2e3ea0b0819a88240ce5accee77fa78c8d9693ae445437",
+      "actual": "d8f9e01a2b3cc4d4bf2e3ea0b0819a88240ce5accee77fa78c8d9693ae445437",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/uart_transport.sv",
+      "expected": "025164b1b7ed2c7da7ca3022005b0f4c89599f3d509dd7d67ee68543422021da",
+      "actual": "025164b1b7ed2c7da7ca3022005b0f4c89599f3d509dd7d67ee68543422021da",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/uart_proto/uart_tx.sv",
+      "expected": "1bb979f8f9997e7d75d5810e5223d8e8e96b9285535888939e0f7739d21a3c1e",
+      "actual": "1bb979f8f9997e7d75d5810e5223d8e8e96b9285535888939e0f7739d21a3c1e",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/measure/fft_hann_lut.sv",
+      "expected": "a758ba594baa17ff2ffbe59780b07c646cc5e22056832a1fc9dc1344709395f6",
+      "actual": "a758ba594baa17ff2ffbe59780b07c646cc5e22056832a1fc9dc1344709395f6",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/measure/fft_ip_wrapper.sv",
+      "expected": "49e23f566d824885519d9489d754afd56144f8aeff50430f89c71ee77f3794a8",
+      "actual": "49e23f566d824885519d9489d754afd56144f8aeff50430f89c71ee77f3794a8",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/measure/frozen_frame_analysis.sv",
+      "expected": "b5cfa637467d8a7f30c6bd4251b5ad318b62d5e0dad856dc8aafe7875d1ae73e",
+      "actual": "b5cfa637467d8a7f30c6bd4251b5ad318b62d5e0dad856dc8aafe7875d1ae73e",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/measure/measurement_core.sv",
+      "expected": "f1b47d88e2d261b8cf5bbdf7d28c103ce250b8843b2ababd41419b3b2ad1c30e",
+      "actual": "f1b47d88e2d261b8cf5bbdf7d28c103ce250b8843b2ababd41419b3b2ad1c30e",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/measure/measure_udiv.sv",
+      "expected": "3c7bf11e3178513a59d045a3b8a140a0998a14cb40144c399860769e839985b8",
+      "actual": "3c7bf11e3178513a59d045a3b8a140a0998a14cb40144c399860769e839985b8",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/measure/spectrum_analyzer.sv",
+      "expected": "b3b0beae34a1353b3d822657278c34c882c8b7e328f502674e6c9d1195526ddf",
+      "actual": "b3b0beae34a1353b3d822657278c34c882c8b7e328f502674e6c9d1195526ddf",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/measure/spectrum_isqrt.sv",
+      "expected": "42285224e6da580bb0039e691d0a5425d43eba75ae9511e3fc91e98d34d3a53a",
+      "actual": "42285224e6da580bb0039e691d0a5425d43eba75ae9511e3fc91e98d34d3a53a",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/multires/multires_envelope.sv",
+      "expected": "1d02af358e9b9fcaf176df4619230b8ae575f6f7bd61a0457e7856911c4e0437",
+      "actual": "1d02af358e9b9fcaf176df4619230b8ae575f6f7bd61a0457e7856911c4e0437",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/dac_dds/dds_core.sv",
+      "expected": "965a81693ce7826247819e54f8a4087843b73b9de60d2959779b8a368da7d709",
+      "actual": "965a81693ce7826247819e54f8a4087843b73b9de60d2959779b8a368da7d709",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/dac_dds/dds_sine_lut.sv",
+      "expected": "f1956a217a4ea64820d22148dc54e4bed1871aa8db2c31d43dce230d233cb724",
+      "actual": "f1956a217a4ea64820d22148dc54e4bed1871aa8db2c31d43dce230d233cb724",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/dac_dds/scope_board_dds.sv",
+      "expected": "2885a0021c9fb98a31864903997a92c4284b3ad6094ad9e9059a00364a52a0b6",
+      "actual": "2885a0021c9fb98a31864903997a92c4284b3ad6094ad9e9059a00364a52a0b6",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/clock_reset/scope_enable_sync.sv",
+      "expected": "f5301427a80202291a2f287329ad78eb0d56bab8a0dceefed636fcc0429e3137",
+      "actual": "f5301427a80202291a2f287329ad78eb0d56bab8a0dceefed636fcc0429e3137",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/clock_reset/scope_reset_sync.sv",
+      "expected": "15bbe411af25871d996f061ee079cac4387752127bd6d2bee1afc6d4e3fc3d92",
+      "actual": "15bbe411af25871d996f061ee079cac4387752127bd6d2bee1afc6d4e3fc3d92",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/clock_reset/scope_safe_ctrl.sv",
+      "expected": "2407a13c95c403c4afc7af86bd3ffe7438899d7843c166a0d6a518e37e61657a",
+      "actual": "2407a13c95c403c4afc7af86bd3ffe7438899d7843c166a0d6a518e37e61657a",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/top/scope_core.sv",
+      "expected": "ac5d9704790ab453a2e691dd9c27bb27302bd2f73e15b216d3060e878bec48b1",
+      "actual": "ac5d9704790ab453a2e691dd9c27bb27302bd2f73e15b216d3060e878bec48b1",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/top/scope_board_top.sv",
+      "expected": "5fb8d261c05d2918a507e4b9b23f895ae1c5461f81dd29a24a66c7bf916cb629",
+      "actual": "5fb8d261c05d2918a507e4b9b23f895ae1c5461f81dd29a24a66c7bf916cb629",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/adc_if/adc_capture.sv",
+      "expected": "e26a52728d5e09847053773197e83c78888efe359f1fd8739d9cd0896e7aea95",
+      "actual": "e26a52728d5e09847053773197e83c78888efe359f1fd8739d9cd0896e7aea95",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/capture/bram_capture.sv",
+      "expected": "5100905211ba34efac05973f04629fb547a7bcd79e33407a5eccb953ec197cab",
+      "actual": "5100905211ba34efac05973f04629fb547a7bcd79e33407a5eccb953ec197cab",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/capture/capture_bram.sv",
+      "expected": "cf4913802d2dbafba9fce813a4ebfabe4bafb6a8da22d1630cf3ddfba343241b",
+      "actual": "cf4913802d2dbafba9fce813a4ebfabe4bafb6a8da22d1630cf3ddfba343241b",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/trigger/trigger_core.sv",
+      "expected": "9df4f76bdf33ec1629f80131684c99ea1a057d9c052e86ba61956eb966a92c81",
+      "actual": "9df4f76bdf33ec1629f80131684c99ea1a057d9c052e86ba61956eb966a92c81",
+      "match": true
+    },
+    {
+      "path": "FPGA/rtl/trigger/trigger_edge.sv",
+      "expected": "ca7d901c6c1eb34bdcf91663dcd7c548734b7b131bc2ac94032ec72d8c108bbc",
+      "actual": "ca7d901c6c1eb34bdcf91663dcd7c548734b7b131bc2ac94032ec72d8c108bbc",
+      "match": true
+    },
+    {
+      "path": "FPGA/constraints/scope_board_25m.xdc",
+      "expected": "43da16ec89c8999184ae72abcc61d056361ffac0f1c2c35588e76964d969918f",
+      "actual": "43da16ec89c8999184ae72abcc61d056361ffac0f1c2c35588e76964d969918f",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/build_scope_board.py",
+      "expected": "66242a8e742ca90c48739c8cfbb2c7468374339238d680e48b25e4055246c782",
+      "actual": "66242a8e742ca90c48739c8cfbb2c7468374339238d680e48b25e4055246c782",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/build_scope_board.tcl",
+      "expected": "3b0060e2ac8e99211b818b5ee88c95f769d154b0506442f68605e62211918040",
+      "actual": "3b0060e2ac8e99211b818b5ee88c95f769d154b0506442f68605e62211918040",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/ensure_scope_fft_ip.tcl",
+      "expected": "0553f34ee69408a66256466b0af5a192511849457334ad6b6b7a9a427d7048b8",
+      "actual": "0553f34ee69408a66256466b0af5a192511849457334ad6b6b7a9a427d7048b8",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/prepare_fft_development.tcl",
+      "expected": "247235d7e3cc0490b4014d8cded5afc497f7cce1cb03a2843ca33bb32457070b",
+      "actual": "247235d7e3cc0490b4014d8cded5afc497f7cce1cb03a2843ca33bb32457070b",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/resume_board_analysis.py",
+      "expected": "a363d29bf238ba53e6c991bf263145e7b44a2820cc176055c46dc562e9006aaa",
+      "actual": "a363d29bf238ba53e6c991bf263145e7b44a2820cc176055c46dc562e9006aaa",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/verify_board_analysis_hardware.py",
+      "expected": "ebaf4bcb197df3a4f24f14afb97427b96bbca3fb23a9cab608fc62254d549e51",
+      "actual": "d71dcb6ff308372a42d054b393ce0ebbfd696c630a9b732c737c637ae8746794",
+      "match": false
+    },
+    {
+      "path": "FPGA/scripts/audit_board_analysis.py",
+      "expected": "47b50359ec4ef27609d3384004568b67b7d7ca26b13ccd030900e8086a680097",
+      "actual": "47b50359ec4ef27609d3384004568b67b7d7ca26b13ccd030900e8086a680097",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/program_scope_board.tcl",
+      "expected": "c1aeab4d75888ba2b5edfb7cef47423ba2c098ed1f0afbf337597cd74c3b60a9",
+      "actual": "c1aeab4d75888ba2b5edfb7cef47423ba2c098ed1f0afbf337597cd74c3b60a9",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/scope_protocol.py",
+      "expected": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde",
+      "actual": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/hardware_calibration.py",
+      "expected": "6850e518cd25bc196ee1582bc571863b795f0b15595a07acc1844535ffa48526",
+      "actual": "a61ab63cd66478885297ba205095e2cb34bf7a8968ffd019d4ccaebb9739047f",
+      "match": false
+    },
+    {
+      "path": "PC/protocol/spectrum_reference.py",
+      "expected": "493f6d224a8ad95380df87368c20ed2cfe7f0710550ef89c810a59c195fed451",
+      "actual": "493f6d224a8ad95380df87368c20ed2cfe7f0710550ef89c810a59c195fed451",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/protocol_spec.md",
+      "expected": "faae7f5af2750f04b15353cc9495f4380d6bfb8a901c8a98d2630293c192edcb",
+      "actual": "faae7f5af2750f04b15353cc9495f4380d6bfb8a901c8a98d2630293c192edcb",
+      "match": true
+    },
+    {
+      "path": "示波器显示界面.py",
+      "expected": "233c80b3bf6ab3c861ecdcaf61d7a93b8b678fea14271a2e154c8a564f33f7bb",
+      "actual": "518ee696ab8bafde4361d260edd152c84e8a335e90fd77993a26006b4755b88e",
+      "match": false
+    },
+    {
+      "path": "build_inputs/clock/scope_clk_wiz.v",
+      "expected": "62c29bd1411d6119deab4592d23c5d6f22cdaff954d8c459fe71eba083c35889",
+      "actual": "62c29bd1411d6119deab4592d23c5d6f22cdaff954d8c459fe71eba083c35889",
+      "match": true
+    },
+    {
+      "path": "build_inputs/clock/scope_clk_wiz_clk_wiz.v",
+      "expected": "f58b4dc101a5731b678fcc0adf3150f7bab0c550643ec035691981d8ce0fa3bc",
+      "actual": "f58b4dc101a5731b678fcc0adf3150f7bab0c550643ec035691981d8ce0fa3bc",
+      "match": true
+    },
+    {
+      "path": "build_inputs/ip/scope_fft_1024/scope_fft_1024.xci",
+      "expected": "122389943ef2b2e563fabfc260253bb4294d5327dcb05b4310ddec41afa10462",
+      "actual": "122389943ef2b2e563fabfc260253bb4294d5327dcb05b4310ddec41afa10462",
+      "match": true
+    },
+    {
+      "path": "build_inputs/ip/fft_contract_readback.txt",
+      "expected": "f6e73c390dfe600adb2c632555a96ceb92b1b4c4de303457aca6bbe8392ca8ff",
+      "actual": "f6e73c390dfe600adb2c632555a96ceb92b1b4c4de303457aca6bbe8392ca8ff",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/audit_board_multires.py",
+      "expected": "327c5df482a42d488e9461e1b7003011ff323c82c1f06a9e2ab37913b25bc032",
+      "actual": "327c5df482a42d488e9461e1b7003011ff323c82c1f06a9e2ab37913b25bc032",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/vivado_toolchain.json",
+      "expected": "bd4957ce6605cc8e6fba1f170a399ead62f1b59b242f9d37f82473de7d94cdb8",
+      "actual": "bd4957ce6605cc8e6fba1f170a399ead62f1b59b242f9d37f82473de7d94cdb8",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/finalize_board_analysis.py",
+      "expected": "511ef3b231ad664303d359c0f953fc5d21e90f23b3554ef336feb994245c78b9",
+      "actual": "511ef3b231ad664303d359c0f953fc5d21e90f23b3554ef336feb994245c78b9",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/package_board_analysis.py",
+      "expected": "e154229bb8d3a4f1e5d9bb2fd351b3457cb09650c04f6b08d32b27252efce2fd",
+      "actual": "e154229bb8d3a4f1e5d9bb2fd351b3457cb09650c04f6b08d32b27252efce2fd",
+      "match": true
+    },
+    {
+      "path": "FPGA/sim/models/ad9226_model.sv",
+      "expected": "4de2db03a1e00503af67cd7afacd3b93630f0165be88bb8eb4e755d1453a67d7",
+      "actual": "4de2db03a1e00503af67cd7afacd3b93630f0165be88bb8eb4e755d1453a67d7",
+      "match": true
+    },
+    {
+      "path": "FPGA/sim/models/ad9767_model.sv",
+      "expected": "e331958f5823338a99ae3b120de6676226334957e077475bfc3b35912743849c",
+      "actual": "e331958f5823338a99ae3b120de6676226334957e077475bfc3b35912743849c",
+      "match": true
+    },
+    {
+      "path": "FPGA/sim/models/loopback_channel_model.sv",
+      "expected": "f87478f285a958f0961264a01628ae45cbab64750c0c581e28c55e3763aa79df",
+      "actual": "f87478f285a958f0961264a01628ae45cbab64750c0c581e28c55e3763aa79df",
+      "match": true
+    },
+    {
+      "path": "FPGA/sim/tb/tb_scope_board.sv",
+      "expected": "0fc3ea176405721aa239b955f1fdc83cccf5f302812f345fc97ec8232eea107a",
+      "actual": "0fc3ea176405721aa239b955f1fdc83cccf5f302812f345fc97ec8232eea107a",
+      "match": true
+    },
+    {
+      "path": "FPGA/sim/tb/tb_scope_board_dds.sv",
+      "expected": "600663fc9f41155f682d8c4cc10414540c7444e06d7a83923d70d1a35df63b97",
+      "actual": "600663fc9f41155f682d8c4cc10414540c7444e06d7a83923d70d1a35df63b97",
+      "match": true
+    },
+    {
+      "path": "PC/ui/requirements.txt",
+      "expected": "7650be82b9161035c39305e2b973b3270d56f5711ff37105a3d074feefe92d39",
+      "actual": "7650be82b9161035c39305e2b973b3270d56f5711ff37105a3d074feefe92d39",
+      "match": true
+    },
+    {
+      "path": "PC/ui/launch_scope.py",
+      "expected": "4887a8fe1bc19115bfb6069bae51fd29b0fd09ed23ad1df3f1d33308c715e7c9",
+      "actual": "4887a8fe1bc19115bfb6069bae51fd29b0fd09ed23ad1df3f1d33308c715e7c9",
+      "match": true
+    },
+    {
+      "path": "FPGA/ip/scope_clk_wiz/scope_clk_wiz.v",
+      "expected": "62c29bd1411d6119deab4592d23c5d6f22cdaff954d8c459fe71eba083c35889",
+      "actual": "62c29bd1411d6119deab4592d23c5d6f22cdaff954d8c459fe71eba083c35889",
+      "match": true
+    },
+    {
+      "path": "FPGA/ip/scope_clk_wiz/scope_clk_wiz_clk_wiz.v",
+      "expected": "f58b4dc101a5731b678fcc0adf3150f7bab0c550643ec035691981d8ce0fa3bc",
+      "actual": "f58b4dc101a5731b678fcc0adf3150f7bab0c550643ec035691981d8ce0fa3bc",
+      "match": true
+    },
+    {
+      "path": "FPGA/scripts/generate_measure_vectors.py",
+      "expected": "23bc08cf273becf944b2544fcfde2e6bbd4d33e68db7e03e7a5524a2e3a37eae",
+      "actual": "23bc08cf273becf944b2544fcfde2e6bbd4d33e68db7e03e7a5524a2e3a37eae",
+      "match": true
+    }
+  ],
+  "frozen_release_files": [
+    {
+      "path": "configuration_initial/hardware_calibration_baseline.json",
+      "expected": "d585b8577429616ee1c90c36f3528e32532990bd773adf7e877eb80db29fcdbd",
+      "actual": "d585b8577429616ee1c90c36f3528e32532990bd773adf7e877eb80db29fcdbd",
+      "match": true
+    },
+    {
+      "path": "configuration_initial/hardware_calibration_last.json",
+      "expected": "d96009e0f73062c2b51df13df205136d879bf79508584bf03c002bb322dc88f2",
+      "actual": "d96009e0f73062c2b51df13df205136d879bf79508584bf03c002bb322dc88f2",
+      "match": true
+    },
+    {
+      "path": "configuration_initial/hardware_profile.json",
+      "expected": "04a00d455e32dc38f7d2e82d19eacddf0251c8b26b28b001a44ca107f6478fe9",
+      "actual": "04a00d455e32dc38f7d2e82d19eacddf0251c8b26b28b001a44ca107f6478fe9",
+      "match": true
+    },
+    {
+      "path": "evidence/docs/analysis_flash_confirmation_20261026.md",
+      "expected": "15a36115d8c70abc9ac02f9441ca584fc00f1e6b42ca391ac331ac10ae3fab4f",
+      "actual": "15a36115d8c70abc9ac02f9441ca584fc00f1e6b42ca391ac331ac10ae3fab4f",
+      "match": true
+    },
+    {
+      "path": "evidence/docs/uart_physical_smoke_20261026.md",
+      "expected": "08373fb8fa78b5d1c46680ff82eddc9135a382f13a856ac355e09be3bbb8672e",
+      "actual": "08373fb8fa78b5d1c46680ff82eddc9135a382f13a856ac355e09be3bbb8672e",
+      "match": true
+    },
+    {
+      "path": "evidence/docs/uart_soak_acceptance_20261026.md",
+      "expected": "23f8258d7414dee1c899e5768c4ce86d326876eaf9dff342baa7f5f25187d9ff",
+      "actual": "23f8258d7414dee1c899e5768c4ce86d326876eaf9dff342baa7f5f25187d9ff",
+      "match": true
+    },
+    {
+      "path": "evidence/flash_confirmation/cold_boot.log",
+      "expected": "c9cd17139e319a901743144da4eae7d34ca528bfa8c20a82aa95308ecf4687d8",
+      "actual": "c9cd17139e319a901743144da4eae7d34ca528bfa8c20a82aa95308ecf4687d8",
+      "match": true
+    },
+    {
+      "path": "evidence/flash_confirmation/cold_boot_fpga.rpt",
+      "expected": "b5c4aec03072bc2a1e0d4e066a65b0981c62bdfa7511f1dd78507fe766432629",
+      "actual": "b5c4aec03072bc2a1e0d4e066a65b0981c62bdfa7511f1dd78507fe766432629",
+      "match": true
+    },
+    {
+      "path": "evidence/flash_confirmation/cold_boot_serial.json",
+      "expected": "3940e98b17581f99c052454cfd091cb1c187fcc30287ece560d476281f5f9fbf",
+      "actual": "3940e98b17581f99c052454cfd091cb1c187fcc30287ece560d476281f5f9fbf",
+      "match": true
+    },
+    {
+      "path": "evidence/flash_confirmation/manifest.json",
+      "expected": "eaafbd8b3863ab6463e57e5c4818fe5abef30d64a0a243b721aafcd580d108e2",
+      "actual": "eaafbd8b3863ab6463e57e5c4818fe5abef30d64a0a243b721aafcd580d108e2",
+      "match": true
+    },
+    {
+      "path": "evidence/flash_confirmation/readback.log",
+      "expected": "bbbcdcda3adef5068b086e56339f11faa2045a16f5f80e6c2a8f11c1103e8ad2",
+      "actual": "bbbcdcda3adef5068b086e56339f11faa2045a16f5f80e6c2a8f11c1103e8ad2",
+      "match": true
+    },
+    {
+      "path": "evidence/hardware_preflight.json",
+      "expected": "6f74d9d5ca0b718ca59cfb3b6f7dadcc964de065157ff00ccae1d70b11c0bdd2",
+      "actual": "6f74d9d5ca0b718ca59cfb3b6f7dadcc964de065157ff00ccae1d70b11c0bdd2",
+      "match": true
+    },
+    {
+      "path": "evidence/pc_regression_102_tests.log",
+      "expected": "883868b43c79781325ccc77f9b74c648efc9da55ab2da47056b47133f9f26ac8",
+      "actual": "883868b43c79781325ccc77f9b74c648efc9da55ab2da47056b47133f9f26ac8",
+      "match": true
+    },
+    {
+      "path": "evidence/physical_smoke/events.jsonl",
+      "expected": "a5f2a6a7d99ac9aebc1d5d2541c89ed348deaad168888721940d337e18ae4f46",
+      "actual": "a5f2a6a7d99ac9aebc1d5d2541c89ed348deaad168888721940d337e18ae4f46",
+      "match": true
+    },
+    {
+      "path": "evidence/physical_smoke/first_full_wave.bin",
+      "expected": "dad1b5635d0781f16379c6368f718cb3d385b172eff2e5e434fcce54ecfdd06f",
+      "actual": "dad1b5635d0781f16379c6368f718cb3d385b172eff2e5e434fcce54ecfdd06f",
+      "match": true
+    },
+    {
+      "path": "evidence/physical_smoke/last_rx.bin",
+      "expected": "d18f9eab8ceb397be955592f88e46e30223e800e463cb27d83637d55b07e4f05",
+      "actual": "d18f9eab8ceb397be955592f88e46e30223e800e463cb27d83637d55b07e4f05",
+      "match": true
+    },
+    {
+      "path": "evidence/physical_smoke/last_tx.bin",
+      "expected": "e956ad931e48e480ae6b87d81c3b2f06596883b8a35aa9b952b5d12eb221ad24",
+      "actual": "e956ad931e48e480ae6b87d81c3b2f06596883b8a35aa9b952b5d12eb221ad24",
+      "match": true
+    },
+    {
+      "path": "evidence/physical_smoke/last_wave.bin",
+      "expected": "3073ad94fef155bc9bf8636cd78ab4d324ed15e1de0df9d07b5d83c6677c8d8b",
+      "actual": "3073ad94fef155bc9bf8636cd78ab4d324ed15e1de0df9d07b5d83c6677c8d8b",
+      "match": true
+    },
+    {
+      "path": "evidence/physical_smoke/report.json",
+      "expected": "46d9bbf426dbbb982268b0b430102a087053bb15d14e59d15c7f6368d620f000",
+      "actual": "46d9bbf426dbbb982268b0b430102a087053bb15d14e59d15c7f6368d620f000",
+      "match": true
+    },
+    {
+      "path": "evidence/physical_smoke/stable_rates.json",
+      "expected": "428f9ba8433ddc54b1f8b5c3f75d150eacacb465fe468c823bf0fbfb3d50f2d8",
+      "actual": "428f9ba8433ddc54b1f8b5c3f75d150eacacb465fe468c823bf0fbfb3d50f2d8",
+      "match": true
+    },
+    {
+      "path": "firmware/flash_confirmation_manifest.json",
+      "expected": "eaafbd8b3863ab6463e57e5c4818fe5abef30d64a0a243b721aafcd580d108e2",
+      "actual": "eaafbd8b3863ab6463e57e5c4818fe5abef30d64a0a243b721aafcd580d108e2",
+      "match": true
+    },
+    {
+      "path": "firmware/flash_manifest.json",
+      "expected": "22b1447a70dee954f28306274fd5b56d588729c65abd50b36a7dc3ccc31f4588",
+      "actual": "22b1447a70dee954f28306274fd5b56d588729c65abd50b36a7dc3ccc31f4588",
+      "match": true
+    },
+    {
+      "path": "firmware/original_release_manifest.json",
+      "expected": "6208123155499db4aeff9791c2f5dfbc95cf5985da6bdddeb20c0fcc0eaf0d7d",
+      "actual": "6208123155499db4aeff9791c2f5dfbc95cf5985da6bdddeb20c0fcc0eaf0d7d",
+      "match": true
+    },
+    {
+      "path": "firmware/prepared_manifest.json",
+      "expected": "f19e05b1660cbe175d65df4ac94924f7f7ee201611cc483712c415260e3750c5",
+      "actual": "f19e05b1660cbe175d65df4ac94924f7f7ee201611cc483712c415260e3750c5",
+      "match": true
+    },
+    {
+      "path": "firmware/scope_analysis_1024_25m.bit",
+      "expected": "e69221cabb545f2de1bee2b12d8493a1ad43083c7928a519f45ac4312fb1ea0d",
+      "actual": "e69221cabb545f2de1bee2b12d8493a1ad43083c7928a519f45ac4312fb1ea0d",
+      "match": true
+    },
+    {
+      "path": "firmware/scope_analysis_1024_flash.bin",
+      "expected": "afc0171f310d31c365fb3b0b5e4270b8b7bec11b803e2668f078973b52bfa434",
+      "actual": "afc0171f310d31c365fb3b0b5e4270b8b7bec11b803e2668f078973b52bfa434",
+      "match": true
+    },
+    {
+      "path": "firmware/scope_analysis_1024_flash.bit",
+      "expected": "cabc22aa91d5b04e522a09a0b264c8ba39a1b7bfc3c4febbc4164976c7c697ca",
+      "actual": "cabc22aa91d5b04e522a09a0b264c8ba39a1b7bfc3c4febbc4164976c7c697ca",
+      "match": true
+    },
+    {
+      "path": "firmware/scope_analysis_1024_flash.mcs",
+      "expected": "a26853979a028161ef17e576b983a40d53ac2865142c0dd7ffb9965e711d923a",
+      "actual": "a26853979a028161ef17e576b983a40d53ac2865142c0dd7ffb9965e711d923a",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/envelope_reference.py",
+      "expected": "696091507aff74ef88699f2027e13f988798c4b5f831b52646019d242542fa7e",
+      "actual": "696091507aff74ef88699f2027e13f988798c4b5f831b52646019d242542fa7e",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/hardware_calibration.py",
+      "expected": "a61ab63cd66478885297ba205095e2cb34bf7a8968ffd019d4ccaebb9739047f",
+      "actual": "a61ab63cd66478885297ba205095e2cb34bf7a8968ffd019d4ccaebb9739047f",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/innovation_reference.py",
+      "expected": "48fbec55daf333f8d05b4f6c6515e86bb7a416a02341f87c7277264877a7fa01",
+      "actual": "48fbec55daf333f8d05b4f6c6515e86bb7a416a02341f87c7277264877a7fa01",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/scope_protocol.py",
+      "expected": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde",
+      "actual": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/spectrum_reference.py",
+      "expected": "493f6d224a8ad95380df87368c20ed2cfe7f0710550ef89c810a59c195fed451",
+      "actual": "493f6d224a8ad95380df87368c20ed2cfe7f0710550ef89c810a59c195fed451",
+      "match": true
+    },
+    {
+      "path": "PC/protocol/uart_acceptance.py",
+      "expected": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+      "actual": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+      "match": true
+    },
+    {
+      "path": "PC/tests/test_scope_protocol.py",
+      "expected": "3c71d34800301437b8625c99c42b7d48739638183cf358ffa59bcb25fd79c443",
+      "actual": "3c71d34800301437b8625c99c42b7d48739638183cf358ffa59bcb25fd79c443",
+      "match": true
+    },
+    {
+      "path": "PC/tests/test_uart_acceptance.py",
+      "expected": "5ce9126f63c016260c2405eb888828a41f7c49646d2b3a6b36bc821dd2eaac36",
+      "actual": "5ce9126f63c016260c2405eb888828a41f7c49646d2b3a6b36bc821dd2eaac36",
+      "match": true
+    },
+    {
+      "path": "PC/tools/launch_frozen_release.py",
+      "expected": "50164adffbdb2f89abf83653f91a180d4d8f45229e0f598760ec794bdd4013a5",
+      "actual": "50164adffbdb2f89abf83653f91a180d4d8f45229e0f598760ec794bdd4013a5",
+      "match": true
+    },
+    {
+      "path": "PC/tools/run_uart_acceptance.py",
+      "expected": "5c979181825d69de4d4b82a90e9da4fcc9f6643e3dbab18f6e9ce8163b2e3b0a",
+      "actual": "5c979181825d69de4d4b82a90e9da4fcc9f6643e3dbab18f6e9ce8163b2e3b0a",
+      "match": true
+    },
+    {
+      "path": "PC/ui/launch_scope.py",
+      "expected": "4887a8fe1bc19115bfb6069bae51fd29b0fd09ed23ad1df3f1d33308c715e7c9",
+      "actual": "4887a8fe1bc19115bfb6069bae51fd29b0fd09ed23ad1df3f1d33308c715e7c9",
+      "match": true
+    },
+    {
+      "path": "PC/ui/requirements.txt",
+      "expected": "7650be82b9161035c39305e2b973b3270d56f5711ff37105a3d074feefe92d39",
+      "actual": "7650be82b9161035c39305e2b973b3270d56f5711ff37105a3d074feefe92d39",
+      "match": true
+    },
+    {
+      "path": "README.md",
+      "expected": "5a5198229ee8e78347671a53a0a8c7a12afcba72d8b877b97cf583d4aef42ba9",
+      "actual": "5a5198229ee8e78347671a53a0a8c7a12afcba72d8b877b97cf583d4aef42ba9",
+      "match": true
+    },
+    {
+      "path": "requirements-lock.txt",
+      "expected": "7e6fb980cede1531ae45e7e96b4724bacccf9fc75fac76f1db5212c69d7394e4",
+      "actual": "7e6fb980cede1531ae45e7e96b4724bacccf9fc75fac76f1db5212c69d7394e4",
+      "match": true
+    },
+    {
+      "path": "启动30秒实物短测.cmd",
+      "expected": "faca2833d9dce13c4bb53ea10b5bcead46bba9719f17a24db80e801664227b4a",
+      "actual": "faca2833d9dce13c4bb53ea10b5bcead46bba9719f17a24db80e801664227b4a",
+      "match": true
+    },
+    {
+      "path": "启动两小时长稳验收.cmd",
+      "expected": "d425caf01eb342a13b3e3ea953075c2e7e6eb4b17a2c7a22973c8aebe45a7733",
+      "actual": "d425caf01eb342a13b3e3ea953075c2e7e6eb4b17a2c7a22973c8aebe45a7733",
+      "match": true
+    },
+    {
+      "path": "启动固定版界面.cmd",
+      "expected": "331d25ef4a5ba619e4bf01997de03401c7b25a350852049c0b05590235389723",
+      "actual": "331d25ef4a5ba619e4bf01997de03401c7b25a350852049c0b05590235389723",
+      "match": true
+    },
+    {
+      "path": "校验固定版本.cmd",
+      "expected": "2801bee04a2b87c933e3d61c7b8eb75caa3b248e4443d4e5450882ad1dddd1fa",
+      "actual": "2801bee04a2b87c933e3d61c7b8eb75caa3b248e4443d4e5450882ad1dddd1fa",
+      "match": true
+    },
+    {
+      "path": "示波器显示界面.py",
+      "expected": "518ee696ab8bafde4361d260edd152c84e8a335e90fd77993a26006b4755b88e",
+      "actual": "518ee696ab8bafde4361d260edd152c84e8a335e90fd77993a26006b4755b88e",
+      "match": true
+    }
+  ],
+  "current_vs_frozen": {
+    "示波器显示界面.py": {
+      "current_sha256": "518ee696ab8bafde4361d260edd152c84e8a335e90fd77993a26006b4755b88e",
+      "frozen_sha256": "518ee696ab8bafde4361d260edd152c84e8a335e90fd77993a26006b4755b88e",
+      "equal": true
+    },
+    "PC/protocol/scope_protocol.py": {
+      "current_sha256": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde",
+      "frozen_sha256": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde",
+      "equal": true
+    },
+    "PC/protocol/hardware_calibration.py": {
+      "current_sha256": "a61ab63cd66478885297ba205095e2cb34bf7a8968ffd019d4ccaebb9739047f",
+      "frozen_sha256": "a61ab63cd66478885297ba205095e2cb34bf7a8968ffd019d4ccaebb9739047f",
+      "equal": true
+    },
+    "PC/protocol/uart_acceptance.py": {
+      "current_sha256": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+      "frozen_sha256": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+      "equal": true
+    }
+  },
+  "hardware_evidence": [
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration_run.log",
+      "expected": "0de5c43c519b7b3edec36504d8bb7add1d0479e70fb00028c6a67c3ff08acb31",
+      "actual": "0de5c43c519b7b3edec36504d8bb7add1d0479e70fb00028c6a67c3ff08acb31",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous_run.log",
+      "expected": "0f048753ca360573c7b2e89f994b05d997d15e185fede3733a6e7fbb6ad6ff46",
+      "actual": "0f048753ca360573c7b2e89f994b05d997d15e185fede3733a6e7fbb6ad6ff46",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\multires_run.log",
+      "expected": "816c0a902f374b606314789a05e193de34e78e3458c00f15f2e9e0546df9f76f",
+      "actual": "816c0a902f374b606314789a05e193de34e78e3458c00f15f2e9e0546df9f76f",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\program_jtag.log",
+      "expected": "673821c66a7e2b27a4e182ed69d5072169ffbfd0ad06e4c3dce493944a5ca3e0",
+      "actual": "673821c66a7e2b27a4e182ed69d5072169ffbfd0ad06e4c3dce493944a5ca3e0",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\corrected_waveform.png",
+      "expected": "59862e57fe58e5e447b3008cc8927ba1fe4adfdb5e3dbbb2b41a751fc3c0226a",
+      "actual": "59862e57fe58e5e447b3008cc8927ba1fe4adfdb5e3dbbb2b41a751fc3c0226a",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\display_raw.npy",
+      "expected": "a48f8ab4400ba6f3d30160501b6a2442da2c4c3aa750732ab18b608174b00ccb",
+      "actual": "a48f8ab4400ba6f3d30160501b6a2442da2c4c3aa750732ab18b608174b00ccb",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\hardware_calibration.png",
+      "expected": "ef9dacbd4d144fd18f25876addd53fbf194d5311d3cf9fe240bd9ac987f85e17",
+      "actual": "ef9dacbd4d144fd18f25876addd53fbf194d5311d3cf9fe240bd9ac987f85e17",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\hardware_calibration_last.json",
+      "expected": "71b776168b0a48d475c0fc41cfefb1d999216569b89ab28d020060f4ca67957c",
+      "actual": "71b776168b0a48d475c0fc41cfefb1d999216569b89ab28d020060f4ca67957c",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\measured_fingerprint.json",
+      "expected": "c1930a52f115d44521ad014f12b43bb3b5316dcbd990f1922f878289a2a11eb7",
+      "actual": "c1930a52f115d44521ad014f12b43bb3b5316dcbd990f1922f878289a2a11eb7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\verification.json",
+      "expected": "ba551a7d0c43ff3af3bb0b334edac38e6820486b9ab81714262e71e21afdafe0",
+      "actual": "ba551a7d0c43ff3af3bb0b334edac38e6820486b9ab81714262e71e21afdafe0",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\hardware_calibration_last.json",
+      "expected": "71b776168b0a48d475c0fc41cfefb1d999216569b89ab28d020060f4ca67957c",
+      "actual": "71b776168b0a48d475c0fc41cfefb1d999216569b89ab28d020060f4ca67957c",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\hardware_fft.png",
+      "expected": "cb05b62d4ae802f5888e9258a0dcead696f387f121402b501f7246f351f93f77",
+      "actual": "cb05b62d4ae802f5888e9258a0dcead696f387f121402b501f7246f351f93f77",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_00.npy",
+      "expected": "8a279a7accaeb37847aa5c9be968f6fa5195998f04aa305d0f1852c19e951975",
+      "actual": "8a279a7accaeb37847aa5c9be968f6fa5195998f04aa305d0f1852c19e951975",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_01.npy",
+      "expected": "c3fb9db1d0e25ed815697564adac6a0825ae411efd10a678f39ae0e4bde457a6",
+      "actual": "c3fb9db1d0e25ed815697564adac6a0825ae411efd10a678f39ae0e4bde457a6",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_02.npy",
+      "expected": "5bb3f41925939c60c766bfc70d3ae5e6894a7d32a143fec4c22416cc6a81efc2",
+      "actual": "5bb3f41925939c60c766bfc70d3ae5e6894a7d32a143fec4c22416cc6a81efc2",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_03.npy",
+      "expected": "07b6b5bb4352106d3d1390d05b05145ed53d829be3db8fc0014d60ccd1ce6ad4",
+      "actual": "07b6b5bb4352106d3d1390d05b05145ed53d829be3db8fc0014d60ccd1ce6ad4",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_04.npy",
+      "expected": "4ac364a8a937df186bc515c99761fe4ae9006f4d88a11122c5b4825a9345a15b",
+      "actual": "4ac364a8a937df186bc515c99761fe4ae9006f4d88a11122c5b4825a9345a15b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_05.npy",
+      "expected": "c4823020f4b34e4de59cb8738b0b89a9a0de8739c0806ebd6099494240f78fe1",
+      "actual": "c4823020f4b34e4de59cb8738b0b89a9a0de8739c0806ebd6099494240f78fe1",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_06.npy",
+      "expected": "ad5f30a845ada0e041abbed8bae674367ebdf26ba36c38c0b755c03933ad0c3b",
+      "actual": "ad5f30a845ada0e041abbed8bae674367ebdf26ba36c38c0b755c03933ad0c3b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_07.npy",
+      "expected": "9e7181ec2bdce3193c4b9d74fbc267c184e5b2c021acd95fef550e91ddb85f39",
+      "actual": "9e7181ec2bdce3193c4b9d74fbc267c184e5b2c021acd95fef550e91ddb85f39",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_08.npy",
+      "expected": "cd62d176b5fcd64afa095b0704465d9a3f904dd3b42f0a51bdda3d0bdc29ac2d",
+      "actual": "cd62d176b5fcd64afa095b0704465d9a3f904dd3b42f0a51bdda3d0bdc29ac2d",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_09.npy",
+      "expected": "e3377230f4d97400ac375791c8c15727305e9207b538515da5ed788d51f79d31",
+      "actual": "e3377230f4d97400ac375791c8c15727305e9207b538515da5ed788d51f79d31",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_10.npy",
+      "expected": "1e8a180278ca51de3d211e5ed9f86f65a97177b42b0128f6db5a7cc5a55fe5e3",
+      "actual": "1e8a180278ca51de3d211e5ed9f86f65a97177b42b0128f6db5a7cc5a55fe5e3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_11.npy",
+      "expected": "473f297d88a29b65c5e0eda0e38d97ec7fa0aa32e3fef621dc751c6ee09280f3",
+      "actual": "473f297d88a29b65c5e0eda0e38d97ec7fa0aa32e3fef621dc751c6ee09280f3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_12.npy",
+      "expected": "ff71f0e1060f324ddda2be58ae041a81fb52d2743967607695bb922c1e31ff04",
+      "actual": "ff71f0e1060f324ddda2be58ae041a81fb52d2743967607695bb922c1e31ff04",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_13.npy",
+      "expected": "5b5e1daa85dc8321f273517a6ff07ab2732e17d90e1609594714456cd12e10e8",
+      "actual": "5b5e1daa85dc8321f273517a6ff07ab2732e17d90e1609594714456cd12e10e8",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_14.npy",
+      "expected": "96900389f4f515d060b3fdb64ae5a6be9d7eaaf3c60adba7e708dc8ce7f42654",
+      "actual": "96900389f4f515d060b3fdb64ae5a6be9d7eaaf3c60adba7e708dc8ce7f42654",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_15.npy",
+      "expected": "8f0b235b6f9f582091dc847f37b6b52559f682f234d1f24a11fdf6c328b78d4c",
+      "actual": "8f0b235b6f9f582091dc847f37b6b52559f682f234d1f24a11fdf6c328b78d4c",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_16.npy",
+      "expected": "47fce8cf509ff766199a008c0e32ec0dbed8e9e1bcf83e29254543045082001b",
+      "actual": "47fce8cf509ff766199a008c0e32ec0dbed8e9e1bcf83e29254543045082001b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_17.npy",
+      "expected": "67ff17fd4464f4eb6a1833395a488fef309f4a24ac83159e423d3a7d90efcdf7",
+      "actual": "67ff17fd4464f4eb6a1833395a488fef309f4a24ac83159e423d3a7d90efcdf7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_18.npy",
+      "expected": "2c8fa66474ff4c0c717afc40e78f8895a2328228741e845d703103a7b440abd6",
+      "actual": "2c8fa66474ff4c0c717afc40e78f8895a2328228741e845d703103a7b440abd6",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_19.npy",
+      "expected": "2d1735b3cbd5262424beb1f15246f7dae474f77ce684f159998b7c6ee829b2e3",
+      "actual": "2d1735b3cbd5262424beb1f15246f7dae474f77ce684f159998b7c6ee829b2e3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_20.npy",
+      "expected": "2a6f1579436a9495816aa712e97f01cc62bbfc2e8d151ec4983019ada01efd2d",
+      "actual": "2a6f1579436a9495816aa712e97f01cc62bbfc2e8d151ec4983019ada01efd2d",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_21.npy",
+      "expected": "256535bb71fa43f6c57c9364f3cac1718e96ebeeb1f02cf04128aa68c9056c7b",
+      "actual": "256535bb71fa43f6c57c9364f3cac1718e96ebeeb1f02cf04128aa68c9056c7b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_22.npy",
+      "expected": "0d64605b2bdc552480734a96b21230b026f35410e7701f19dd2d07a56860c7e6",
+      "actual": "0d64605b2bdc552480734a96b21230b026f35410e7701f19dd2d07a56860c7e6",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_23.npy",
+      "expected": "7956750bdd94eb252c0ab7288d802b7a941e0e79517786ebe9e0805d4815cb98",
+      "actual": "7956750bdd94eb252c0ab7288d802b7a941e0e79517786ebe9e0805d4815cb98",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_24.npy",
+      "expected": "e25eefa0f4ac03938dbc0a592c28c2fb7672cc850cea004f297ef5cff2bfa25a",
+      "actual": "e25eefa0f4ac03938dbc0a592c28c2fb7672cc850cea004f297ef5cff2bfa25a",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_25.npy",
+      "expected": "d028963c9efcb100c868886ece94cf3e810e3d82af2f7146e2a5761917b479d9",
+      "actual": "d028963c9efcb100c868886ece94cf3e810e3d82af2f7146e2a5761917b479d9",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_26.npy",
+      "expected": "15492fa05ec10227d859478c9bc3939eea1617e4172e858a8297b8ef2a676ea5",
+      "actual": "15492fa05ec10227d859478c9bc3939eea1617e4172e858a8297b8ef2a676ea5",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_27.npy",
+      "expected": "fc53d549b09c0c392428b3082da7080147744c42b600fdbd17b28145191ad479",
+      "actual": "fc53d549b09c0c392428b3082da7080147744c42b600fdbd17b28145191ad479",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_28.npy",
+      "expected": "cf5f864cfc08a210a1853a3a9ca546dbc0e14c4d7d96aa70551054025d7a5870",
+      "actual": "cf5f864cfc08a210a1853a3a9ca546dbc0e14c4d7d96aa70551054025d7a5870",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\raw_29.npy",
+      "expected": "3bafe44b93027c5a91e45884378b6486dec2a3ab3b1cd9903c414fe16dcc710b",
+      "actual": "3bafe44b93027c5a91e45884378b6486dec2a3ab3b1cd9903c414fe16dcc710b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\continuous\\verification.json",
+      "expected": "0ebbf56526ca40403c155f853930f137e89fcf920fed4683704d116ac19a661b",
+      "actual": "0ebbf56526ca40403c155f853930f137e89fcf920fed4683704d116ac19a661b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\summary\\verification.json",
+      "expected": "7a3d4baee19c9cb890f16309c899d7fdcbeb5d9d1842cd745a09584b2fca910e",
+      "actual": "7a3d4baee19c9cb890f16309c899d7fdcbeb5d9d1842cd745a09584b2fca910e",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\summary\\wave_0.npy",
+      "expected": "60122549d65ad23593cee0133e499592c86d674be9c520507f18694b0c78c82b",
+      "actual": "60122549d65ad23593cee0133e499592c86d674be9c520507f18694b0c78c82b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\summary\\wave_1.npy",
+      "expected": "4cc6f9f53c70143768c140660bc7178ac0c62c5e1abc97e42bcf3823cd6bdc79",
+      "actual": "4cc6f9f53c70143768c140660bc7178ac0c62c5e1abc97e42bcf3823cd6bdc79",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\summary\\wave_2.npy",
+      "expected": "1e1bcb25aba1c5cc3c049fdfc71c2c70f16e18463c4a1b3a34153a82cc915ee1",
+      "actual": "1e1bcb25aba1c5cc3c049fdfc71c2c70f16e18463c4a1b3a34153a82cc915ee1",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\summary\\wave_3.npy",
+      "expected": "78fdc890c4d7bd9656dbf6768f9e15af3e71fcf716bb31c5bd83eec6ea20698b",
+      "actual": "78fdc890c4d7bd9656dbf6768f9e15af3e71fcf716bb31c5bd83eec6ea20698b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\cancel_recovery\\000_zero.npy",
+      "expected": "afecc1d00c27bd074a6e1b56653be0ba76f6481be869edc7137fdba70ae723da",
+      "actual": "afecc1d00c27bd074a6e1b56653be0ba76f6481be869edc7137fdba70ae723da",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\cancel_recovery\\001_zero.npy",
+      "expected": "c6ed4c5e448db5f6115c7fd561628d4b2319ea1d3f0579dbd4c01126828b8bec",
+      "actual": "c6ed4c5e448db5f6115c7fd561628d4b2319ea1d3f0579dbd4c01126828b8bec",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\cancel_recovery\\002_zero.npy",
+      "expected": "e5e64cc62f1f7be84409ac9787b433778eaae0e85a10577c555f5514026c12b1",
+      "actual": "e5e64cc62f1f7be84409ac9787b433778eaae0e85a10577c555f5514026c12b1",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\cancel_recovery\\report.json",
+      "expected": "243db273401d0db056adfa9be8fc648444647478947d9b3a4f32d771dfa4ded1",
+      "actual": "243db273401d0db056adfa9be8fc648444647478947d9b3a4f32d771dfa4ded1",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\000_zero.npy",
+      "expected": "a71fb9fcd3b53164edbbe915b8a6d377444ac8f9413078b299016b0cfe9e26d3",
+      "actual": "a71fb9fcd3b53164edbbe915b8a6d377444ac8f9413078b299016b0cfe9e26d3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\001_zero.npy",
+      "expected": "3ee83cae5cd74235148eea95ed9fb7926811dd734031c7cbb673a0c87d8328b3",
+      "actual": "3ee83cae5cd74235148eea95ed9fb7926811dd734031c7cbb673a0c87d8328b3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\002_zero.npy",
+      "expected": "45d164f400f750229b119b876c017c7c761c944cb8239ba8aa86fa937a6446f6",
+      "actual": "45d164f400f750229b119b876c017c7c761c944cb8239ba8aa86fa937a6446f6",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\003_dc_-819.npy",
+      "expected": "b80c0e7a10b9f77b4a461c2b1fe6038cc7862e375028b843586dc0104d3ae5f8",
+      "actual": "b80c0e7a10b9f77b4a461c2b1fe6038cc7862e375028b843586dc0104d3ae5f8",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\004_dc_-819.npy",
+      "expected": "ed50ec474fb1891aeaa8d2122fe951d075ccdc8faea1c02637ce92a5050120da",
+      "actual": "ed50ec474fb1891aeaa8d2122fe951d075ccdc8faea1c02637ce92a5050120da",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\005_dc_-614.npy",
+      "expected": "83e0e9ef9e5f80a88e4002ffe7c4921ed6b8df4d0234b5c73c3821d37c6c447f",
+      "actual": "83e0e9ef9e5f80a88e4002ffe7c4921ed6b8df4d0234b5c73c3821d37c6c447f",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\006_dc_-614.npy",
+      "expected": "bb8338da0dc8eb71e2439767d33ba69fb1c25523f27ed599e3ede96a4cb50fa0",
+      "actual": "bb8338da0dc8eb71e2439767d33ba69fb1c25523f27ed599e3ede96a4cb50fa0",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\007_dc_-410.npy",
+      "expected": "6793e019e61378c137aa8e914056c4a4645000176024108c3cac17f2695e74f7",
+      "actual": "6793e019e61378c137aa8e914056c4a4645000176024108c3cac17f2695e74f7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\008_dc_-410.npy",
+      "expected": "b2650a0f9189308d2b2a6e6af45c410cc4c612125ad5f04b03a72a433aca976d",
+      "actual": "b2650a0f9189308d2b2a6e6af45c410cc4c612125ad5f04b03a72a433aca976d",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\009_dc_-205.npy",
+      "expected": "fa0e1a9a1d0e761a82813ac1e3d06862dc4762fa9199e2e350bd2924d8a27b76",
+      "actual": "fa0e1a9a1d0e761a82813ac1e3d06862dc4762fa9199e2e350bd2924d8a27b76",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\010_dc_-205.npy",
+      "expected": "f1c6e8979a22fbce9adc28b818894776502dce0ce1f8af490f8b71befb8a46e7",
+      "actual": "f1c6e8979a22fbce9adc28b818894776502dce0ce1f8af490f8b71befb8a46e7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\011_dc_0.npy",
+      "expected": "ebd6a71a443b2aa564103df7e18bdd8ae1871bcb467a96c1365b1b75639ea0f7",
+      "actual": "ebd6a71a443b2aa564103df7e18bdd8ae1871bcb467a96c1365b1b75639ea0f7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\012_dc_0.npy",
+      "expected": "d1c812042218c21a071501b204d8c1efa367bb67ad0107f6359bcfb4a5966fde",
+      "actual": "d1c812042218c21a071501b204d8c1efa367bb67ad0107f6359bcfb4a5966fde",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\013_dc_205.npy",
+      "expected": "4cdff2109e00fcff4e1272559401be4b427ec0354520d975086725f668b37058",
+      "actual": "4cdff2109e00fcff4e1272559401be4b427ec0354520d975086725f668b37058",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\014_dc_205.npy",
+      "expected": "dcbaf20011e895c6d39d4d0d00144fae3915a41ca6232337e6e9a4fe3c60e0d6",
+      "actual": "dcbaf20011e895c6d39d4d0d00144fae3915a41ca6232337e6e9a4fe3c60e0d6",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\015_dc_410.npy",
+      "expected": "caf933067f140c64e7479eb3ed4953166e3387caed5816f8669520ce13361fcc",
+      "actual": "caf933067f140c64e7479eb3ed4953166e3387caed5816f8669520ce13361fcc",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\016_dc_410.npy",
+      "expected": "90117283b028b4771c814dd4f10f5b66148b4117fa9a0e5a63ffdf11c628eab1",
+      "actual": "90117283b028b4771c814dd4f10f5b66148b4117fa9a0e5a63ffdf11c628eab1",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\017_dc_614.npy",
+      "expected": "fc888285a0d6b286d52583e95a5fc28a0871ac40409c1b88e46b0a88efb9a265",
+      "actual": "fc888285a0d6b286d52583e95a5fc28a0871ac40409c1b88e46b0a88efb9a265",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\018_dc_614.npy",
+      "expected": "de4610102379303c58f4480ce67642ee67638a48ed780eca6855b98bb4a8750e",
+      "actual": "de4610102379303c58f4480ce67642ee67638a48ed780eca6855b98bb4a8750e",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\019_dc_819.npy",
+      "expected": "da22e2fef6e06cc27f9549441e9544142d51aaf2e8e3f294aa1f1c37328d9ee3",
+      "actual": "da22e2fef6e06cc27f9549441e9544142d51aaf2e8e3f294aa1f1c37328d9ee3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\020_dc_819.npy",
+      "expected": "78d7a291f8438bb8bbdf69069390bf6050c4e0ae0d39bc10633b008dbadcf3b2",
+      "actual": "78d7a291f8438bb8bbdf69069390bf6050c4e0ae0d39bc10633b008dbadcf3b2",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\021_linear_205.npy",
+      "expected": "29cdc58fe4d61c5e1b362c2e830c7fa51cd603da6b587f4d19de66389cbcf59f",
+      "actual": "29cdc58fe4d61c5e1b362c2e830c7fa51cd603da6b587f4d19de66389cbcf59f",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\022_linear_410.npy",
+      "expected": "347264d7082c8dd7c91e21113d045ce657c322e059abc082e72614249314d0eb",
+      "actual": "347264d7082c8dd7c91e21113d045ce657c322e059abc082e72614249314d0eb",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\023_linear_614.npy",
+      "expected": "1e3a407b920acede3e8ecd75a9fd38f1fe08da482cb0b4127dd002551c0845e3",
+      "actual": "1e3a407b920acede3e8ecd75a9fd38f1fe08da482cb0b4127dd002551c0845e3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\024_linear_819.npy",
+      "expected": "723d0bd275ff46a71569df507939bee4d68cd7fb5a3465a10a5ec0eeec593989",
+      "actual": "723d0bd275ff46a71569df507939bee4d68cd7fb5a3465a10a5ec0eeec593989",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\025_response_10000.npy",
+      "expected": "f163bfdb4031d8d00c5370aeba259934c0ee3b0b2ef322acc3c7ef9a93959b89",
+      "actual": "f163bfdb4031d8d00c5370aeba259934c0ee3b0b2ef322acc3c7ef9a93959b89",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\026_response_25000.npy",
+      "expected": "17c5e885c4ddd4b9cb9872535d192a7a945bbef0837f9bc489c019494cb1da4e",
+      "actual": "17c5e885c4ddd4b9cb9872535d192a7a945bbef0837f9bc489c019494cb1da4e",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\027_response_50000.npy",
+      "expected": "193d1694c06826f8bb1fbb8c0361b97b99e4772be3fc4b24fd905d931dd16fee",
+      "actual": "193d1694c06826f8bb1fbb8c0361b97b99e4772be3fc4b24fd905d931dd16fee",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\028_response_100000.npy",
+      "expected": "6129bf370cb83bb8e9fdbbf62c71492214bf9135d34472a1bfad2791043d16e5",
+      "actual": "6129bf370cb83bb8e9fdbbf62c71492214bf9135d34472a1bfad2791043d16e5",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\029_response_250000.npy",
+      "expected": "139bf538f3d5a92bbf11aee68cb268ddfc4c6bda60a0f625df232d0cb88711e5",
+      "actual": "139bf538f3d5a92bbf11aee68cb268ddfc4c6bda60a0f625df232d0cb88711e5",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\030_response_500000.npy",
+      "expected": "440939a0b55fc66ae41720dc696211fdce6194c0b55781780b7ca05f7911c560",
+      "actual": "440939a0b55fc66ae41720dc696211fdce6194c0b55781780b7ca05f7911c560",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\031_response_1000000.npy",
+      "expected": "006fce05ef0a74a9ea949f19c97e69d712b21e7cf9d6efef3d156a8c6c9fff1b",
+      "actual": "006fce05ef0a74a9ea949f19c97e69d712b21e7cf9d6efef3d156a8c6c9fff1b",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\032_harmonics.npy",
+      "expected": "c2a20ba376cb3fb1479732e0e03b381f6b163d827feaebb5b27cb7a42d6910a0",
+      "actual": "c2a20ba376cb3fb1479732e0e03b381f6b163d827feaebb5b27cb7a42d6910a0",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\033_zero_recheck.npy",
+      "expected": "9b1aa38e8c1afca4169548f89a300f6de06de21fc8f455b8ad98dcde5e1363d4",
+      "actual": "9b1aa38e8c1afca4169548f89a300f6de06de21fc8f455b8ad98dcde5e1363d4",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\034_dc_holdout_512.npy",
+      "expected": "2dd434ed92e1a15d2924def2170ee6872733585558ee88e86c90e0589aa03b56",
+      "actual": "2dd434ed92e1a15d2924def2170ee6872733585558ee88e86c90e0589aa03b56",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\first_run\\report.json",
+      "expected": "c1930a52f115d44521ad014f12b43bb3b5316dcbd990f1922f878289a2a11eb7",
+      "actual": "c1930a52f115d44521ad014f12b43bb3b5316dcbd990f1922f878289a2a11eb7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\000_zero.npy",
+      "expected": "b734aa7e9bf45f65df2ba354292833321bd57aa4cc9e1f1ef0654a9409c380d7",
+      "actual": "b734aa7e9bf45f65df2ba354292833321bd57aa4cc9e1f1ef0654a9409c380d7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\001_zero.npy",
+      "expected": "b30d641a3b7e536131bfad36588a2ae866be07b5dd3457b025d4ac88007c4439",
+      "actual": "b30d641a3b7e536131bfad36588a2ae866be07b5dd3457b025d4ac88007c4439",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\002_zero.npy",
+      "expected": "3a4788dfd7864dbf072a7a0dbd8b234573979c74212a8dba4ef17b6faaa85f69",
+      "actual": "3a4788dfd7864dbf072a7a0dbd8b234573979c74212a8dba4ef17b6faaa85f69",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\003_dc_-819.npy",
+      "expected": "c4df111376f7e71275371ec0bed1be8a183440d3819acc82c0519d61fca2fe6e",
+      "actual": "c4df111376f7e71275371ec0bed1be8a183440d3819acc82c0519d61fca2fe6e",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\004_dc_-819.npy",
+      "expected": "020cfdae4def6782e4052abd75c249baffa718cc49036d5b38f3d823d3a44676",
+      "actual": "020cfdae4def6782e4052abd75c249baffa718cc49036d5b38f3d823d3a44676",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\005_dc_-614.npy",
+      "expected": "5ed6f9daaca52fd8d264a5c32afe5097592cc81a019a6b185bc67cfa3029dd6a",
+      "actual": "5ed6f9daaca52fd8d264a5c32afe5097592cc81a019a6b185bc67cfa3029dd6a",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\006_dc_-614.npy",
+      "expected": "62cda75fe8939b4a5caf76a5e49d70f0d07239b3a5d8f5c5f76256d6518abe14",
+      "actual": "62cda75fe8939b4a5caf76a5e49d70f0d07239b3a5d8f5c5f76256d6518abe14",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\007_dc_-410.npy",
+      "expected": "225f1ed632364b96819d49671099ace67357f2180dd6d97d477f5d4c897717ae",
+      "actual": "225f1ed632364b96819d49671099ace67357f2180dd6d97d477f5d4c897717ae",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\008_dc_-410.npy",
+      "expected": "24445bbc1d6a4167161e9701380b2b80631105cf1abf40e90bda8c1dca3d1938",
+      "actual": "24445bbc1d6a4167161e9701380b2b80631105cf1abf40e90bda8c1dca3d1938",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\009_dc_-205.npy",
+      "expected": "ab2d46867a29fee6b8adbe9b93ee3ddc5a2a612c6540675fb24de6d2a7ad6185",
+      "actual": "ab2d46867a29fee6b8adbe9b93ee3ddc5a2a612c6540675fb24de6d2a7ad6185",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\010_dc_-205.npy",
+      "expected": "99033e43f92cf8e3e8abb35acb73dc20b5a23fb28113a99366136ffcdbc66d75",
+      "actual": "99033e43f92cf8e3e8abb35acb73dc20b5a23fb28113a99366136ffcdbc66d75",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\011_dc_0.npy",
+      "expected": "50b8956b6545d0d0a122d12664f388aa3201343b9bffc9758a9f088856c9ad45",
+      "actual": "50b8956b6545d0d0a122d12664f388aa3201343b9bffc9758a9f088856c9ad45",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\012_dc_0.npy",
+      "expected": "0fee6214712f60fe0bec63a6bb2896bdb32d95b419f7ea31eda2429025349681",
+      "actual": "0fee6214712f60fe0bec63a6bb2896bdb32d95b419f7ea31eda2429025349681",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\013_dc_205.npy",
+      "expected": "ab8d283abf45ac4ab631b649d6c315dc9b7204f6d4fbfe1c1fd508f716bef8fc",
+      "actual": "ab8d283abf45ac4ab631b649d6c315dc9b7204f6d4fbfe1c1fd508f716bef8fc",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\014_dc_205.npy",
+      "expected": "269e62596765f0980770c13dc3d5ebae3638985e1142095730ff05a14e029aef",
+      "actual": "269e62596765f0980770c13dc3d5ebae3638985e1142095730ff05a14e029aef",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\015_dc_410.npy",
+      "expected": "7203991ae451452c9df01994266c969c770c5df7c05ed56672abf08c133e37d9",
+      "actual": "7203991ae451452c9df01994266c969c770c5df7c05ed56672abf08c133e37d9",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\016_dc_410.npy",
+      "expected": "ed4944c06f913d730400a3181bb40f18f05fe4e5ad167efdb35d615f892a4768",
+      "actual": "ed4944c06f913d730400a3181bb40f18f05fe4e5ad167efdb35d615f892a4768",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\017_dc_614.npy",
+      "expected": "e9a23f90652ea9252a67bd9ac2416d119c8823c65caa1a5f29d14bb82a120f7a",
+      "actual": "e9a23f90652ea9252a67bd9ac2416d119c8823c65caa1a5f29d14bb82a120f7a",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\018_dc_614.npy",
+      "expected": "dcb4f5e0613dfda23771ff547e988b1d9d11ce24bfb7ada71c382c6973df75a0",
+      "actual": "dcb4f5e0613dfda23771ff547e988b1d9d11ce24bfb7ada71c382c6973df75a0",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\019_dc_819.npy",
+      "expected": "1df4fa62b263d3f53fce0113d902e1e80bd6e0be8eacb722ed2fdb6ddff83fdc",
+      "actual": "1df4fa62b263d3f53fce0113d902e1e80bd6e0be8eacb722ed2fdb6ddff83fdc",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\020_dc_819.npy",
+      "expected": "d4186dd0d36cd3e3b8d7ad98f825b9050d4d8698264ced0b016cf4dc7c0760b6",
+      "actual": "d4186dd0d36cd3e3b8d7ad98f825b9050d4d8698264ced0b016cf4dc7c0760b6",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\021_linear_205.npy",
+      "expected": "2ea7e8725f62b4fa32297825be4b8f4b95be9dd67873b909f396024977d1ab52",
+      "actual": "2ea7e8725f62b4fa32297825be4b8f4b95be9dd67873b909f396024977d1ab52",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\022_linear_410.npy",
+      "expected": "64571ba9bd06d3aefb41b74effb14c2f8ee35e0311f9c6c5e3beb167e63ffeba",
+      "actual": "64571ba9bd06d3aefb41b74effb14c2f8ee35e0311f9c6c5e3beb167e63ffeba",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\023_linear_614.npy",
+      "expected": "e402932f6fc1d6ad5eeb09a768c0273b6a4ae3c606155607cf99d9aecbc3d5e7",
+      "actual": "e402932f6fc1d6ad5eeb09a768c0273b6a4ae3c606155607cf99d9aecbc3d5e7",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\024_linear_819.npy",
+      "expected": "ec2b060f1704c417d4f5a5963b6fb7f7bd85889257dcb6edc08d71e8730005cb",
+      "actual": "ec2b060f1704c417d4f5a5963b6fb7f7bd85889257dcb6edc08d71e8730005cb",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\025_response_10000.npy",
+      "expected": "9c17b4221fbd2c77bd7bb27c5bfb7a894a0622a1d735ee57e5c01f2b4060728a",
+      "actual": "9c17b4221fbd2c77bd7bb27c5bfb7a894a0622a1d735ee57e5c01f2b4060728a",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\026_response_25000.npy",
+      "expected": "20dd2845b08bfb2e5a5722b4996d1aaf85db1081ef489ef15f9eedff257937ec",
+      "actual": "20dd2845b08bfb2e5a5722b4996d1aaf85db1081ef489ef15f9eedff257937ec",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\027_response_50000.npy",
+      "expected": "e266c1e93918982d95b6ed01a2c3d27a9a76390213c42599e5047de3f8121aef",
+      "actual": "e266c1e93918982d95b6ed01a2c3d27a9a76390213c42599e5047de3f8121aef",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\028_response_100000.npy",
+      "expected": "f147f7609acfb121b1d8dddbe76af4793c572cb9aa13824b2f09fc0233b8ffc8",
+      "actual": "f147f7609acfb121b1d8dddbe76af4793c572cb9aa13824b2f09fc0233b8ffc8",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\029_response_250000.npy",
+      "expected": "0b5256d8151fc620ae919dce620c7c4cf6b4a737ef58eb1b2097966cd19cbd01",
+      "actual": "0b5256d8151fc620ae919dce620c7c4cf6b4a737ef58eb1b2097966cd19cbd01",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\030_response_500000.npy",
+      "expected": "a78ec315eca0146e2ac5aec7d199872d6a62d581f89a58a9acc3e63e5b08bdda",
+      "actual": "a78ec315eca0146e2ac5aec7d199872d6a62d581f89a58a9acc3e63e5b08bdda",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\031_response_1000000.npy",
+      "expected": "27dc23f2548bd8cbbce75000b35efd3a73322ba2ccba1f71cbd5826400e84bd3",
+      "actual": "27dc23f2548bd8cbbce75000b35efd3a73322ba2ccba1f71cbd5826400e84bd3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\032_harmonics.npy",
+      "expected": "2d263128bbe820588de618145130de57faa7d2099bd2f7619ed5ba1e49f42347",
+      "actual": "2d263128bbe820588de618145130de57faa7d2099bd2f7619ed5ba1e49f42347",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\033_zero_recheck.npy",
+      "expected": "b6a638cb2f7e4676712696b103345e536c407d1838401aeec88f12158cabeecb",
+      "actual": "b6a638cb2f7e4676712696b103345e536c407d1838401aeec88f12158cabeecb",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\034_dc_holdout_512.npy",
+      "expected": "959392607679528ab26372e8d8b90cc135335e110c5fb8a38d0924f59f0542d3",
+      "actual": "959392607679528ab26372e8d8b90cc135335e110c5fb8a38d0924f59f0542d3",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\analysis_hardware\\session_20261026\\calibration\\repeat_run\\report.json",
+      "expected": "71b776168b0a48d475c0fc41cfefb1d999216569b89ab28d020060f4ca67957c",
+      "actual": "71b776168b0a48d475c0fc41cfefb1d999216569b89ab28d020060f4ca67957c",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\hardware_multires.png",
+      "expected": "adeaf9b07a1dbacc594c92ac8df4f3d101b74ab5b1312a127609100f47500cbe",
+      "actual": "adeaf9b07a1dbacc594c92ac8df4f3d101b74ab5b1312a127609100f47500cbe",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\raw_1_100.npy",
+      "expected": "70ed0a3d7a17cffa2a1f3d647819171f997dd187f0bd328f68945eb93c42dddb",
+      "actual": "70ed0a3d7a17cffa2a1f3d647819171f997dd187f0bd328f68945eb93c42dddb",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\raw_2_200.npy",
+      "expected": "ee3bee017e0537d58c17cb5d7269230cef184231cbed5d7b9a5a399ba0bacf8d",
+      "actual": "ee3bee017e0537d58c17cb5d7269230cef184231cbed5d7b9a5a399ba0bacf8d",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\raw_3_400.npy",
+      "expected": "5ee118fdfbbeb201c8d91ecd83cd004d63492495b99f8ec216c895e4abf3ddba",
+      "actual": "5ee118fdfbbeb201c8d91ecd83cd004d63492495b99f8ec216c895e4abf3ddba",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\raw_4_800.npy",
+      "expected": "e90cba86d48216766d3a220070ea98f4d579f8bfa582eb826067342fe86bae13",
+      "actual": "e90cba86d48216766d3a220070ea98f4d579f8bfa582eb826067342fe86bae13",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\raw_5_800.npy",
+      "expected": "5993f337f810a22565e7818af32588841fd9fdf5de9858a6c53e2fa5e6e69a12",
+      "actual": "5993f337f810a22565e7818af32588841fd9fdf5de9858a6c53e2fa5e6e69a12",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\raw_6_800.npy",
+      "expected": "b73262069d8904e5e6915a8f744f261e24ff7767bbf912cddc891d972426bbe0",
+      "actual": "b73262069d8904e5e6915a8f744f261e24ff7767bbf912cddc891d972426bbe0",
+      "match": true
+    },
+    {
+      "path": "FPGA\\reports\\multires_hardware\\20261026_192548\\verification.json",
+      "expected": "45f3db5ef6e749e11f3b7d57ed2bc5c5c615e0dc8b24415caa7a1d76f62e988d",
+      "actual": "45f3db5ef6e749e11f3b7d57ed2bc5c5c615e0dc8b24415caa7a1d76f62e988d",
+      "match": true
+    },
+    {
+      "path": "FPGA\\scripts\\verify_board_analysis_hardware.py",
+      "expected": "d71dcb6ff308372a42d054b393ce0ebbfd696c630a9b732c737c637ae8746794",
+      "actual": "d71dcb6ff308372a42d054b393ce0ebbfd696c630a9b732c737c637ae8746794",
+      "match": true
+    },
+    {
+      "path": "FPGA\\scripts\\verify_relative_calibration_hardware.py",
+      "expected": "9e0b612c845ab79b2dc66af0508c1b9ceb8e83f81d3f3f10966167a663a7da04",
+      "actual": "9e0b612c845ab79b2dc66af0508c1b9ceb8e83f81d3f3f10966167a663a7da04",
+      "match": true
+    },
+    {
+      "path": "tmp\\verify_multires_device.py",
+      "expected": "2bf8a46c8d218428c8298b320c6dac9147fac6eb3189a5f2d3ab860abf9c080a",
+      "actual": "2bf8a46c8d218428c8298b320c6dac9147fac6eb3189a5f2d3ab860abf9c080a",
+      "match": true
+    },
+    {
+      "path": "tmp\\verify_continuous_scope_analysis.py",
+      "expected": "c395b19d74e56f480d18bdf3fbf6b58951adbef63890446f708768a0788e7f60",
+      "actual": "c395b19d74e56f480d18bdf3fbf6b58951adbef63890446f708768a0788e7f60",
+      "match": true
+    },
+    {
+      "path": "tmp\\finalize_physical_scope_acceptance.py",
+      "expected": "1a0d43a90bfea12b80592084e1ad9d588d4940416fcc7825dc79c91520f10e1a",
+      "actual": "1a0d43a90bfea12b80592084e1ad9d588d4940416fcc7825dc79c91520f10e1a",
+      "match": true
+    },
+    {
+      "path": "示波器显示界面.py",
+      "expected": "518ee696ab8bafde4361d260edd152c84e8a335e90fd77993a26006b4755b88e",
+      "actual": "518ee696ab8bafde4361d260edd152c84e8a335e90fd77993a26006b4755b88e",
+      "match": true
+    },
+    {
+      "path": "PC\\protocol\\hardware_calibration.py",
+      "expected": "a61ab63cd66478885297ba205095e2cb34bf7a8968ffd019d4ccaebb9739047f",
+      "actual": "a61ab63cd66478885297ba205095e2cb34bf7a8968ffd019d4ccaebb9739047f",
+      "match": true
+    },
+    {
+      "path": "docs\\verification\\physical_scope_acceptance_20261026.md",
+      "expected": "efe28841a54fdef37131f522d662aed8a6aae8bdf6ac93e515041c7fa3e289c7",
+      "actual": "efe28841a54fdef37131f522d662aed8a6aae8bdf6ac93e515041c7fa3e289c7",
+      "match": true
+    }
+  ],
+  "flash_evidence": [
+    {
+      "path": "cold_boot.log",
+      "expected": "c9cd17139e319a901743144da4eae7d34ca528bfa8c20a82aa95308ecf4687d8",
+      "actual": "c9cd17139e319a901743144da4eae7d34ca528bfa8c20a82aa95308ecf4687d8",
+      "match": true
+    },
+    {
+      "path": "cold_boot_fpga.rpt",
+      "expected": "b5c4aec03072bc2a1e0d4e066a65b0981c62bdfa7511f1dd78507fe766432629",
+      "actual": "b5c4aec03072bc2a1e0d4e066a65b0981c62bdfa7511f1dd78507fe766432629",
+      "match": true
+    },
+    {
+      "path": "cold_boot_serial.json",
+      "expected": "3940e98b17581f99c052454cfd091cb1c187fcc30287ece560d476281f5f9fbf",
+      "actual": "3940e98b17581f99c052454cfd091cb1c187fcc30287ece560d476281f5f9fbf",
+      "match": true
+    },
+    {
+      "path": "cold_boot_serial.log",
+      "expected": "4d1d0f66e4bbda8c683f3be133bde2628053a96b3a2c6bae54149d52d68ce77a",
+      "actual": "4d1d0f66e4bbda8c683f3be133bde2628053a96b3a2c6bae54149d52d68ce77a",
+      "match": true
+    },
+    {
+      "path": "cold_boot_summary.log",
+      "expected": "455a74f8841aaf70d8bdb9754cccd41e141592dd4aa3ebb7ebd64886a78942da",
+      "actual": "455a74f8841aaf70d8bdb9754cccd41e141592dd4aa3ebb7ebd64886a78942da",
+      "match": true
+    },
+    {
+      "path": "flash_before.bin",
+      "expected": "0a98b25a1f2af7a15ac0eb886ddf54639cbc85d9abd29e543797e671a2f4baea",
+      "actual": "0a98b25a1f2af7a15ac0eb886ddf54639cbc85d9abd29e543797e671a2f4baea",
+      "match": true
+    },
+    {
+      "path": "readback.log",
+      "expected": "bbbcdcda3adef5068b086e56339f11faa2045a16f5f80e6c2a8f11c1103e8ad2",
+      "actual": "bbbcdcda3adef5068b086e56339f11faa2045a16f5f80e6c2a8f11c1103e8ad2",
+      "match": true
+    },
+    {
+      "path": "regenerated_bitstream_header.bit",
+      "expected": "9384d671a1a2dab488272646ab28aa47bdd65f7e8537cda19d1a985473ac46aa",
+      "actual": "9384d671a1a2dab488272646ab28aa47bdd65f7e8537cda19d1a985473ac46aa",
+      "match": true
+    },
+    {
+      "path": "cold_boot_summary\\verification.json",
+      "expected": "f4a2b2fe96dfeaed0f830ba6015463dfd181934a55ecde099a32d1cccc7c6ab6",
+      "actual": "f4a2b2fe96dfeaed0f830ba6015463dfd181934a55ecde099a32d1cccc7c6ab6",
+      "match": true
+    },
+    {
+      "path": "cold_boot_summary\\wave_0.npy",
+      "expected": "73635b02e13eef28da086d4590b03bd770a719c61d2e6060c9ea62f0bfe0a2dd",
+      "actual": "73635b02e13eef28da086d4590b03bd770a719c61d2e6060c9ea62f0bfe0a2dd",
+      "match": true
+    },
+    {
+      "path": "cold_boot_summary\\wave_1.npy",
+      "expected": "73b15204b7f070257df9cdb9f8cd3d63b38b36f529c823e9d2fb5245eed6daea",
+      "actual": "73b15204b7f070257df9cdb9f8cd3d63b38b36f529c823e9d2fb5245eed6daea",
+      "match": true
+    },
+    {
+      "path": "cold_boot_summary\\wave_2.npy",
+      "expected": "c602c199038c7d3d2d611d8edbe44498f201984e196307689deff3cd32115a1f",
+      "actual": "c602c199038c7d3d2d611d8edbe44498f201984e196307689deff3cd32115a1f",
+      "match": true
+    },
+    {
+      "path": "cold_boot_summary\\wave_3.npy",
+      "expected": "db123cb048fc83d4b4d7d79f1dd027e78cab4875b8898bd33d5f9402fdf515d9",
+      "actual": "db123cb048fc83d4b4d7d79f1dd027e78cab4875b8898bd33d5f9402fdf515d9",
+      "match": true
+    }
+  ]
+}

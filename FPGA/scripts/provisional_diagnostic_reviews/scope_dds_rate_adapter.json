@@ -1,0 +1,12 @@
+{
+  "top": "scope_dds_rate_adapter",
+  "evidence_sha256": {
+    "scope_dds_rate_adapter.sv": "7850d9a0544958a51e58b29dde682372d3a6374c0d306c162afa675da3381271"
+  },
+  "expected_synth_message_counts": {
+    "Found unconnected internal register 'quotient_reg' and it is trimmed from '64' to '32' bits.": 1
+  },
+  "expected_id_counts": {
+    "3936": 1
+  }
+}

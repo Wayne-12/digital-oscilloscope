@@ -1,0 +1,4 @@
+target-version = "py310"
+
+[lint]
+select = ["F", "B018", "RUF059", "SIM102", "SIM114", "SIM116", "SIM401", "C4"]

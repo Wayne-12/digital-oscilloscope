@@ -1,0 +1,615 @@
+{
+  "completed_at": "2026-10-31T20:38:31.4245011+08:00",
+  "scope": [
+    "D:\\示波器\\VGA显示部分",
+    "D:\\示波器\\FPGA\\display_test_20261031"
+  ],
+  "deleted_targets": 86,
+  "deleted_files": 3690,
+  "deleted_bytes": 717087707,
+  "failed_targets": 0,
+  "items": [
+    {
+      "path": "D:\\示波器\\VGA显示部分\\.Xil",
+      "reason": "temporary Vivado work directory",
+      "bytes": 186555093,
+      "files": 349,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\-p",
+      "reason": "temporary Vivado work directory",
+      "bytes": 0,
+      "files": 0,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\clockInfo.txt",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 387,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\dfx_runtime.txt",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 113,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\tight_setup_hold_pins.txt",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 864,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem.jou",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1290,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem.log",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1836,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_12548.backup.jou",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1281,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_12548.backup.log",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1813,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28616.backup.jou",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1284,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28616.backup.log",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1818,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28740.backup.jou",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1284,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28740.backup.log",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1818,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28836.backup.jou",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1284,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28836.backup.log",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1818,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28840.backup.jou",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1284,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\updatemem_28840.backup.log",
+      "reason": "tool-generated diagnostic/backup",
+      "bytes": 1818,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\sim",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 948465,
+      "files": 51,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\tool_tmp",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 434174325,
+      "files": 2955,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\tool_appdata",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 0,
+      "files": 0,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\cpu_vga_synth.dcp",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 22960677,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\cpu_vga_placed.dcp",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 28405209,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\cpu_vga_unpatched.bit",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 2192141,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\placed_paths.rpt",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 141560,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\test_panel.exe",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 207360,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\METHODOLOGY_RESOLUTION_REPORT.md",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 3470,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\smoothing_change_scope.json",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 468,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\unit_programmed_bit.sha256",
+      "reason": "reproducible intermediate or superseded diagnostic",
+      "bytes": 66,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\always_visible_firmware_basis.json",
+      "reason": "superseded build/firmware backup",
+      "bytes": 11224,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1034,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_18680.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1034,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_18680.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 192407,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_26056.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1034,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_26056.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 191770,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_6908.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1033,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_6908.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 59053,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_8956.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1033,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_8956.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 191867,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_9608.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1033,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\build_9608.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 193034,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\cpu_vga_before_knob_calibration.bit",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2192141,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\cpu_vga_before_unit_fix.bit",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2192141,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\cpu_vga_before_wave_cycle.bit",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2192141,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\cpu_vga_unit_verified.bit",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2192141,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\footer_firmware_basis.json",
+      "reason": "superseded build/firmware backup",
+      "bytes": 11223,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\knob_firmware_patch.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1077,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\knob_firmware_patch_basis.json",
+      "reason": "superseded build/firmware backup",
+      "bytes": 11498,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\panel_model.obj",
+      "reason": "superseded build/firmware backup",
+      "bytes": 13886,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\prepare_flash.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1082,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1046,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_15160.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1046,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_15160.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2434,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_16980.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1046,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_16980.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2434,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_26580.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1046,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_26580.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2434,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_27472.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1046,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_27472.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2434,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_29108.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1046,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_29108.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 2434,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\program_flash.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1082,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\scope_cpu.obj",
+      "reason": "superseded build/firmware backup",
+      "bytes": 7725,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1052,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_10028.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1052,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_10028.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 4085,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_16892.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1052,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_16892.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 4085,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_24568.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1052,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_24568.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 4085,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_26796.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1052,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_26796.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 4085,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_26924.backup.jou",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1052,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\simulate_26924.backup.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 4085,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\test_panel.obj",
+      "reason": "superseded build/firmware backup",
+      "bytes": 124690,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\unit_firmware_patch.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1057,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\unit_firmware_patch_basis.json",
+      "reason": "superseded build/firmware backup",
+      "bytes": 11604,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\wave_cycle_firmware_basis.json",
+      "reason": "superseded build/firmware backup",
+      "bytes": 11531,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\wave_cycle_firmware_patch.log",
+      "reason": "superseded build/firmware backup",
+      "bytes": 1071,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\FPGA\\display_test_20261031",
+      "reason": "obsolete standalone 640x480 display prototype; final project has no dependency",
+      "bytes": 31595857,
+      "files": 255,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\验证记录.md",
+      "reason": "superseded by final consolidated verification report",
+      "bytes": 4337,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\平滑显示验证.md",
+      "reason": "superseded by final consolidated verification report",
+      "bytes": 3838,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\信号源界面验证.md",
+      "reason": "superseded by final consolidated verification report",
+      "bytes": 6821,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\光标频谱界面验证.md",
+      "reason": "superseded by final consolidated verification report",
+      "bytes": 4243,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\微调自检界面验证.md",
+      "reason": "superseded by final consolidated verification report",
+      "bytes": 2791,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\自检诊断验证.md",
+      "reason": "superseded by final consolidated verification report",
+      "bytes": 3059,
+      "files": 1,
+      "status": "deleted"
+    },
+    {
+      "path": "D:\\示波器\\VGA显示部分\\output\\verify_flash_boot.jou",
+      "reason": "generated journal or tool backup",
+      "bytes": 1106,
+      "files": 1,
+      "status": "deleted"
+    }
+  ]
+}

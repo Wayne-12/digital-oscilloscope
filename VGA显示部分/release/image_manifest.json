@@ -1,0 +1,11 @@
+{
+  "firmware_build": "0xAF311031",
+  "sha256": {
+    "output/cpu_vga_runtime.bit": "7a4557b12f86497d997062e9c25ba9bd07ec45df9efd538736ba613c893af2e4",
+    "output/panel.elf": "ffa8c53425c06688e323c6c6a231ea9f12a3755bba1bbc800020bff2b552e4b8",
+    "output/source_snapshot.json": "f487bc485070f50eac08db04d8ea67748e3b40cca8ea01a6d4a69d03b936acf1",
+    "release/display_final.bit": "a9416faa1df3a2630e318201c57fd9effc47a19d3b80805b9797b8d443a82566",
+    "release/display_final.bin": "cb4b782c7b3a70cc6594e98079491696455cb87ece4230741f77725bacedcf07",
+    "release/display_final.mcs": "6800d2dd59c62d198991e264095ede034ffe11889fa0194adb8441eb08e98143"
+  }
+}

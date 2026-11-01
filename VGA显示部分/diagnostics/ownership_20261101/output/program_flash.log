@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Nov  1 15:53:23 2026
+# Process ID         : 30316
+# Current directory  : L:/
+# Command line       : vivado.exe -mode batch -notrace -source program_flash.tcl -log output/program_flash.log -journal output/program_flash.jou
+# Log file           : L:/output/program_flash.log
+# Journal file       : L:/output/program_flash.jou
+# Running On         : LAPTOP-R5DN2NPP
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22621
+# Processor Detail   : Intel(R) Core(TM) i7-14700HX
+# CPU Frequency      : 2304 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 16944 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 26071 MB
+# Available Virtual  : 12486 MB
+#-----------------------------------------------------------
+source program_flash.tcl -notrace
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.2.0
+  ****** Build date   : Nov 14 2025-07:16:52
+    **** Build number : 2025.2.1763075812
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+QSPI_PART n25q64-3.3v-spi-x1_x2_x4
+INFO: [Labtools 27-3164] End of startup status: HIGH
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 17   Device ID 1 : 0   Device ID 2 : 0
+Performing Readback Operation...
+INFO: [Xicom 50-213] Readback file: L:/release/hardware_20261101_155326/flash_before.bin
+Readback Operation successful.
+readback_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:22 . Memory (MB): peak = 650.117 ; gain = 23.895
+QSPI_FULL_BACKUP_PASS bytes=8388608
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 17   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Blank Check Operation...
+Blank Check Operation successful. The part is blank.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:01:13 . Memory (MB): peak = 656.211 ; gain = 0.000
+QSPI_PROGRAM_VERIFY_PASS
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 17   Device ID 1 : 0   Device ID 2 : 0
+Performing Readback Operation...
+INFO: [Xicom 50-213] Readback file: L:/release/hardware_20261101_155326/flash_after.bin
+Readback Operation successful.
+readback_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 656.211 ; gain = 0.000
+QSPI_INDEPENDENT_READBACK_COMPARE_PASS
+INFO: [Labtoolstcl 44-664] Will wait up to 30 seconds for booting to complete.
+INFO: [Labtools 27-32] Done pin status: HIGH
+boot_hw_device: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 656.246 ; gain = 0.000
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported soft debug core(s) in it.
+QSPI_BOOT result= MODE=001 DONE=1 EOS=1 CRC_ERROR=0
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+QSPI_DEPLOYMENT_PASS action=PROGRAMMED_AND_VERIFIED
+PANEL_FLASH_PROGRAM_PASS
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  1 15:55:25 2026...

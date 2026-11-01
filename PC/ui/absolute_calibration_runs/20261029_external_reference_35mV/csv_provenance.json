@@ -1,0 +1,82 @@
+[
+  {
+    "csv_file": "D:\\示波器\\示波器快照（-1V）.csv",
+    "sha256": "653fb497011f90aaac834c7dc27f209d6188727ca772d2b0d308dae8f8098e67",
+    "raw_file": "raw_neg1V.npy",
+    "metadata": {
+      "# source": "硬件 UART",
+      "sample_rate_hz": "25000000",
+      "trigger_index": "8192",
+      "first_sample_timestamp": "74532361763",
+      "display_calibrated": "False",
+      "record_offset": "0",
+      "record_length": "16384",
+      "scope": "full-raw",
+      "voltage_calibration": "{\"mode\": \"nominal\", \"absolute_calibrated\": false}"
+    }
+  },
+  {
+    "csv_file": "D:\\示波器\\示波器快照（0V）.csv",
+    "sha256": "b133664cfff49d4085a0c555d0c1b9bd27710fbac22d361c5750043d57f4952e",
+    "raw_file": "raw_0V.npy",
+    "metadata": {
+      "# source": "硬件 UART",
+      "sample_rate_hz": "25000000",
+      "trigger_index": "8192",
+      "first_sample_timestamp": "85774610895",
+      "display_calibrated": "False",
+      "record_offset": "0",
+      "record_length": "16384",
+      "scope": "full-raw",
+      "voltage_calibration": "{\"mode\": \"nominal\", \"absolute_calibrated\": false}"
+    }
+  },
+  {
+    "csv_file": "D:\\示波器\\示波器快照（1V）.csv",
+    "sha256": "25108fa26d58a924da22864cd69a0eecd4d53ace81c231abe3cc157cb2ee4be3",
+    "raw_file": "raw_1V.npy",
+    "metadata": {
+      "# source": "硬件 UART",
+      "sample_rate_hz": "25000000",
+      "trigger_index": "8192",
+      "first_sample_timestamp": "93109471392",
+      "display_calibrated": "False",
+      "record_offset": "0",
+      "record_length": "16384",
+      "scope": "full-raw",
+      "voltage_calibration": "{\"mode\": \"nominal\", \"absolute_calibrated\": false}"
+    }
+  },
+  {
+    "csv_file": "D:\\示波器\\示波器快照（-0.5V）.csv",
+    "sha256": "4f8b4b578cbf279545a678b23dda1d0524942c1cfb1cdb73c0789f60917e2637",
+    "raw_file": "raw_neg0p5V.npy",
+    "metadata": {
+      "# source": "硬件 UART",
+      "sample_rate_hz": "25000000",
+      "trigger_index": "8192",
+      "first_sample_timestamp": "104786665367",
+      "display_calibrated": "False",
+      "record_offset": "0",
+      "record_length": "16384",
+      "scope": "full-raw",
+      "voltage_calibration": "{\"mode\": \"nominal\", \"absolute_calibrated\": false}"
+    }
+  },
+  {
+    "csv_file": "D:\\示波器\\示波器快照（0.5V）.csv",
+    "sha256": "6e7354e96e5a7c9d1189bffb7d6a8c963d0ec2a24d5034a73474f88a608e4505",
+    "raw_file": "raw_0p5V.npy",
+    "metadata": {
+      "# source": "硬件 UART",
+      "sample_rate_hz": "25000000",
+      "trigger_index": "8192",
+      "first_sample_timestamp": "109969052973",
+      "display_calibrated": "False",
+      "record_offset": "0",
+      "record_length": "16384",
+      "scope": "full-raw",
+      "voltage_calibration": "{\"mode\": \"nominal\", \"absolute_calibrated\": false}"
+    }
+  }
+]

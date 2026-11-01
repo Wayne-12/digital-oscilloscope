@@ -1,0 +1,88 @@
+{
+  "format": "scope-uart-acceptance-v1",
+  "source": "offline-model",
+  "verdict": "OFFLINE_PASS",
+  "started_at": "2026-10-26T16:55:31.483727+08:00",
+  "baud": 230400,
+  "port": null,
+  "device_id": "",
+  "conditions": "",
+  "seed": 20261026,
+  "requested_soak_seconds": 7200,
+  "requested_echo_seconds": 600,
+  "requested_echo_payload_bytes": 1048576,
+  "restored": true,
+  "recovery": "PASS",
+  "echo_payload_bytes": 6628600,
+  "echo_seconds": 600.0822916670817,
+  "soak_seconds": 7206.82022570006,
+  "captures": 688,
+  "qualified_bauds": [],
+  "firmware_sha256": null,
+  "firmware_artifact": null,
+  "time_basis": "virtual model seconds",
+  "source_sha256": {
+    "uart_acceptance.py": "437204d1c4578551b6e91fafde6e054dc037dd703dc1a6cb52092e11ee40a186",
+    "scope_protocol.py": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde"
+  },
+  "limitations": [
+    "No temperature sensor: conditions are operator observations.",
+    "Request/response snapshots, not a continuous ADC stream; no unrequested frames counted as lost.",
+    "Offline model does not implement FPGA FFT analysis."
+  ],
+  "wall_elapsed_seconds": 2.1052405000000363,
+  "build": "0xa0261025",
+  "capabilities": 3,
+  "original_configuration_hex": "00400000002000000000000008009cff640001000000640000006400020000000001a086010000000000330300000000",
+  "fpga_baseline_counters": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6
+  ],
+  "tx_bytes": 6997016,
+  "rx_bytes": 14897805,
+  "protocol_responses": 19713,
+  "requests": 12909,
+  "completed_requests": 12909,
+  "unanswered_requests": 0,
+  "capture_attempts": 688,
+  "incomplete_captures": 0,
+  "transport_errors": {
+    "sequence": 0,
+    "response_timeout": 0,
+    "capture_timeout": 0,
+    "echo_mismatch": 0
+  },
+  "pc_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "fpga_error_deltas": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0,
+    "unknown": 0,
+    "command": 0,
+    "framing": 0,
+    "overflow": 0
+  },
+  "otr_samples": 0,
+  "first_full_frame": {
+    "timestamp": 1250000,
+    "samples": 16384,
+    "minimum": -40,
+    "maximum": 40
+  },
+  "soak_captures": 686,
+  "soak_protocol_responses": 19625,
+  "finished_at": "2026-10-26T16:55:33.589702+08:00"
+}

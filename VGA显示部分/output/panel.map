@@ -1,0 +1,233 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_muldi3.o)
+                              C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o (__muldi3)
+D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_udivdi3.o)
+                              C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o (__udivdi3)
+D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(divsi3.o)
+                              C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o (__divsi3)
+D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(mulsi3.o)
+                              C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o (__mulsi3)
+D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(udivsi3.o)
+                              C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o (__udivsi3)
+D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(umodsi3.o)
+                              C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o (__umodsi3)
+D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_clz.o)
+                              D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_udivdi3.o) (__clz_tab)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:\Users\lenovo\AppData\Local\Temp\cccHV4O1.o
+ .data          0x00000000        0x0 C:\Users\lenovo\AppData\Local\Temp\cccHV4O1.o
+ .bss           0x00000000        0x0 C:\Users\lenovo\AppData\Local\Temp\cccHV4O1.o
+ .text          0x00000000        0x0 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .data          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_muldi3.o)
+ .bss           0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_muldi3.o)
+ .data          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_udivdi3.o)
+ .eh_frame      0x00000000       0x44 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(divsi3.o)
+ .bss           0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(divsi3.o)
+ .data          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(mulsi3.o)
+ .bss           0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(mulsi3.o)
+ .data          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(udivsi3.o)
+ .bss           0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(udivsi3.o)
+ .data          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(umodsi3.o)
+ .bss           0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(umodsi3.o)
+ .text          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_clz.o)
+ .data          0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.vectors.reset  0x00000000        0x4
+ *(.vectors.reset)
+ .vectors.reset
+                0x00000000        0x4 C:\Users\lenovo\AppData\Local\Temp\cccHV4O1.o
+
+.text           0x00000050     0x57dc
+ *(.text.start)
+ .text.start    0x00000050       0x2c C:\Users\lenovo\AppData\Local\Temp\cccHV4O1.o
+                0x00000050                _start
+ *(.text*)
+ .text.rd       0x0000007c       0x14 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.wr       0x00000090       0x14 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.frame_byte
+                0x000000a4      0x244 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.panel_bridge_poll
+                0x000002e8      0x120 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.draw_service
+                0x00000408       0x5c C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                 0x68 (size before relaxing)
+ .text.screen_get
+                0x00000464       0x58 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.screen_set
+                0x000004bc       0x8c C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.finish_selftest
+                0x00000548      0x194 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.text     0x000006dc      0x1f4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                0x1f8 (size before relaxing)
+ .text.number   0x000008d0       0xfc C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                0x108 (size before relaxing)
+ .text.frequency
+                0x000009cc      0x150 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                0x16c (size before relaxing)
+ .text.numeric_string
+                0x00000b1c       0xd8 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.reading  0x00000bf4      0x140 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                0x15c (size before relaxing)
+ .text.scale_item
+                0x00000d34       0xc8 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                 0xd8 (size before relaxing)
+ .text.panel_put32
+                0x00000dfc       0x50 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.step     0x00000e4c       0x4c C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.position
+                0x00000e98       0xdc C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.panel_field_index
+                0x00000f74       0x64 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.item     0x00000fd8      0x12c C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                0x148 (size before relaxing)
+ .text.panel_key
+                0x00001104      0x528 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.scope_crc16
+                0x0000162c       0x70 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.issue    0x0000169c      0x13c C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.local_reply
+                0x000017d8      0x12c C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.host_service
+                0x00001904      0x108 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                                0x12c (size before relaxing)
+ .text.scope_dds_payload.isra.0
+                0x00001a0c       0xfc C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .text.startup.main
+                0x00001b08     0x2990 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+                               0x2ddc (size before relaxing)
+                0x00001b08                main
+ .text          0x00004498      0x264 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_muldi3.o)
+                0x00004498                __muldi3
+ .text          0x000046fc      0xed8 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_udivdi3.o)
+                0x000046fc                __udivdi3
+ .text          0x000055d4       0x9c D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(divsi3.o)
+                0x000055d4                __divsi3
+ .text          0x00005670       0x58 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(mulsi3.o)
+                0x00005670                __mulsi3
+ .text          0x000056c8       0xa8 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(udivsi3.o)
+                0x000056c8                __udivsi3
+ .text          0x00005770       0xbc D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(umodsi3.o)
+                0x00005770                __umodsi3
+
+.rodata         0x0000582c      0xd94
+ *(.rodata*)
+ .rodata        0x0000582c      0x6bb C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *fill*         0x00005ee7        0x1 
+ .rodata.panel_key
+                0x00005ee8       0x54 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.main   0x00005f3c       0x88 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.core.0
+                0x00005fc4       0x14 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.n.1    0x00005fd8       0x18 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.waves  0x00005ff0       0x10 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.kinds  0x00006000       0x24 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.modes  0x00006024        0xc C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.CSWTCH.184
+                0x00006030        0xc C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.mvdiv  0x0000603c       0x10 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.ns     0x0000604c       0x14 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.pages  0x00006060       0x18 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.panel_knob
+                0x00006078      0x2d2 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *fill*         0x0000634a        0x2 
+ .rodata.mapping.0
+                0x0000634c       0x14 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .rodata.panel_cjk
+                0x00006360      0x15e C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *fill*         0x000064be        0x2 
+ .rodata        0x000064c0      0x100 D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a(_clz.o)
+                0x000064c0                __clz_tab
+
+.rela.dyn       0x000065c0        0x0
+ .rela.text.start
+                0x000065c0        0x0 C:\Users\lenovo\AppData\Local\Temp\cccHV4O1.o
+
+.data           0x000065c0        0x2
+ *(.data*)
+ .data.seq      0x000065c0        0x2 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *(.sdata*)
+
+.bss            0x000065c4      0x944
+                0x000065c4                        __bss_start = .
+ *(.bss*)
+ .bss.handoff_started
+                0x000065c4        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.handoff_stop
+                0x000065c8        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.last_knob_position
+                0x000065cc        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.owner_pc  0x000065d0        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.handoff   0x000065d4        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.draw_model
+                0x000065d8        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.navigation
+                0x000065dc       0x88 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.test_result
+                0x00006664       0x20 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.screen_high
+                0x00006684      0x190 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.screen_low
+                0x00006814      0x640 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.error     0x00006e54        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.sent      0x00006e58        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.command_kind
+                0x00006e5c        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.tx_pos    0x00006e60        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.tx_count  0x00006e64        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.tx        0x00006e68       0x40 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.test_commands
+                0x00006ea8        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.test_active
+                0x00006eac        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.waiting   0x00006eb0        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.draw_bridge
+                0x00006eb4        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.backend_activity
+                0x00006eb8        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.backend_frame
+                0x00006ebc        0xe C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *fill*         0x00006eca        0x2 
+ .bss.host_activity
+                0x00006ecc        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.host_reply
+                0x00006ed0       0x1d C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *fill*         0x00006eed        0x3 
+ .bss.host_frame
+                0x00006ef0        0xe C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *fill*         0x00006efe        0x2 
+ .bss.reply_count
+                0x00006f00        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ .bss.reply_pos
+                0x00006f04        0x4 C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+ *(.sbss*)
+ *(COMMON)
+                0x00006f08                        __bss_end = .
+                0x00006f10                        . = ALIGN (0x10)
+                0x00006f10                        _end = .
+                0x00007ff0                        _stack = ((ORIGIN (ram) + LENGTH (ram)) - 0x10)
+                0x00000001                        ASSERT ((_end < (_stack - 0x1000)), Firmware leaves less than 4KB stack)
+LOAD C:\Users\lenovo\AppData\Local\Temp\cccHV4O1.o
+LOAD C:\Users\lenovo\AppData\Local\Temp\ccy1fJMw.o
+LOAD C:\Users\lenovo\AppData\Local\Temp\ccGbeQXV.ltrans0.ltrans.o
+LOAD C:\Users\lenovo\AppData\Local\Temp\cc2dOzV6.o
+LOAD C:\Users\lenovo\AppData\Local\Temp\ccQYiqaM.o
+LOAD C:\Users\lenovo\AppData\Local\Temp\ccIvf7Eu.o
+LOAD D:/AMD/Xilinx/vivado_2025.2/2025.2/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr/lib/le\libgcc.a
+OUTPUT(output/panel.elf elf32-microblazeel)

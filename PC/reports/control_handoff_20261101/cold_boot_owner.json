@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "cold_boot_local_owner_reply": 6,
+  "baud": 921600,
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  }
+}

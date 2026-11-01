@@ -1,0 +1,88 @@
+{
+  "format": "scope-uart-offline-matrix-v1",
+  "source": "offline-model",
+  "hardware_verified": false,
+  "qualified_bauds": [],
+  "rates": [
+    {
+      "baud": 115200,
+      "source": "offline-model",
+      "verdict": "OFFLINE_PASS",
+      "time_basis": "virtual model seconds",
+      "echo_payload_bytes": 3314300,
+      "echo_seconds": 600.1680555555251,
+      "soak_seconds": 7201.8473958262,
+      "soak_captures": 654,
+      "captures": 656,
+      "wall_elapsed_seconds": 1.8163167000002431,
+      "restored": true,
+      "recovery": "PASS",
+      "qualified_bauds": [],
+      "report": "baud_115200/report.json",
+      "source_sha256": {
+        "uart_acceptance.py": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+        "scope_protocol.py": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde"
+      }
+    },
+    {
+      "baud": 230400,
+      "source": "offline-model",
+      "verdict": "OFFLINE_PASS",
+      "time_basis": "virtual model seconds",
+      "echo_payload_bytes": 6628600,
+      "echo_seconds": 600.0822916670817,
+      "soak_seconds": 7206.82022570006,
+      "soak_captures": 686,
+      "captures": 688,
+      "wall_elapsed_seconds": 2.1417436000001544,
+      "restored": true,
+      "recovery": "PASS",
+      "qualified_bauds": [],
+      "report": "baud_230400/report.json",
+      "source_sha256": {
+        "uart_acceptance.py": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+        "scope_protocol.py": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde"
+      }
+    },
+    {
+      "baud": 460800,
+      "source": "offline-model",
+      "verdict": "OFFLINE_PASS",
+      "time_basis": "virtual model seconds",
+      "echo_payload_bytes": 13257200,
+      "echo_seconds": 600.0394097235462,
+      "soak_seconds": 7207.894292540464,
+      "soak_captures": 703,
+      "captures": 705,
+      "wall_elapsed_seconds": 2.4578206000005594,
+      "restored": true,
+      "recovery": "PASS",
+      "qualified_bauds": [],
+      "report": "baud_460800/report.json",
+      "source_sha256": {
+        "uart_acceptance.py": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+        "scope_protocol.py": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde"
+      }
+    },
+    {
+      "baud": 921600,
+      "source": "offline-model",
+      "verdict": "OFFLINE_PASS",
+      "time_basis": "virtual model seconds",
+      "echo_payload_bytes": 26514400,
+      "echo_seconds": 600.0179687500392,
+      "soak_seconds": 7200.021191396636,
+      "soak_captures": 711,
+      "captures": 713,
+      "wall_elapsed_seconds": 2.896433700000671,
+      "restored": true,
+      "recovery": "PASS",
+      "qualified_bauds": [],
+      "report": "baud_921600/report.json",
+      "source_sha256": {
+        "uart_acceptance.py": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+        "scope_protocol.py": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde"
+      }
+    }
+  ]
+}

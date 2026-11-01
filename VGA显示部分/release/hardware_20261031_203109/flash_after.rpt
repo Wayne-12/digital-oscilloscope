@@ -1,0 +1,28 @@
+Property                             Type         Read-only  Value
+CFGMEM_PART                          cfgmem_part  false      n25q64-3.3v-spi-x1_x2_x4
+CLASS                                string       true       hw_cfgmem
+NAME                                 string       false      cfgmem_0
+PROGRAM.BLANK_CHECK                  bool         false      1
+PROGRAM.CFG_PROGRAM                  bool         false      1
+PROGRAM.EMMC_CLOCK_FREQUENCY         enum         false      50Mhz
+PROGRAM.EMMC_CLUSTER_SIZE            int          true       1
+PROGRAM.EMMC_DEVICE_INDEX            int          false      10
+PROGRAM.EMMC_FILE_DATA_BASE_ADDRESS  hex          false      00000000
+PROGRAM.EMMC_FILE_DATA_CHUNK_SIZE    int          false      262144
+PROGRAM.EMMC_PARTITION_APP           string       false      
+PROGRAM.EMMC_PARTITION_NUMBER        int          false      1
+PROGRAM.EMMC_PARTITION_SIZE          enum         false      small
+PROGRAM.EMMC_PARTITION_TYPE          enum         false      fat32
+PROGRAM.EMMC_SD_CONFIG_REG1          hex          false      00000000
+PROGRAM.EMMC_SD_ITAP_DLY             hex          false      00000000
+PROGRAM.EMMC_SD_OTAP_DLY_SEL         hex          false      00000000
+PROGRAM.EMMC_STATIC_PARTITION_FILE   string       false      
+PROGRAM.ERASE                        bool         false      1
+PROGRAM.FILES                        string*      false      L:/release/display_final.mcs
+PROGRAM.MULTI_IMAGE_ERASE_OFFSETS    int*         false      
+PROGRAM.MULTI_IMAGE_ERASE_SIZE       int*         false      
+PROGRAM.MULTI_IMAGE_FILES            string*      false      
+PROGRAM.MULTI_IMAGE_OFFSETS          int*         false      
+PROGRAM.SKIP_QE_BIT_ERASE            bool         false      0
+PROGRAM.VERIFY                       bool         false      1
+PROGRAM.ZYNQ_FSBL                    string       false      

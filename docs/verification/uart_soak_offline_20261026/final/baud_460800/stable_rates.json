@@ -1,0 +1,9 @@
+{
+  "source_report": "D:\\示波器\\docs\\verification\\uart_soak_offline_20261026\\final\\baud_460800\\report.json",
+  "qualified_bauds": [],
+  "device_id": "",
+  "firmware_sha256": null,
+  "build": "0xa0261025",
+  "conditions": "",
+  "scope": "Only this device, firmware artifact and recorded setup."
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.Xil/
+.venv*/
+**/tool_tmp/
+**/tool_appdata/
+**/xsim.dir/
+*.jou
+
+/FPGA/sim/expected/
+/FPGA/sim/vectors/
