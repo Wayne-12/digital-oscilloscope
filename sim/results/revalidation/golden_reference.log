@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checks": {
+    "unit_tests": {
+      "status": "PASS",
+      "count": 16
+    },
+    "demo": {
+      "status": "PASS",
+      "suite_status": "PASS",
+      "summary": {
+        "PASS": 4,
+        "FAIL": 0,
+        "ERROR": 0
+      }
+    },
+    "scope": {
+      "status": "PASS",
+      "suite_status": "PASS",
+      "summary": {
+        "PASS": 1,
+        "FAIL": 0,
+        "ERROR": 0
+      }
+    },
+    "negative": {
+      "status": "PASS",
+      "suite_status": "ERROR",
+      "summary": {
+        "PASS": 0,
+        "FAIL": 2,
+        "ERROR": 1
+      }
+    }
+  },
+  "note": "Negative suite intentionally contains FAIL and ERROR. No hardware access performed."
+}
+Reports: D:\示波器\outputs\skill_revalidation_20261104_024036\workspace\skills\golden-reference-check\reports\20261103T184055_668518Z
+

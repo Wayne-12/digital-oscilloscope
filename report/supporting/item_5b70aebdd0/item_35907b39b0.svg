@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2680" viewBox="0 0 1600 2680"><rect width="100%" height="100%" fill="white"/>
+<text x="800" y="52" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#233C50">图4 协议通信与冻结帧读取流程</text>
+<polyline points="700,183.0 700,235.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,235.0 692.3291913823327,220.95867900975404 707.6708086176673,220.95867900975404" fill="#365C76"/>
+<polyline points="700,335.0 700,397.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,397.5 692.3291913823327,383.45867900975406 707.6708086176673,383.45867900975406" fill="#365C76"/>
+<polyline points="700,542.5 700,600.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,600.0 692.3291913823327,585.9586790097541 707.6708086176673,585.9586790097541" fill="#365C76"/>
+<polyline points="400.0,470 210,470 210,615.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="210,615.0 202.32919138233274,600.9586790097541 217.67080861766723,600.9586790097541" fill="#365C76"/>
+<polyline points="55.0,670 35,670 35,2515 505.0,2515" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="505.0,2515 490.95867900975406,2522.6708086176673 490.95867900975406,2507.3291913823327" fill="#365C76"/>
+<polyline points="700,700.0 700,762.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,762.5 692.3291913823327,748.4586790097541 707.6708086176673,748.4586790097541" fill="#365C76"/>
+<polyline points="700,907.5 700,980.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,980.0 692.3291913823327,965.9586790097541 707.6708086176673,965.9586790097541" fill="#365C76"/>
+<polyline points="1000.0,835 1110.0,835" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1110.0,835 1095.958679009754,842.6708086176673 1095.958679009754,827.3291913823327" fill="#365C76"/>
+<polyline points="1320,762.5 1320,470 1000.0,470" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1000.0,470 1014.0413209902459,462.32919138233274 1014.0413209902459,477.67080861766726" fill="#365C76"/>
+<polyline points="1530.0,835 1570,835 1570,2340 1480.0,2340" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1480.0,2340 1494.041320990246,2332.3291913823327 1494.041320990246,2347.6708086176673" fill="#365C76"/>
+<polyline points="700,1080.0 700,1145.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,1145.0 692.3291913823327,1130.958679009754 707.6708086176673,1130.958679009754" fill="#365C76"/>
+<polyline points="700,1245.0 700,1302.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,1302.5 692.3291913823327,1288.458679009754 707.6708086176673,1288.458679009754" fill="#365C76"/>
+<polyline points="700,1447.5 700,1530.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,1530.0 692.3291913823327,1515.958679009754 707.6708086176673,1515.958679009754" fill="#365C76"/>
+<polyline points="1000.0,1375 1110.0,1375" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1110.0,1375 1095.958679009754,1382.6708086176673 1095.958679009754,1367.3291913823327" fill="#365C76"/>
+<polyline points="1320,1320.0 1320,1195 985.0,1195" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="985.0,1195 999.0413209902459,1187.3291913823327 999.0413209902459,1202.6708086176673" fill="#365C76"/>
+<polyline points="700,1630.0 700,1697.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,1697.5 692.3291913823327,1683.458679009754 707.6708086176673,1683.458679009754" fill="#365C76"/>
+<polyline points="700,1842.5 700,1915.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,1915.0 692.3291913823327,1900.958679009754 707.6708086176673,1900.958679009754" fill="#365C76"/>
+<polyline points="400.0,1770 190,1770 190,1195 415.0,1195" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="415.0,1195 400.95867900975406,1202.6708086176673 400.95867900975406,1187.3291913823327" fill="#365C76"/>
+<polyline points="700,2015.0 700,2077.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,2077.5 692.3291913823327,2063.458679009754 707.6708086176673,2063.458679009754" fill="#365C76"/>
+<polyline points="700,2222.5 700,2290.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,2290.0 692.3291913823327,2275.958679009754 707.6708086176673,2275.958679009754" fill="#365C76"/>
+<polyline points="1000.0,2150 1260,2150 1260,2285.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1260,2285.0 1252.3291913823327,2270.958679009754 1267.6708086176673,2270.958679009754" fill="#365C76"/>
+<polyline points="700,2390.0 700,2477.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,2477.0 692.3291913823327,2462.958679009754 707.6708086176673,2462.958679009754" fill="#365C76"/>
+<polyline points="1260,2395.0 1260,2440 700,2440 700,2477.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="700,2477.0 692.3291913823327,2462.958679009754 707.6708086176673,2462.958679009754" fill="#365C76"/>
+<rect x="505.0" y="107.0" width="390" height="76" rx="38.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="145.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">开始采集任务</text>
+<rect x="400.0" y="235.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="265.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">检查能力并配置采集模式</text>
+<text x="700" y="304.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">RUN / RELEASE_FRAME / SINGLE</text>
+<polygon points="700,397.5 1000.0,470 700,542.5 400.0,470" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">已取消或发生超时？</text>
+<rect x="55.0" y="615.0" width="310" height="110" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="210" y="650.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">STOP 并返回</text>
+<text x="210" y="689.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">取消 / 超时</text>
+<rect x="400.0" y="600.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="650.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">读取状态 read_status()</text>
+<polygon points="700,762.5 1000.0,835 700,907.5 400.0,835" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="835.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">记录已冻结且无后端错误？</text>
+<polygon points="1320,762.5 1530.0,835 1320,907.5 1110.0,835" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="1320" y="835.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">后端是否报错？</text>
+<rect x="400.0" y="980.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="1010.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">请求波形及可选包络</text>
+<text x="700" y="1049.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">READ_WAVE / READ_ENVELOPE</text>
+<polygon points="430.0,1145.0 1000.0,1145.0 970.0,1245.0 400.0,1245.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="1195.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">串口接收字节 data</text>
+<polygon points="700,1302.5 1000.0,1375 700,1447.5 400.0,1375" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="1375.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">Parser 已解析出有效帧？</text>
+<rect x="1110.0" y="1320.0" width="420" height="110" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="1320" y="1355.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">数据未齐：继续接收</text>
+<text x="1320" y="1394.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">CRC / 头部错误：重新同步</text>
+<rect x="400.0" y="1530.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="1561.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">Assembler.accept() 检查序号、偏移</text>
+<text x="700" y="1598.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">时间戳、采样率及 FIRST / MORE / LAST</text>
+<polygon points="700,1697.5 1000.0,1770 700,1842.5 400.0,1770" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="1770.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">所需数据已完整？</text>
+<rect x="400.0" y="1915.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="1945.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">读取测量、频谱及饱和摘要</text>
+<text x="700" y="1984.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">核对与原始记录的身份</text>
+<polygon points="700,2077.5 1000.0,2150 700,2222.5 400.0,2150" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="2150.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">摘要与冻结帧身份一致？</text>
+<polygon points="430.0,2290.0 1000.0,2290.0 970.0,2390.0 400.0,2390.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="2340.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">构造 Capture 并发出 frame_ready</text>
+<rect x="1040.0" y="2285.0" width="440" height="110" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="1260" y="2320.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">STOP / 清理事务</text>
+<text x="1260" y="2359.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">返回取消或错误信息</text>
+<rect x="505.0" y="2477.0" width="390" height="76" rx="38.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="700" y="2515.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">本次任务结束</text>
+<rect x="681.0" y="552.25" width="38.0" height="38" fill="white"/>
+<text x="700.0" y="571.25" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="266.0" y="416" width="38.0" height="38" fill="white"/>
+<text x="285" y="435" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="681.0" y="924.75" width="38.0" height="38" fill="white"/>
+<text x="700.0" y="943.75" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="1036.0" y="781" width="38.0" height="38" fill="white"/>
+<text x="1055" y="800" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="1341.0" y="631" width="38.0" height="38" fill="white"/>
+<text x="1360" y="650" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="1481.0" y="911" width="38.0" height="38" fill="white"/>
+<text x="1500" y="930" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="681.0" y="1469.75" width="38.0" height="38" fill="white"/>
+<text x="700.0" y="1488.75" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="1036.0" y="1321" width="38.0" height="38" fill="white"/>
+<text x="1055" y="1340" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="681.0" y="1859.75" width="38.0" height="38" fill="white"/>
+<text x="700.0" y="1878.75" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="281.0" y="1716" width="38.0" height="38" fill="white"/>
+<text x="300" y="1735" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="681.0" y="2237.25" width="38.0" height="38" fill="white"/>
+<text x="700.0" y="2256.25" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="1051.0" y="2096" width="38.0" height="38" fill="white"/>
+<text x="1070" y="2115" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<text x="800" y="2636" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#5B6D79">圆角框：起止　矩形：处理　菱形：判断　平行四边形：输入 / 输出</text>
+</svg>

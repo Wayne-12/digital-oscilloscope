@@ -1,0 +1,4 @@
+﻿id,status,evidence,compared,mismatches,max_abs_error,rmse,reference_seconds,observed_wall_seconds,error
+numeric-mismatch,FAIL,deliberate-negative-test,4,1,1,0.5,5.300000339047983e-06,,
+length-mismatch,FAIL,deliberate-negative-test,4,1,0.0,0.0,4.399997123982757e-06,,
+missing-output,ERROR,deliberate-negative-test,,,,,3.6000019463244826e-06,,FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\not_present.json'

@@ -1,0 +1,27 @@
+
+test_crc_vectors (test_scope_protocol.CodecTests.test_crc_vectors) ... ok
+test_fragmented_and_magic_payload (test_scope_protocol.CodecTests.test_fragmented_and_magic_payload) ... ok
+test_resync (test_scope_protocol.CodecTests.test_resync) ... ok
+test_timeout (test_scope_protocol.CodecTests.test_timeout) ... ok
+test_wave_sequence_wrap_and_timestamp_carry (test_scope_protocol.CodecTests.test_wave_sequence_wrap_and_timestamp_carry) ... ok
+test_counter_and_sequence_wrap (test_uart_acceptance.AcceptanceTests.test_counter_and_sequence_wrap) ... ok
+test_crc_error_kept_but_does_not_prevent_cleanup_commands (test_uart_acceptance.AcceptanceTests.test_crc_error_kept_but_does_not_prevent_cleanup_commands) ... ok
+test_echo_crc_missing_duplicate_noise_and_mismatch (test_uart_acceptance.AcceptanceTests.test_echo_crc_missing_duplicate_noise_and_mismatch) ... ok
+test_exact_baud_and_build (test_uart_acceptance.AcceptanceTests.test_exact_baud_and_build) ... ok
+test_fail_closed_qualification (test_uart_acceptance.AcceptanceTests.test_fail_closed_qualification) ... ok
+test_frozen_analysis_and_reject_stale_or_wrong_statistics (test_uart_acceptance.AcceptanceTests.test_frozen_analysis_and_reject_stale_or_wrong_statistics) ... ok
+test_full_and_multires_capture (test_uart_acceptance.AcceptanceTests.test_full_and_multires_capture) ... ok
+test_interrupt_still_restores_and_saves (test_uart_acceptance.AcceptanceTests.test_interrupt_still_restores_and_saves) ... ok
+test_invalid_duration_and_missing_hardware_inputs (test_uart_acceptance.AcceptanceTests.test_invalid_duration_and_missing_hardware_inputs) ... ok
+test_offline_report_restores_and_cannot_promote (test_uart_acceptance.AcceptanceTests.test_offline_report_restores_and_cannot_promote) ... ok
+test_otr_and_reserved_words (test_uart_acceptance.AcceptanceTests.test_otr_and_reserved_words) ... ok
+test_overflow_and_device_reset (test_uart_acceptance.AcceptanceTests.test_overflow_and_device_reset) ... ok
+test_restore_failure_disqualifies (test_uart_acceptance.AcceptanceTests.test_restore_failure_disqualifies) ... ok
+test_short_or_wrong_last_and_wrong_raw_metadata (test_uart_acceptance.AcceptanceTests.test_short_or_wrong_last_and_wrong_raw_metadata) ... ok
+test_stale_capture_timestamp (test_uart_acceptance.AcceptanceTests.test_stale_capture_timestamp) ... ok
+test_stream_gap (test_uart_acceptance.AcceptanceTests.test_stream_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.185s
+
+OK

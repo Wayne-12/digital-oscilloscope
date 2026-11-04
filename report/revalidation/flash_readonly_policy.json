@@ -1,0 +1,6 @@
+{
+  "flash_write_calls": false,
+  "volatile_cfgmem_bridge": true,
+  "target_bin_sha256": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+  "mode": "read entire Flash, compare, independent readback, boot existing Flash"
+}

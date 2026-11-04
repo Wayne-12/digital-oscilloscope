@@ -1,0 +1,133 @@
+{
+  "source": "hardware-uart",
+  "flash_written": false,
+  "pc_release": "2026.10.29-r2",
+  "before_config_hex": "004000000020000000000200040033ffcc0019000000f40100009a01000400000101a086010000000000000000000000",
+  "before_mode_hex": "00000000a0252600",
+  "before_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1118
+    ],
+    "pc_crc": 0
+  },
+  "single": {
+    "result": "TriggerWaitExpired",
+    "message": "单次等待结束：未收到所选触发，采集已停止；触发条件：上升沿，需跨过 -3.66～15.87 mV；板端 DDS 幅度为 0 码，闭环没有交流输出，请设置非零幅度并应用 DDS 配置；可选择 AUTO 后点 RUN 查看实际输入，或调整触发条件后重新 SINGLE",
+    "elapsed": 1.1359185000001162
+  },
+  "auto_frames": [
+    {
+      "timestamp": 12156754586,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": false,
+        "duty_valid": false,
+        "error": false,
+        "count": 16384,
+        "minimum": -1,
+        "maximum": 5,
+        "mean": 2,
+        "vpp": 6,
+        "rms": 3,
+        "sum": 39727,
+        "square_sum": 107659,
+        "period_q16": 0,
+        "frequency": 0,
+        "duty_ppm": 0,
+        "periods": 0
+      },
+      "min_volts": -0.0012210012210012167,
+      "max_volts": 0.013431013431013383
+    },
+    {
+      "timestamp": 12171989512,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": false,
+        "duty_valid": false,
+        "error": false,
+        "count": 16384,
+        "minimum": 0,
+        "maximum": 6,
+        "mean": 2,
+        "vpp": 6,
+        "rms": 3,
+        "sum": 39432,
+        "square_sum": 106198,
+        "period_q16": 0,
+        "frequency": 0,
+        "duty_ppm": 0,
+        "periods": 0
+      },
+      "min_volts": 0.0012210012210012167,
+      "max_volts": 0.015873015873015817
+    },
+    {
+      "timestamp": 12187177582,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": false,
+        "duty_valid": false,
+        "error": false,
+        "count": 16384,
+        "minimum": 0,
+        "maximum": 5,
+        "mean": 2,
+        "vpp": 5,
+        "rms": 3,
+        "sum": 39119,
+        "square_sum": 104551,
+        "period_q16": 0,
+        "frequency": 0,
+        "duty_ppm": 0,
+        "periods": 0
+      },
+      "min_volts": 0.0012210012210012167,
+      "max_volts": 0.013431013431013383
+    }
+  ],
+  "after_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1154
+    ],
+    "pc_crc": 0
+  },
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "result": "PASS",
+  "after_config_hex": "004000000020000000000200040033ffcc0019000000f40100009a01000400000101a086010000000000000000000000",
+  "configuration_unchanged": true
+}

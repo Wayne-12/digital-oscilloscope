@@ -1,0 +1,36 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "PC/protocol/awg.py",
+      "snapshot": "references/source/source_01.py",
+      "sha256": "3edf09c1bd75eb1dfa8d6d2be09d9c75664ab0f7123582c355a2d4e625cd8694"
+    },
+    {
+      "original_path": "PC/protocol/hardware_calibration.py",
+      "snapshot": "references/source/source_02.py",
+      "sha256": "ccb31d88d4e38306465ac13db00890113b6bb609bac9815d1b742ed3ff4424b7"
+    },
+    {
+      "original_path": "PC/tests/test_awg.py",
+      "snapshot": "references/source/source_03.py",
+      "sha256": "eb28adb60b966c233750b167415f27bff4fa6710d8e1bb23ccaa22cad283ed6b"
+    },
+    {
+      "original_path": "PC/tests/test_hardware_calibration.py",
+      "snapshot": "references/source/source_04.py",
+      "sha256": "0de548c0e29179fec11befb81468b9b49ee7044b2fc6e0f4ec1bc55b209fed5d"
+    },
+    {
+      "original_path": "FPGA/scripts/verify_awg_hardware.py",
+      "snapshot": "references/source/source_05.py",
+      "sha256": "88e381d8d42f3c26a2e237c1d33069c95d227e2f2b2c38e9efbbf7bc910beccd"
+    },
+    {
+      "original_path": "docs/verification/repair_calibration_regression_20261027.md",
+      "snapshot": "references/source/source_06.md",
+      "sha256": "4ae621053897c61069685d90013f299d66c4a8f0b040270a0115c86aa32df57d"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "填写板卡、器件、位流哈希、工具版本、测量方法与适用范围；此模板未提供真实测量",
+  "metrics": [
+    {"name": "kernel_latency", "value": null, "unit": "cycles"},
+    {"name": "clock_frequency", "value": null, "unit": "MHz"},
+    {"name": "throughput", "value": null, "unit": "samples/s"},
+    {"name": "lut_used", "value": null, "unit": "LUT"},
+    {"name": "ff_used", "value": null, "unit": "FF"},
+    {"name": "bram_used", "value": null, "unit": "36K_tile"},
+    {"name": "dsp_used", "value": null, "unit": "DSP"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "VGA显示部分/program_flash.tcl",
+      "snapshot": "references/source/source_01.tcl",
+      "sha256": "efdc6c792b65e2fcb92ce772522a9cc3444978053c95911d991e56b824ee567d"
+    },
+    {
+      "original_path": "VGA显示部分/verify_flash_boot.tcl",
+      "snapshot": "references/source/source_02.tcl",
+      "sha256": "fbae02037be064cfccaa029fb5158d8bcedf5dd5af6e756ae6560853ffa30017"
+    },
+    {
+      "original_path": "VGA显示部分/prepare_flash.tcl",
+      "snapshot": "references/source/source_03.tcl",
+      "sha256": "e7513f3063577abe333b8f0e0980eb0834008e5b13165017a437a3df011526b6"
+    },
+    {
+      "original_path": "VGA显示部分/release/flash_record.json",
+      "snapshot": "references/source/source_04.json",
+      "sha256": "d81b768561fcec28ca2789c95d2fc0356a7ecd01c335d96a725a77bae7b0bb6b"
+    }
+  ]
+}

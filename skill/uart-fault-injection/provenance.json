@@ -1,0 +1,31 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "PC/protocol/scope_protocol.py",
+      "snapshot": "references/source/source_01.py",
+      "sha256": "54beb2ec4ac4e89808d5efe50c2bf90fe916ba4d612eff3e7c9e454d4f5b76cf"
+    },
+    {
+      "original_path": "PC/protocol/uart_acceptance.py",
+      "snapshot": "references/source/source_02.py",
+      "sha256": "99cb9e290c466e23e57edbb61b41eb4a795b999dff6c5468fb16879c68a28cfc"
+    },
+    {
+      "original_path": "PC/tests/test_scope_protocol.py",
+      "snapshot": "references/source/source_03.py",
+      "sha256": "3c71d34800301437b8625c99c42b7d48739638183cf358ffa59bcb25fd79c443"
+    },
+    {
+      "original_path": "PC/tests/test_uart_acceptance.py",
+      "snapshot": "references/source/source_04.py",
+      "sha256": "5ce9126f63c016260c2405eb888828a41f7c49646d2b3a6b36bc821dd2eaac36"
+    },
+    {
+      "original_path": "docs/verification/uart_soak_acceptance_20261026.md",
+      "snapshot": "references/source/source_05.md",
+      "sha256": "23f8258d7414dee1c899e5768c4ce86d326876eaf9dff342baa7f5f25187d9ff"
+    }
+  ]
+}

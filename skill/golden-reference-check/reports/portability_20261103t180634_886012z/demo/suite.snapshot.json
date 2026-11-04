@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "name": "通用算法验证示例（软件合成数据）",
+  "cases": [
+    {
+      "id": "statistics-known-values",
+      "evidence": "synthetic-hand-calculated",
+      "description": "已知四点统计；期望 RMS=sqrt(5)",
+      "input": {
+        "path": "data/small.json"
+      },
+      "reference": {
+        "model": "statistics"
+      },
+      "observed": {
+        "path": "data/stats_actual.json"
+      },
+      "tolerance": {
+        "atol": 1e-12
+      }
+    },
+    {
+      "id": "envelope-uneven-and-ties",
+      "evidence": "synthetic-hand-calculated",
+      "description": "7点分3桶，非整除分区、同值首索引",
+      "input": {
+        "path": "data/envelope_input.json"
+      },
+      "reference": {
+        "model": "envelope",
+        "params": {
+          "buckets": 3
+        }
+      },
+      "observed": {
+        "path": "data/envelope_actual.json"
+      }
+    },
+    {
+      "id": "fir-independent-process",
+      "evidence": "synthetic-software-dut",
+      "description": "移位寄存器 FIR 对照直接卷积参考；不依赖示波器",
+      "input": {
+        "path": "data/fir_input.json"
+      },
+      "reference": {
+        "model": "fir",
+        "params": {
+          "taps": [
+            0.25,
+            0.5,
+            0.25
+          ]
+        }
+      },
+      "observed": {
+        "mode": "command",
+        "argv": [
+          "{python}",
+          "dut_program.py",
+          "fir",
+          "{input}",
+          "{output}"
+        ],
+        "timeout_seconds": 10
+      },
+      "tolerance": {
+        "atol": 1e-12
+      }
+    },
+    {
+      "id": "fft-vs-direct-dft",
+      "evidence": "synthetic-software-dut",
+      "description": "独立基2FFT与直接DFT比对，64点全复谱",
+      "input": {
+        "path": "data/fft_input.json"
+      },
+      "reference": {
+        "model": "dft"
+      },
+      "observed": {
+        "mode": "command",
+        "argv": [
+          "{python}",
+          "dut_program.py",
+          "fft",
+          "{input}",
+          "{output}"
+        ],
+        "timeout_seconds": 10
+      },
+      "tolerance": {
+        "atol": 1e-10,
+        "rtol": 1e-12
+      }
+    }
+  ],
+  "evidence_files": [
+    "dut_program.py"
+  ]
+}

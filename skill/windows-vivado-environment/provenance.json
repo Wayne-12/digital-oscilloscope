@@ -1,0 +1,26 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "FPGA/scripts/simulation_environment.py",
+      "snapshot": "references/source/source_01.py",
+      "sha256": "859599f9a4039f9ee4e966da22b70c9a3c2483e7e654f675b5a590257f06cdb9"
+    },
+    {
+      "original_path": "FPGA/scripts/run_regression.ps1",
+      "snapshot": "references/source/source_02.ps1",
+      "sha256": "f71f91276ae9f10adff7c4d3130822250aace9b0def134aa03b3a675af3e7d1c"
+    },
+    {
+      "original_path": "docs/verification/repair_calibration_regression_20261027.md",
+      "snapshot": "references/source/source_03.md",
+      "sha256": "4ae621053897c61069685d90013f299d66c4a8f0b040270a0115c86aa32df57d"
+    },
+    {
+      "original_path": "FPGA/reports/system/20261027_225049_174fb8fc/manifest.json",
+      "snapshot": "references/source/source_04.json",
+      "sha256": "a411d68434d1306c447f9975e2a1fb4cd9ac6c62bb0887dcca2b88b20d4d4dff"
+    }
+  ]
+}

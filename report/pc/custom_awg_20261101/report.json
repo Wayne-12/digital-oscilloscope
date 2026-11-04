@@ -1,0 +1,224 @@
+{
+  "result": "PASS",
+  "file": "D:\\示波器\\任意波形.csv",
+  "points": 1024,
+  "formula": "normalize(sin(theta)+0.35*sin(2*theta)+0.20*sin(3*theta))",
+  "frames": [
+    {
+      "frequency_set_hz": 10000,
+      "amplitude_code": 819,
+      "fit": {
+        "phase_index": 851,
+        "gain": 0.0018060825583499722,
+        "normalized_rms_error": 0.020994241716705702,
+        "correlation": 0.9997795966185451,
+        "adc_vpp": 122.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -60,
+        "maximum": 62,
+        "mean": 3,
+        "vpp": 122,
+        "rms": 38,
+        "sum": 43517,
+        "square_sum": 23461809,
+        "period_q16": 163861845,
+        "frequency": 9999,
+        "duty_ppm": 523330,
+        "periods": 6
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    },
+    {
+      "frequency_set_hz": 100000,
+      "amplitude_code": 819,
+      "fit": {
+        "phase_index": 310,
+        "gain": 0.0018056139758915702,
+        "normalized_rms_error": 0.021573553312101326,
+        "correlation": 0.9997672638156784,
+        "adc_vpp": 122.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -60,
+        "maximum": 63,
+        "mean": 1,
+        "vpp": 123,
+        "rms": 37,
+        "sum": 21703,
+        "square_sum": 22713703,
+        "period_q16": 16382976,
+        "frequency": 100006,
+        "duty_ppm": 528658,
+        "periods": 64
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    },
+    {
+      "frequency_set_hz": 500000,
+      "amplitude_code": 819,
+      "fit": {
+        "phase_index": 742,
+        "gain": 0.0018047920704670735,
+        "normalized_rms_error": 0.021324100429366208,
+        "correlation": 0.9997726155185891,
+        "adc_vpp": 121.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -60,
+        "maximum": 62,
+        "mean": 1,
+        "vpp": 122,
+        "rms": 37,
+        "sum": 23152,
+        "square_sum": 22780264,
+        "period_q16": 3276800,
+        "frequency": 500000,
+        "duty_ppm": 520183,
+        "periods": 327
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    },
+    {
+      "frequency_set_hz": 100000,
+      "amplitude_code": 1638,
+      "fit": {
+        "phase_index": 654,
+        "gain": 0.003608942632719652,
+        "normalized_rms_error": 0.011256266512865227,
+        "correlation": 0.9999366462252461,
+        "adc_vpp": 240.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -119,
+        "maximum": 121,
+        "mean": 1,
+        "vpp": 240,
+        "rms": 75,
+        "sum": 18366,
+        "square_sum": 91149190,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 513169,
+        "periods": 65
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    }
+  ],
+  "checks": {
+    "upload_crc_exact_1024_point_readback": "PASS",
+    "three_frequencies_real_analog_shape_and_amplitude": "PASS",
+    "ui_load_select_apply_adc_autoscale": "PASS"
+  },
+  "build": "0xaf311031",
+  "before_awg": {
+    "valid": true,
+    "uploading": false,
+    "selected": false,
+    "received": 1024,
+    "active_crc": 3566,
+    "staging_crc": 3566
+  },
+  "table_crc": "0DEE",
+  "measurement_hysteresis_codes": 8,
+  "amplitude_double_ratio": 1.9672131147540983,
+  "counter_before": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    144,
+    0,
+    11897
+  ],
+  "counter_after": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    144,
+    0,
+    11956
+  ],
+  "ui_fit": {
+    "phase_index": 241,
+    "gain": 0.0036086646432199,
+    "normalized_rms_error": 0.011258956130025059,
+    "correlation": 0.999936615944661,
+    "adc_vpp": 240.0
+  },
+  "ui_awg_text": "波形表：已校验 · 已选择 · CRC 0DEE",
+  "restored": true,
+  "after_awg": {
+    "valid": true,
+    "uploading": false,
+    "selected": false,
+    "received": 1024,
+    "active_crc": 3566,
+    "staging_crc": 3566
+  },
+  "final_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      144,
+      0,
+      12029
+    ],
+    "pc_crc": 0
+  },
+  "remaining_table": "Original valid table restored"
+}

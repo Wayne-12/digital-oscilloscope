@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "release": "2026.11.01-r3",
+  "before": {
+    "timebase": "5 µs/div",
+    "vertical": "500 mV/div"
+  },
+  "after": {
+    "timebase": "200 ns/div",
+    "vertical": "200 mV/div",
+    "center": 0.02029,
+    "frequency": "1 MHz",
+    "vpp": "1.43 V"
+  },
+  "fft_label_width": 1075,
+  "header": {
+    "title": "闭环示波器",
+    "rate": "25 MSPS",
+    "record": "16 K 点"
+  },
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "build": "0xaf311031"
+}

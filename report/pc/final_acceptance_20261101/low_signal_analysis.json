@@ -1,0 +1,32 @@
+[
+  {
+    "file": "000_zero.npy",
+    "mean_codes": 1.453369140625,
+    "noise_codes": 0.7638041974331177,
+    "vpp_codes": 6
+  },
+  {
+    "file": "001_zero.npy",
+    "mean_codes": 1.4482421875,
+    "noise_codes": 0.7691289944445047,
+    "vpp_codes": 5
+  },
+  {
+    "file": "002_zero.npy",
+    "mean_codes": 1.426513671875,
+    "noise_codes": 0.7699781562753614,
+    "vpp_codes": 7
+  },
+  {
+    "file": "003_dc_-819.npy",
+    "mean_codes": -37.760986328125,
+    "noise_codes": 0.8415778775798648,
+    "vpp_codes": 6
+  },
+  {
+    "file": "004_dc_-819.npy",
+    "mean_codes": -37.75750732421875,
+    "noise_codes": 0.8388739531203121,
+    "vpp_codes": 5
+  }
+]

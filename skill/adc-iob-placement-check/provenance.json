@@ -1,0 +1,36 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "FPGA/scripts/build_scope_board.tcl",
+      "snapshot": "references/source/source_01.tcl",
+      "sha256": "188e587d44234206953082e37fea63a2d6292fdc227116c77633d65e6af68738"
+    },
+    {
+      "original_path": "FPGA/scripts/build_adc_iob.py",
+      "snapshot": "references/source/source_02.py",
+      "sha256": "9769126d9c5176b8334f2c227072bde15b48b06b1cfc81add209f65b9f3215ea"
+    },
+    {
+      "original_path": "docs/verification/adc_iob_implementation_20261027.md",
+      "snapshot": "references/source/source_03.md",
+      "sha256": "d4923eb85435e32557ee07f1730bc65dad32d2b4d08b61bd70e3a81dfa2a8108"
+    },
+    {
+      "original_path": "FPGA/output/adc_iob_921600_20261027/implementation/adc_iob_placement.tsv",
+      "snapshot": "references/source/source_04.tsv",
+      "sha256": "3df9b38bdcf74821ed70726ff0148ec1b28a1c65fc7303e0c08e2f6ee540616b"
+    },
+    {
+      "original_path": "FPGA/output/adc_iob_921600_20261027/implementation/adc_input_setup.rpt",
+      "snapshot": "references/source/source_05.rpt",
+      "sha256": "ebcb8033f23707256c20ae0ef8a9f759306cfd981a517cbf08258f3f0be57429"
+    },
+    {
+      "original_path": "FPGA/output/adc_iob_921600_20261027/implementation/adc_input_hold.rpt",
+      "snapshot": "references/source/source_06.rpt",
+      "sha256": "9245967a2da282324946859c1962b310a3750ff881a12ad3cf19dfe8b8aec058"
+    }
+  ]
+}

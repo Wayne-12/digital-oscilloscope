@@ -1,0 +1,36 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "VGA显示部分/verify_package.py",
+      "snapshot": "references/source/source_01.py",
+      "sha256": "26958f9e3fbd521a3e4c6d3c796bf7c2011f3a033e9279b043d8e16dc319d863"
+    },
+    {
+      "original_path": "VGA显示部分/verify_release.py",
+      "snapshot": "references/source/source_02.py",
+      "sha256": "aa2b6add3d9994b389c35be1f4b6469c58841cde7145dcdc682e6ea59286a9c7"
+    },
+    {
+      "original_path": "VGA显示部分/verify_flash_image.py",
+      "snapshot": "references/source/source_03.py",
+      "sha256": "c471f228cef1f094eb2b55ef22115b203224ab0fd2f4e3d51e55ac8be3c3a1c8"
+    },
+    {
+      "original_path": "软核/scripts/embed_firmware.tcl",
+      "snapshot": "references/source/source_04.tcl",
+      "sha256": "cab8f620d7fbb9b2dc0329967ed4025147d7ee0f1f3ad4afaea6f485ea3de41f"
+    },
+    {
+      "original_path": "VGA显示部分/release/image_manifest.json",
+      "snapshot": "references/source/source_05.json",
+      "sha256": "909d569c77f07deaaa1d0ea3e5ea0e47dccb6a07c9a749d15644eaf4148318e8"
+    },
+    {
+      "original_path": "VGA显示部分/release/flash_record.json",
+      "snapshot": "references/source/source_06.json",
+      "sha256": "d81b768561fcec28ca2789c95d2fc0356a7ecd01c335d96a725a77bae7b0bb6b"
+    }
+  ]
+}

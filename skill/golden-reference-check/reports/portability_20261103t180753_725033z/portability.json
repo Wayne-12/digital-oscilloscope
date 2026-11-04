@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "method": "Copied only goldencheck, examples, tests and scripts to a fresh temp directory; invoked isolated Python (-I). No parent project modules or UI libraries copied.",
+  "command_returncode": 0,
+  "verification": {
+    "status": "PASS",
+    "checks": {
+      "unit_tests": {
+        "status": "PASS",
+        "count": 16
+      },
+      "demo": {
+        "status": "PASS",
+        "suite_status": "PASS",
+        "summary": {
+          "PASS": 4,
+          "FAIL": 0,
+          "ERROR": 0
+        }
+      },
+      "scope": {
+        "status": "PASS",
+        "suite_status": "PASS",
+        "summary": {
+          "PASS": 1,
+          "FAIL": 0,
+          "ERROR": 0
+        }
+      },
+      "negative": {
+        "status": "PASS",
+        "suite_status": "ERROR",
+        "summary": {
+          "PASS": 0,
+          "FAIL": 2,
+          "ERROR": 1
+        }
+      }
+    },
+    "note": "Negative suite intentionally contains FAIL and ERROR. No hardware access performed."
+  },
+  "temp_directory_removed_after_run": true
+}

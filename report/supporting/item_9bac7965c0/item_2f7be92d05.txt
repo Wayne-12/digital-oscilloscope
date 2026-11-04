@@ -1,0 +1,11 @@
+配图来源与关键网络说明
+01：按当前工程 scope_board_25m.xdc、vga.xdc 和最终显示工程说明绘制；SVG 为可编辑版本。
+02、02a、02b：EGO1电路图.pdf 第2页，SYS_CLK、FPGA_RESET、配置接口。
+03：EGO1电路图.pdf 第6页，J5 扩展口与串联电阻；图中交叉线以节点为准。
+04、05、06：单路AD9226模块原理图V1.0.pdf 第1页；VIN、INA/INB、F_CLK、F_OTR、BIT1～BIT12。
+07、08、09：AD9767模块原理图_V1.0.pdf 第1页；DA0～DA13、ACLK、WRT1、AIouta/AIoutb、S1。
+10：EGO1电路图.pdf 第7页，RGB电阻网络、VGA_HSYNC、VGA_VSYNC、J1。
+11：EGO1电路图.pdf 第6页，S0～S4 与 PB0～PB4。
+12：用户提供 1784342163211836.pdf 第4页；原手册无内部原理图。
+13：Ego1_UserManual_v2.2.pdf 第12页（印刷页11），T4为FPGA发送端、N5为接收端。
+说明：原理图均为厂家设计资料的原样渲染或局部截取，不是本项目自行绘制的PCB。

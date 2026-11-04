@@ -1,0 +1,85 @@
+{
+  "format": "scope-uart-acceptance-v1",
+  "source": "offline-model",
+  "verdict": "RUNNING",
+  "started_at": "2026-10-27T00:19:32.111212+08:00",
+  "baud": 921600,
+  "port": null,
+  "device_id": "",
+  "conditions": "",
+  "seed": 20261026,
+  "requested_soak_seconds": 7200,
+  "requested_echo_seconds": 600,
+  "requested_echo_payload_bytes": 1048576,
+  "restored": false,
+  "recovery": "NOT_RUN",
+  "echo_payload_bytes": 26514400,
+  "echo_seconds": 600.0179687500392,
+  "soak_seconds": 3250.8014648451735,
+  "captures": 321,
+  "qualified_bauds": [],
+  "firmware_sha256": null,
+  "firmware_artifact": null,
+  "time_basis": "virtual model seconds",
+  "source_sha256": {
+    "uart_acceptance.py": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+    "scope_protocol.py": "0fcd81e6edcb5eac97ff773c4016982582fcb1f331008437b7e1952792046f1a"
+  },
+  "limitations": [
+    "No temperature sensor: conditions are operator observations.",
+    "Request/response snapshots, not a continuous ADC stream; no unrequested frames counted as lost.",
+    "Offline model does not implement FPGA FFT analysis."
+  ],
+  "wall_elapsed_seconds": 1.8042483999997785,
+  "build": "0xa0261025",
+  "capabilities": 3,
+  "original_configuration_hex": "00400000002000000000000008009cff640001000000640000006400020000000001a086010000000000330300000000",
+  "fpga_baseline_counters": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    6
+  ],
+  "tx_bytes": 27687800,
+  "rx_bytes": 31370789,
+  "protocol_responses": 44962,
+  "requests": 41791,
+  "completed_requests": 41791,
+  "unanswered_requests": 0,
+  "capture_attempts": 321,
+  "incomplete_captures": 0,
+  "transport_errors": {
+    "sequence": 0,
+    "response_timeout": 0,
+    "capture_timeout": 0,
+    "echo_mismatch": 0
+  },
+  "pc_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "fpga_error_deltas": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0,
+    "unknown": 0,
+    "command": 0,
+    "framing": 0,
+    "overflow": 0
+  },
+  "otr_samples": 0,
+  "first_full_frame": {
+    "timestamp": 1250000,
+    "samples": 16384,
+    "minimum": -40,
+    "maximum": 40
+  }
+}

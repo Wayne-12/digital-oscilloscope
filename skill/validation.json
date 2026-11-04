@@ -1,0 +1,147 @@
+{
+  "date_beijing": "2026-11-04",
+  "recorded_at": "2026-11-04T02:07:56.861842+08:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "official-format:adc-iob-placement-check",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:cdc-reset-enable-debug",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:cooperative-serial-service",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:fixed-point-fft-verification",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:golden-reference-check",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:layered-rtl-regression",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:qspi-release-verification",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:release-provenance-check",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:transactional-hardware-tests",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:uart-fault-injection",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:versioned-metrics-report",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "official-format:windows-vivado-environment",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "name": "structure-links-and-source-snapshots",
+      "status": "PASS",
+      "skills": 12,
+      "source_snapshots": 60
+    },
+    {
+      "name": "unit-tests:release-provenance-check",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": 6
+    },
+    {
+      "name": "unit-tests:uart-fault-injection",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": 21
+    },
+    {
+      "name": "unit-tests:versioned-metrics-report",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": 6
+    },
+    {
+      "name": "current-package-hashes",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": null
+    },
+    {
+      "name": "golden-reference-full-verification",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": null
+    },
+    {
+      "name": "golden-reference-isolated-portability",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": null
+    },
+    {
+      "name": "isolated-unit-tests:uart-fault-injection",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": 21
+    },
+    {
+      "name": "isolated-unit-tests:versioned-metrics-report",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": 6
+    },
+    {
+      "name": "isolated-unit-tests:release-provenance-check",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": 6
+    },
+    {
+      "name": "original-integrity:verify_package.py",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": null
+    },
+    {
+      "name": "original-integrity:verify_flash_image.py",
+      "status": "PASS",
+      "returncode": 0,
+      "test_count": null
+    }
+  ],
+  "not_performed": [
+    "new RTL simulation",
+    "Vivado synthesis or implementation",
+    "hardware connection",
+    "Flash programming",
+    "new analog accuracy measurement"
+  ],
+  "evidence_policy": "Historical source reports are snapshots with their original identity and limitations; collection checks and copied-script tests do not requalify historical hardware."
+}

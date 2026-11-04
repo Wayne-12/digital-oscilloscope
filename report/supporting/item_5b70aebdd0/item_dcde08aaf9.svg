@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2470" viewBox="0 0 1600 2470"><rect width="100%" height="100%" fill="white"/>
+<text x="800" y="52" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="43" font-weight="700" fill="#233C50">图6 参数配置与任意波形下载流程</text>
+<polyline points="750,183.0 750,235.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,235.0 742.3291913823327,220.95867900975404 757.6708086176673,220.95867900975404" fill="#365C76"/>
+<polyline points="750,335.0 750,397.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="750,397.5 742.3291913823327,383.45867900975406 757.6708086176673,383.45867900975406" fill="#365C76"/>
+<polyline points="1050.0,470 1250,470 1250,625.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1250,625.0 1242.3291913823327,610.9586790097541 1257.6708086176673,610.9586790097541" fill="#365C76"/>
+<polyline points="750,542.5 750,570 600,570 600,625.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,625.0 592.3291913823327,610.9586790097541 607.6708086176673,610.9586790097541" fill="#365C76"/>
+<polyline points="1250,735.0 1250,817.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1250,817.5 1242.3291913823327,803.4586790097541 1257.6708086176673,803.4586790097541" fill="#365C76"/>
+<polyline points="1250,962.5 1250,1040.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1250,1040.0 1242.3291913823327,1025.958679009754 1257.6708086176673,1025.958679009754" fill="#365C76"/>
+<polyline points="1480.0,890 1530,890 1530,2030 1465.0,2030" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1465.0,2030 1479.041320990246,2022.3291913823327 1479.041320990246,2037.6708086176673" fill="#365C76"/>
+<polyline points="1480.0,1090 1510,1090 1510,2370 1195.0,2370" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1195.0,2370 1209.041320990246,2362.3291913823327 1209.041320990246,2377.6708086176673" fill="#365C76"/>
+<polyline points="600,735.0 600,817.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,817.5 592.3291913823327,803.4586790097541 607.6708086176673,803.4586790097541" fill="#365C76"/>
+<polyline points="600,962.5 600,1040.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,1040.0 592.3291913823327,1025.958679009754 607.6708086176673,1025.958679009754" fill="#365C76"/>
+<polyline points="300.0,890 90,890 90,2140 1020,2140 1020,2030 1035.0,2030" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1035.0,2030 1020.9586790097541,2037.6708086176673 1020.9586790097541,2022.3291913823327" fill="#365C76"/>
+<polyline points="600,1140.0 600,1210.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,1210.0 592.3291913823327,1195.958679009754 607.6708086176673,1195.958679009754" fill="#365C76"/>
+<polyline points="600,1310.0 600,1372.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,1372.5 592.3291913823327,1358.458679009754 607.6708086176673,1358.458679009754" fill="#365C76"/>
+<polyline points="600,1517.5 600,1567.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,1567.5 592.3291913823327,1553.458679009754 607.6708086176673,1553.458679009754" fill="#365C76"/>
+<polyline points="900.0,1445 1250,1445 1250,1975.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1250,1975.0 1242.3291913823327,1960.958679009754 1257.6708086176673,1960.958679009754" fill="#365C76"/>
+<polyline points="300.0,1640 180,1640 180,1260 300.0,1260" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="300.0,1260 285.95867900975406,1267.6708086176673 285.95867900975406,1252.3291913823327" fill="#365C76"/>
+<polyline points="600,1712.5 600,1790.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,1790.0 592.3291913823327,1775.958679009754 607.6708086176673,1775.958679009754" fill="#365C76"/>
+<polyline points="600,1890.0 600,1957.5" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,1957.5 592.3291913823327,1943.458679009754 607.6708086176673,1943.458679009754" fill="#365C76"/>
+<polyline points="600,2102.5 600,2180.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="600,2180.0 592.3291913823327,2165.958679009754 607.6708086176673,2165.958679009754" fill="#365C76"/>
+<polyline points="900.0,2030 1035.0,2030" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1035.0,2030 1020.9586790097541,2037.6708086176673 1020.9586790097541,2022.3291913823327" fill="#365C76"/>
+<polyline points="600,2280.0 600,2310 1000,2310 1000,2332.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1000,2332.0 992.3291913823327,2317.958679009754 1007.6708086176673,2317.958679009754" fill="#365C76"/>
+<polyline points="1250,2085.0 1250,2310 1000,2310 1000,2332.0" fill="none" stroke="#365C76" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1000,2332.0 992.3291913823327,2317.958679009754 1007.6708086176673,2317.958679009754" fill="#365C76"/>
+<rect x="555.0" y="107.0" width="390" height="76" rx="38.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="750" y="145.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">开始配置任务</text>
+<polygon points="480.0,235.0 1050.0,235.0 1020.0,335.0 450.0,335.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="750" y="285.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">读取界面参数或用户选择的 CSV</text>
+<polygon points="750,397.5 1050.0,470 750,542.5 450.0,470" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="750" y="470.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">是否为任意波形上传？</text>
+<rect x="1020.0" y="625.0" width="460" height="110" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="1250" y="663.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#233C50">构造配置 payload</text>
+<text x="1250" y="697.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#233C50">submit_command() / exchange()</text>
+<polygon points="1250,817.5 1480.0,890 1250,962.5 1020.0,890" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="1250" y="890.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">配置 ACK 有效？</text>
+<rect x="1020.0" y="1040.0" width="460" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="1250" y="1090.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">确认参数并更新界面</text>
+<rect x="300.0" y="625.0" width="600" height="110" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="660.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">load_table() / encode_table()</text>
+<text x="600" y="699.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">校验1024个归一化值</text>
+<polygon points="600,817.5 900.0,890 600,962.5 300.0,890" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="890.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">文件与数值合法？</text>
+<rect x="300.0" y="1040.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="1070.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">STOP、关闭 DDS</text>
+<text x="600" y="1109.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">BEGIN 开始写入非活动表</text>
+<rect x="300.0" y="1210.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="1260.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">CHUNK 写入256点并等待 ACK</text>
+<polygon points="600,1372.5 900.0,1445 600,1517.5 300.0,1445" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="1445.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">当前分块 ACK 有效？</text>
+<polygon points="600,1567.5 900.0,1640 600,1712.5 300.0,1640" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="1640.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">还有分块未发送？</text>
+<rect x="300.0" y="1790.0" width="600" height="100" rx="0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="1820.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">COMMIT 提交 CRC</text>
+<text x="600" y="1859.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">READ 全表并读取 status</text>
+<polygon points="600,1957.5 900.0,2030 600,2102.5 300.0,2030" fill="#FFF9ED" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="2030.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">读回一致且状态有效？</text>
+<polygon points="330.0,2180.0 900.0,2180.0 870.0,2280.0 300.0,2280.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="600" y="2210.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">上传成功，输出保持关闭</text>
+<text x="600" y="2249.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">用户另行选择波形并应用 DDS</text>
+<polygon points="1050.0,1975.0 1480.0,1975.0 1450.0,2085.0 1020.0,2085.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="1250" y="2010.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">报告配置 / 上传失败</text>
+<text x="1250" y="2049.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">上传流程保持输出关闭</text>
+<rect x="805.0" y="2332.0" width="390" height="76" rx="38.0" fill="#F3F7FA" stroke="#233C50" stroke-width="3"/>
+<text x="1000" y="2370.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="30" font-weight="400" fill="#233C50">本次配置结束</text>
+<rect x="1151.0" y="416" width="38.0" height="38" fill="white"/>
+<text x="1170" y="435" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="691.0" y="526" width="38.0" height="38" fill="white"/>
+<text x="710" y="545" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="1231.0" y="982.25" width="38.0" height="38" fill="white"/>
+<text x="1250.0" y="1001.25" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="1481.0" y="1011" width="38.0" height="38" fill="white"/>
+<text x="1500" y="1030" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="581.0" y="982.25" width="38.0" height="38" fill="white"/>
+<text x="600.0" y="1001.25" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="181.0" y="836" width="38.0" height="38" fill="white"/>
+<text x="200" y="855" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="581.0" y="1523.5" width="38.0" height="38" fill="white"/>
+<text x="600.0" y="1542.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="1001.0" y="1391" width="38.0" height="38" fill="white"/>
+<text x="1020" y="1410" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="271.0" y="1586" width="38.0" height="38" fill="white"/>
+<text x="290" y="1605" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="581.0" y="1732.25" width="38.0" height="38" fill="white"/>
+<text x="600.0" y="1751.25" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<rect x="581.0" y="2122.25" width="38.0" height="38" fill="white"/>
+<text x="600.0" y="2141.25" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">是</text>
+<rect x="951.0" y="1976" width="38.0" height="38" fill="white"/>
+<text x="970" y="1995" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="28" font-weight="400" fill="#233C50">否</text>
+<text x="800" y="2426" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="400" fill="#5B6D79">圆角框：起止　矩形：处理　菱形：判断　平行四边形：输入 / 输出</text>
+</svg>

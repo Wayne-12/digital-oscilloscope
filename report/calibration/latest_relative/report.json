@@ -1,0 +1,575 @@
+{
+  "format": "scope-hardware-calibration-v1",
+  "source": "hardware-uart",
+  "status": "PASS",
+  "created": "2026-11-02T11:39:42.531384+08:00",
+  "device_id": "USB VID:PID=0403:6010 SER=1234",
+  "max_test_code": 819,
+  "raw_frames": [
+    {
+      "file": "000_zero.npy",
+      "timestamp": 17529457391,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "zero"
+    },
+    {
+      "file": "001_zero.npy",
+      "timestamp": 17543133909,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "zero"
+    },
+    {
+      "file": "002_zero.npy",
+      "timestamp": 17556758011,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "zero"
+    },
+    {
+      "file": "003_dc_-819.npy",
+      "timestamp": 17572843142,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-819"
+    },
+    {
+      "file": "004_dc_-819.npy",
+      "timestamp": 17586809124,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-819"
+    },
+    {
+      "file": "005_dc_-614.npy",
+      "timestamp": 17602921958,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-614"
+    },
+    {
+      "file": "006_dc_-614.npy",
+      "timestamp": 17616901909,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-614"
+    },
+    {
+      "file": "007_dc_-410.npy",
+      "timestamp": 17633022632,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-410"
+    },
+    {
+      "file": "008_dc_-410.npy",
+      "timestamp": 17646857478,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-410"
+    },
+    {
+      "file": "009_dc_-205.npy",
+      "timestamp": 17663057008,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-205"
+    },
+    {
+      "file": "010_dc_-205.npy",
+      "timestamp": 17677050430,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_-205"
+    },
+    {
+      "file": "011_dc_0.npy",
+      "timestamp": 17693182154,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_0"
+    },
+    {
+      "file": "012_dc_0.npy",
+      "timestamp": 17706980077,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_0"
+    },
+    {
+      "file": "013_dc_205.npy",
+      "timestamp": 17723175181,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_205"
+    },
+    {
+      "file": "014_dc_205.npy",
+      "timestamp": 17737045268,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_205"
+    },
+    {
+      "file": "015_dc_410.npy",
+      "timestamp": 17753341211,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_410"
+    },
+    {
+      "file": "016_dc_410.npy",
+      "timestamp": 17767173241,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_410"
+    },
+    {
+      "file": "017_dc_614.npy",
+      "timestamp": 17783373288,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_614"
+    },
+    {
+      "file": "018_dc_614.npy",
+      "timestamp": 17797204913,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_614"
+    },
+    {
+      "file": "019_dc_819.npy",
+      "timestamp": 17813521677,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_819"
+    },
+    {
+      "file": "020_dc_819.npy",
+      "timestamp": 17827282460,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_819"
+    },
+    {
+      "file": "021_linear_205.npy",
+      "timestamp": 17843582008,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "linear_205"
+    },
+    {
+      "file": "022_linear_410.npy",
+      "timestamp": 17859873568,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "linear_410"
+    },
+    {
+      "file": "023_linear_614.npy",
+      "timestamp": 17876068271,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "linear_614"
+    },
+    {
+      "file": "024_linear_819.npy",
+      "timestamp": 17892315119,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "linear_819"
+    },
+    {
+      "file": "025_response_10000.npy",
+      "timestamp": 17910546683,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "response_10000"
+    },
+    {
+      "file": "026_response_25000.npy",
+      "timestamp": 17927226744,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "response_25000"
+    },
+    {
+      "file": "027_response_50000.npy",
+      "timestamp": 17943362997,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "response_50000"
+    },
+    {
+      "file": "028_response_100000.npy",
+      "timestamp": 17959576679,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "response_100000"
+    },
+    {
+      "file": "029_response_250000.npy",
+      "timestamp": 17975862555,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "response_250000"
+    },
+    {
+      "file": "030_response_500000.npy",
+      "timestamp": 17992133412,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "response_500000"
+    },
+    {
+      "file": "031_response_1000000.npy",
+      "timestamp": 18008448586,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "response_1000000"
+    },
+    {
+      "file": "032_harmonics.npy",
+      "timestamp": 18024734449,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "harmonics"
+    },
+    {
+      "file": "033_zero_recheck.npy",
+      "timestamp": 18041036153,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "zero_recheck"
+    },
+    {
+      "file": "034_dc_holdout_512.npy",
+      "timestamp": 18057313391,
+      "rate": 25000000,
+      "trigger": 8192,
+      "points": 16384,
+      "label": "dc_holdout_512"
+    }
+  ],
+  "restored": true,
+  "scope": "DAC+cable+ADC combined relative calibration; no absolute voltage reference",
+  "configuration_before_hex": "00400000002000000000060003000000000001000000010000000000020000000001a086010000000000330300000000",
+  "firmware_build": "0xAF311031",
+  "capture_mode_before_hex": "00000000a0252600",
+  "awg_before": {
+    "valid": true,
+    "uploading": false,
+    "selected": false,
+    "received": 1024,
+    "active_crc": 52269,
+    "staging_crc": 52269
+  },
+  "rate": 25000000,
+  "zero": 0.0008841030569546163,
+  "noise": 0.001981551956672621,
+  "zero_frame_means": [
+    0.0008471888354700825,
+    0.000921861883775943,
+    0.0008832584516178235
+  ],
+  "dc_gain": 0.05800710533556093,
+  "intercept_code": 0.11926608615451471,
+  "dc_span_code": 95.19329833984375,
+  "dc_r2": 0.9999881493414904,
+  "dc_max_residual_code": 0.23080783420138973,
+  "dc_points": [
+    {
+      "code": -819,
+      "mean_code": -47.473541259765625
+    },
+    {
+      "code": -614,
+      "mean_code": -35.412872314453125
+    },
+    {
+      "code": -410,
+      "mean_code": -23.521148681640625
+    },
+    {
+      "code": -205,
+      "mean_code": -11.7218017578125
+    },
+    {
+      "code": 0,
+      "mean_code": -0.111541748046875
+    },
+    {
+      "code": 205,
+      "mean_code": 12.005950927734375
+    },
+    {
+      "code": 410,
+      "mean_code": 23.871978759765625
+    },
+    {
+      "code": 614,
+      "mean_code": 35.71661376953125
+    },
+    {
+      "code": 819,
+      "mean_code": 47.719757080078125
+    }
+  ],
+  "reference_gain": 0.07137755913868106,
+  "gain": 0.8126798679520215,
+  "offset": 0.0015122492946386195,
+  "reference_kind": "saved-hardware-baseline",
+  "linearity": [
+    {
+      "dac_amplitude": 205,
+      "amplitude": 0.0290143225315319,
+      "mean": 0.0017326540264326845,
+      "noise": 0.0018963976242748497,
+      "harmonic_amplitudes": [
+        5.924003368099109e-05,
+        6.42879044051478e-05,
+        0.00012588535325009335,
+        4.493907813214204e-05
+      ],
+      "frequency": 100000,
+      "actual_frequency": 99999.99892897904
+    },
+    {
+      "dac_amplitude": 410,
+      "amplitude": 0.05789182336502672,
+      "mean": 0.0015770875517940994,
+      "noise": 0.0018989222992996115,
+      "harmonic_amplitudes": [
+        2.7936727203142308e-06,
+        2.7116462623205794e-06,
+        0.00012628699501845807,
+        4.0822603792762475e-05
+      ],
+      "frequency": 100000,
+      "actual_frequency": 99999.99892897904
+    },
+    {
+      "dac_amplitude": 614,
+      "amplitude": 0.0868770106928317,
+      "mean": 0.001656851151489558,
+      "noise": 0.0018908029668210943,
+      "harmonic_amplitudes": [
+        5.793213689796646e-05,
+        9.86952178635485e-05,
+        1.4496973981396772e-05,
+        2.823331905207899e-05
+      ],
+      "frequency": 100000,
+      "actual_frequency": 99999.99892897904
+    },
+    {
+      "dac_amplitude": 819,
+      "amplitude": 0.11618821476756619,
+      "mean": 0.0015969086968707418,
+      "noise": 0.0019167295635748914,
+      "harmonic_amplitudes": [
+        2.460243554239481e-06,
+        0.00020823111063080618,
+        8.192533017253332e-05,
+        5.953043814283896e-05
+      ],
+      "frequency": 100000,
+      "actual_frequency": 99999.99892897904
+    }
+  ],
+  "linearity_max_relative_error": 0.00249135713291726,
+  "response_frequency": [
+    10000,
+    25000,
+    50000,
+    100000,
+    250000,
+    500000,
+    1000000
+  ],
+  "response_db": [
+    -0.009172438497173606,
+    -0.007175566179686054,
+    -0.004894502746575437,
+    0.0,
+    -0.0013283971828668593,
+    -0.005964212236232642,
+    -0.007481056386678252
+  ],
+  "response_samples": [
+    {
+      "amplitude": 0.11608375889103285,
+      "mean": 0.001647162787976329,
+      "noise": 0.0019115958395427627,
+      "harmonic_amplitudes": [
+        3.1097745348779784e-05,
+        0.00019986023143321992,
+        5.3258067165711656e-05,
+        7.142200547744304e-05
+      ],
+      "frequency": 10000,
+      "actual_frequency": 10000.000474974513
+    },
+    {
+      "amplitude": 0.11611044943190774,
+      "mean": 0.0015322805144377457,
+      "noise": 0.0018940337144446751,
+      "harmonic_amplitudes": [
+        2.5949143349610077e-05,
+        0.00021825355497927492,
+        5.545962455550052e-05,
+        1.3445524322058345e-05
+      ],
+      "frequency": 25000,
+      "actual_frequency": 24999.998277053237
+    },
+    {
+      "amplitude": 0.11614094602952219,
+      "mean": 0.0015693635702325624,
+      "noise": 0.0018892633343581676,
+      "harmonic_amplitudes": [
+        2.1042658214877828e-05,
+        0.0002136735387225167,
+        1.9783909306291786e-05,
+        9.88473069740773e-06
+      ],
+      "frequency": 50000,
+      "actual_frequency": 50000.002374872565
+    },
+    {
+      "amplitude": 0.11620640994797421,
+      "mean": 0.0015799096910107632,
+      "noise": 0.0019061881765197316,
+      "harmonic_amplitudes": [
+        6.438397305803533e-05,
+        0.0001942350921248511,
+        7.312476438159841e-06,
+        5.2388348473469936e-05
+      ],
+      "frequency": 100000,
+      "actual_frequency": 99999.99892897904
+    },
+    {
+      "amplitude": 0.11618863900333865,
+      "mean": 0.0014820131696139623,
+      "noise": 0.0019128354379657744,
+      "harmonic_amplitudes": [
+        3.565383371441414e-05,
+        0.00019822238293225645,
+        2.320265891977892e-05,
+        5.033749614961239e-05
+      ],
+      "frequency": 250000,
+      "actual_frequency": 250000.00023283064
+    },
+    {
+      "amplitude": 0.11612664358873641,
+      "mean": 0.0014823643123935124,
+      "noise": 0.0019150116092561706,
+      "harmonic_amplitudes": [
+        8.172799162955055e-05,
+        0.00021754048489484003,
+        5.7557043995398685e-05,
+        0.00011056446197974367
+      ],
+      "frequency": 500000,
+      "actual_frequency": 500000.0004656613
+    },
+    {
+      "amplitude": 0.11610636579937837,
+      "mean": 0.0012861359921251118,
+      "noise": 0.0019083626560519823,
+      "harmonic_amplitudes": [
+        8.145584289261169e-05,
+        0.00028864445249304483,
+        1.9882736673448737e-05,
+        0.00015090505469098338
+      ],
+      "frequency": 1000000,
+      "actual_frequency": 1000000.0009313226
+    }
+  ],
+  "harmonic_amplitudes": [
+    3.9272337046881764e-05,
+    0.00022786203442824818,
+    1.4361978193218416e-05,
+    1.6915169928632048e-05
+  ],
+  "tone_noise": 0.0019181203695656265,
+  "polarity": "正向",
+  "zero_recheck": 0.001055706988324172,
+  "holdout_zero_corrected": -0.000561773859939398,
+  "holdout_dc_code": 512,
+  "holdout_dc_error_code": -0.013850307024210196,
+  "before_after": {
+    "zero": {
+      "expected_volts": 0.0,
+      "before_volts": 0.001055706988324172,
+      "after_volts": -0.000561773859939398,
+      "before_error_volts": 0.001055706988324172,
+      "after_error_volts": -0.000561773859939398
+    },
+    "dc_holdout": {
+      "expected_volts": 0.08924373694506643,
+      "before_volts": 0.07400501516712428,
+      "after_volts": 0.08920211848629851,
+      "before_error_volts": -0.015238721777942152,
+      "after_error_volts": -4.16184587679197e-05
+    }
+  },
+  "comparison_reference": "saved-relative-baseline",
+  "fingerprint_comparison": "相对实测基线：零点 Δ-7.009 mV；增益 Δ-18.732%；零输入噪声 Δ-0.084 mV RMS。",
+  "awg_after": {
+    "valid": true,
+    "uploading": false,
+    "selected": false,
+    "received": 1024,
+    "active_crc": 52269,
+    "staging_crc": 52269
+  },
+  "capture_mode_after_hex": "00000000a0252600",
+  "configuration_after_hex": "00400000002000000000060003000000000001000000010000000000020000000001a086010000000000330300000000",
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "output_dir": "D:\\示波器\\PC\\calibration_runs\\20261102_113942_6ff474c5"
+}

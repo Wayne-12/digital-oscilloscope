@@ -1,0 +1,613 @@
+{
+  "date_beijing": "2026-11-04",
+  "recorded_at": "2026-11-04T03:15:54.074326",
+  "output_directory": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036",
+  "checks": {
+    "offline_tools": [
+      {
+        "name": "golden_reference",
+        "status": "PASS",
+        "exitcode": 0,
+        "seconds": 2.279669761657715,
+        "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\golden_reference.log"
+      },
+      {
+        "name": "golden_portability",
+        "status": "PASS",
+        "exitcode": 0,
+        "seconds": 2.043363094329834,
+        "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\golden_portability.log"
+      },
+      {
+        "name": "uart-fault-injection",
+        "status": "PASS",
+        "exitcode": 0,
+        "seconds": 0.38196301460266113,
+        "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\uart-fault-injection.log"
+      },
+      {
+        "name": "versioned-metrics-report",
+        "status": "PASS",
+        "exitcode": 0,
+        "seconds": 0.5110735893249512,
+        "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\versioned-metrics-report.log"
+      },
+      {
+        "name": "release-provenance-check",
+        "status": "PASS",
+        "exitcode": 0,
+        "seconds": 0.2373642921447754,
+        "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\release-provenance-check.log"
+      },
+      {
+        "name": "verify_package.py",
+        "status": "PASS",
+        "exitcode": 0,
+        "seconds": 0.32613682746887207,
+        "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\verify_package.py.log"
+      },
+      {
+        "name": "verify_flash_image.py",
+        "status": "PASS",
+        "exitcode": 0,
+        "seconds": 0.09339213371276855,
+        "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\verify_flash_image.py.log"
+      },
+      {
+        "name": "skill_collection_hashes",
+        "status": "PASS",
+        "files": 333,
+        "mismatches": []
+      }
+    ],
+    "pc_tests": {
+      "status": "PASS",
+      "count": 172
+    },
+    "panel_c": "PASS",
+    "cpu_ip": "PASS",
+    "panel_rtl": "PASS",
+    "cdc_simulation": {
+      "status": "PASS",
+      "cases": 23
+    },
+    "implementation": {
+      "status": "PASS",
+      "release_verified": true,
+      "wns_ns": 0.581,
+      "tns_ns": 0.0,
+      "whs_ns": 0.028,
+      "ths_ns": 0.0,
+      "wpws_ns": 3.0,
+      "resources": {
+        "lut": {
+          "used": 15199.0,
+          "available": 20800.0
+        },
+        "ff": {
+          "used": 11841.0,
+          "available": 41600.0
+        },
+        "bram_tile": {
+          "used": 45.0,
+          "available": 50.0
+        },
+        "dsp": {
+          "used": 49.0,
+          "available": 90.0
+        }
+      },
+      "cdc_warning_rows": [
+        "CDC-15  Warning      15  Clock enable controlled CDC structure detected",
+        "CDC-17  Warning     113  MUX hold controlled CDC structure detected"
+      ],
+      "methodology_warning_rows": [
+        [
+          "LUTAR-1",
+          "LUT drives async reset alert",
+          "3"
+        ],
+        [
+          "SYNTH-5",
+          "Mapped onto distributed RAM because of timing constraints",
+          "112"
+        ],
+        [
+          "SYNTH-6",
+          "Timing of a RAM block might be sub-optimal",
+          "33"
+        ],
+        [
+          "SYNTH-10",
+          "Wide multiplier",
+          "21"
+        ],
+        [
+          "TIMING-18",
+          "Missing input or output delay",
+          "14"
+        ],
+        [
+          "XDCB-5",
+          "Runtime inefficient way to find pin objects",
+          "1"
+        ]
+      ]
+    },
+    "live_hardware": {
+      "status": "PASS",
+      "source": "live COM12 921600",
+      "checks": {
+        "echo_400": {
+          "status": "PASS",
+          "seconds": 6.39100000000326
+        },
+        "four_wave_capture_measurement_fft_peak_envelope_roi_repeat": "PASS"
+      },
+      "frames": [
+        {
+          "wave": 0,
+          "identity": [
+            9526213766,
+            25000000,
+            8192
+          ],
+          "measurement": {
+            "stats_valid": true,
+            "period_valid": true,
+            "duty_valid": true,
+            "error": false,
+            "count": 16384,
+            "minimum": -9,
+            "maximum": 14,
+            "mean": 3,
+            "vpp": 23,
+            "rms": 7,
+            "sum": 49046,
+            "square_sum": 886270,
+            "period_q16": 16386048,
+            "frequency": 99988,
+            "duty_ppm": 601925,
+            "periods": 64
+          },
+          "spectrum": {
+            "valid": true,
+            "clipped": false,
+            "n": 1024,
+            "offset": 0,
+            "peak_bin": 4,
+            "frequency": 97656,
+            "amplitude": 9.419219970703125,
+            "rms": 6.660400390625,
+            "dc": 3.005126953125,
+            "harmonics": [
+              {
+                "order": 2,
+                "valid": true,
+                "bin": 7,
+                "frequency": 170898,
+                "amplitude": 0.069183349609375
+              },
+              {
+                "order": 3,
+                "valid": true,
+                "bin": 11,
+                "frequency": 268555,
+                "amplitude": 0.10064697265625
+              },
+              {
+                "order": 4,
+                "valid": true,
+                "bin": 16,
+                "frequency": 390625,
+                "amplitude": 0.1040191650390625
+              },
+              {
+                "order": 5,
+                "valid": true,
+                "bin": 19,
+                "frequency": 463867,
+                "amplitude": 0.034332275390625
+              }
+            ]
+          },
+          "saturation": {
+            "count": 16384,
+            "saturated_samples": 0,
+            "events": 0,
+            "diagnostic": false
+          },
+          "envelope_roi_repeat": "PASS"
+        },
+        {
+          "wave": 1,
+          "identity": [
+            9557939772,
+            25000000,
+            8192
+          ],
+          "measurement": {
+            "stats_valid": true,
+            "period_valid": true,
+            "duty_valid": true,
+            "error": false,
+            "count": 16384,
+            "minimum": -9,
+            "maximum": 15,
+            "mean": 3,
+            "vpp": 24,
+            "rms": 10,
+            "sum": 49443,
+            "square_sum": 1613659,
+            "period_q16": 16384000,
+            "frequency": 100000,
+            "duty_ppm": 500000,
+            "periods": 64
+          },
+          "spectrum": {
+            "valid": true,
+            "clipped": false,
+            "n": 1024,
+            "offset": 0,
+            "peak_bin": 4,
+            "frequency": 97656,
+            "amplitude": 11.938949584960938,
+            "rms": 8.442108154296875,
+            "dc": 3.00390625,
+            "harmonics": [
+              {
+                "order": 2,
+                "valid": true,
+                "bin": 8,
+                "frequency": 195313,
+                "amplitude": 0.087005615234375
+              },
+              {
+                "order": 3,
+                "valid": true,
+                "bin": 12,
+                "frequency": 292969,
+                "amplitude": 3.802581787109375
+              },
+              {
+                "order": 4,
+                "valid": true,
+                "bin": 17,
+                "frequency": 415039,
+                "amplitude": 0.1125335693359375
+              },
+              {
+                "order": 5,
+                "valid": true,
+                "bin": 20,
+                "frequency": 488281,
+                "amplitude": 2.0670623779296875
+              }
+            ]
+          },
+          "saturation": {
+            "count": 16384,
+            "saturated_samples": 0,
+            "events": 0,
+            "diagnostic": false
+          },
+          "envelope_roi_repeat": "PASS"
+        },
+        {
+          "wave": 2,
+          "identity": [
+            9590115267,
+            25000000,
+            8192
+          ],
+          "measurement": {
+            "stats_valid": true,
+            "period_valid": true,
+            "duty_valid": true,
+            "error": false,
+            "count": 16384,
+            "minimum": -8,
+            "maximum": 15,
+            "mean": 3,
+            "vpp": 23,
+            "rms": 6,
+            "sum": 49066,
+            "square_sum": 647496,
+            "period_q16": 16391168,
+            "frequency": 99956,
+            "duty_ppm": 654401,
+            "periods": 64
+          },
+          "spectrum": {
+            "valid": true,
+            "clipped": false,
+            "n": 1024,
+            "offset": 0,
+            "peak_bin": 4,
+            "frequency": 97656,
+            "amplitude": 7.6986083984375,
+            "rms": 5.4437408447265625,
+            "dc": 2.9873046875,
+            "harmonics": [
+              {
+                "order": 2,
+                "valid": true,
+                "bin": 7,
+                "frequency": 170898,
+                "amplitude": 0.078369140625
+              },
+              {
+                "order": 3,
+                "valid": true,
+                "bin": 12,
+                "frequency": 292969,
+                "amplitude": 0.7921600341796875
+              },
+              {
+                "order": 4,
+                "valid": true,
+                "bin": 17,
+                "frequency": 415039,
+                "amplitude": 0.052886962890625
+              },
+              {
+                "order": 5,
+                "valid": true,
+                "bin": 21,
+                "frequency": 512695,
+                "amplitude": 0.2557373046875
+              }
+            ]
+          },
+          "saturation": {
+            "count": 16384,
+            "saturated_samples": 0,
+            "events": 0,
+            "diagnostic": false
+          },
+          "envelope_roi_repeat": "PASS"
+        },
+        {
+          "wave": 3,
+          "identity": [
+            9623812670,
+            25000000,
+            8192
+          ],
+          "measurement": {
+            "stats_valid": true,
+            "period_valid": false,
+            "duty_valid": false,
+            "error": false,
+            "count": 16384,
+            "minimum": 0,
+            "maximum": 6,
+            "mean": 3,
+            "vpp": 6,
+            "rms": 3,
+            "sum": 47426,
+            "square_sum": 148638,
+            "period_q16": 0,
+            "frequency": 0,
+            "duty_ppm": 0,
+            "periods": 0
+          },
+          "spectrum": {
+            "valid": false,
+            "clipped": false,
+            "n": 1024,
+            "offset": 0,
+            "peak_bin": 0,
+            "frequency": 0,
+            "amplitude": 0.0,
+            "rms": 0.0,
+            "dc": 2.9150390625,
+            "harmonics": [
+              {
+                "order": 2,
+                "valid": false,
+                "bin": 0,
+                "frequency": 0,
+                "amplitude": 0.0
+              },
+              {
+                "order": 3,
+                "valid": false,
+                "bin": 0,
+                "frequency": 0,
+                "amplitude": 0.0
+              },
+              {
+                "order": 4,
+                "valid": false,
+                "bin": 0,
+                "frequency": 0,
+                "amplitude": 0.0
+              },
+              {
+                "order": 5,
+                "valid": false,
+                "bin": 0,
+                "frequency": 0,
+                "amplitude": 0.0
+              }
+            ]
+          },
+          "saturation": {
+            "count": 16384,
+            "saturated_samples": 0,
+            "events": 0,
+            "diagnostic": false
+          },
+          "envelope_roi_repeat": "PASS"
+        }
+      ],
+      "limits": [
+        "same EGO1 only",
+        "relative digital checks only; no external absolute accuracy reference"
+      ],
+      "before": {
+        "build": "0xaf311031",
+        "config": "00400000002000000000040002000000000000000000000000000000000000000001a086010000000000330300000000",
+        "capture_config": "02000000a0252600",
+        "awg_status": "01000000000400000000ffff00000000",
+        "status": "0400010000400000002000000000000000000000000000000000000000000000010000000000000000000000b1010000"
+      },
+      "after": {
+        "build": "0xaf311031",
+        "config": "00400000002000000000040002000000000000000000000000000000000000000001a086010000000000330300000000",
+        "capture_config": "02000000a0252600",
+        "awg_status": "01000000000400000000ffff00000000",
+        "status": "060001000040000000200000000000000000000000000000000000000000000001000000000000000000000080030000"
+      },
+      "restored": true,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    "cold_boot_uart": {
+      "status": "PASS",
+      "user_confirmed_power_cycle": true,
+      "baseline": {
+        "build": "0xaf311031",
+        "config": "00400000002000000000040002000000000000000000000000000000000000000001a086010000000000330300000000",
+        "capture_config": "02000000a0252600",
+        "awg_status": "01000000000400000000ffff00000000",
+        "status": "040001000040000000200000000000000000000000000000000000000000000000000000000000000000000006000000"
+      },
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    "qspi_readonly": {
+      "status": "PASS",
+      "flash_erased_or_programmed": false,
+      "cold_boot_registers": "PASS",
+      "backup_bytes": 8388608,
+      "target_bytes": 2192012,
+      "backup_sha256": "23c477dca52fb818d6c11082bb3f8d7af3410b2fcd83dfc82e3b7f4b490ce9fd",
+      "target_sha256": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+      "readback_sha256": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+      "exact_prefix_match": true,
+      "independent_readback_match": true
+    },
+    "fft_bitaccurate": {
+      "status": "PASS",
+      "seed": 42,
+      "source": "fresh RTL FFT wrapper output versus matching AMD bit-accurate C model",
+      "cases": [
+        {
+          "case": 0,
+          "inverse": false,
+          "bins": 1024,
+          "mismatches": 0,
+          "first_mismatches": []
+        },
+        {
+          "case": 1,
+          "inverse": true,
+          "bins": 1024,
+          "mismatches": 0,
+          "first_mismatches": []
+        },
+        {
+          "case": 2,
+          "inverse": false,
+          "bins": 1024,
+          "mismatches": 0,
+          "first_mismatches": []
+        },
+        {
+          "case": 3,
+          "inverse": false,
+          "bins": 1024,
+          "mismatches": 0,
+          "first_mismatches": []
+        },
+        {
+          "case": 4,
+          "inverse": false,
+          "bins": 1024,
+          "mismatches": 0,
+          "first_mismatches": []
+        }
+      ],
+      "model_zip_sha256": "e5825a15c8ce9cfc8337540fea1765bb873df0cd3377b9cb3348f7682216db0c",
+      "scope": "FFT IP complex outputs only; not analog accuracy or complete physical spectrum bins",
+      "bins_compared": 5120
+    },
+    "full_rtl_regression": {
+      "status": "FAIL",
+      "report": "D:\\示波器\\FPGA\\reports\\system\\20261104_024439_2255338c",
+      "completed_foundations": [
+        "smoke",
+        "scope_pkg",
+        "loopback",
+        "measure",
+        "uart",
+        "multires",
+        "spectrum"
+      ],
+      "active_layers": [
+        "unit",
+        "integration"
+      ],
+      "workflow_verdict": "FAIL",
+      "functional_verdict": "INCONCLUSIVE",
+      "classification": "workspace_changed_during_execution",
+      "detail": "Original FPGA scripts and prior-stage reports were deleted by a concurrent cleanup; integration manifest could not be saved; system cases were not reached."
+    }
+  },
+  "hardware_image": "0xAF311031",
+  "new_build_programmed_to_board": false,
+  "limits": [
+    "No second board",
+    "No external analog reference instruments",
+    "No PYNQ Overlay/DMA implementation",
+    "No new physical long-duration stability qualification"
+  ],
+  "final_integrity": {
+    "package_manifest_files": 136,
+    "package_status": "PASS",
+    "flash_image_status": "PASS",
+    "note": "Concurrent cleanup changed the release inventory from 219 to 136; this is not the same manifest snapshot.",
+    "formal_image_hashes": {
+      "output/cpu_vga_runtime.bit": {
+        "expected": "0b1367b5b6f3fb67ff642ffd496b6a27c66f9af27c41d21cda73d07bbada9f97",
+        "actual": "0b1367b5b6f3fb67ff642ffd496b6a27c66f9af27c41d21cda73d07bbada9f97",
+        "unchanged": true
+      },
+      "output/panel.elf": {
+        "expected": "f8b0c7508edd8ade16f410476b272140ec48a81d3a7f2a20e3c2cd6494c98cd8",
+        "actual": "f8b0c7508edd8ade16f410476b272140ec48a81d3a7f2a20e3c2cd6494c98cd8",
+        "unchanged": true
+      },
+      "release/display_final.bit": {
+        "expected": "e44612057d2b8461f55acc5a41d85ee740d07f16caccebadca7e2a2a53025169",
+        "actual": "e44612057d2b8461f55acc5a41d85ee740d07f16caccebadca7e2a2a53025169",
+        "unchanged": true
+      },
+      "release/display_final.bin": {
+        "expected": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+        "actual": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+        "unchanged": true
+      },
+      "release/display_final.mcs": {
+        "expected": "a9bb8e60bea6a50825b24c74241e742846e7555f239cb0f00038f2aa7f301dcd",
+        "actual": "a9bb8e60bea6a50825b24c74241e742846e7555f239cb0f00038f2aa7f301dcd",
+        "unchanged": true
+      }
+    },
+    "skills_hash_check": {
+      "status": "PASS",
+      "files": 333,
+      "mismatches": []
+    }
+  }
+}

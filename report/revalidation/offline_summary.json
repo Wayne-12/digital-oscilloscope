@@ -1,0 +1,57 @@
+[
+  {
+    "name": "golden_reference",
+    "status": "PASS",
+    "exitcode": 0,
+    "seconds": 2.279669761657715,
+    "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\golden_reference.log"
+  },
+  {
+    "name": "golden_portability",
+    "status": "PASS",
+    "exitcode": 0,
+    "seconds": 2.043363094329834,
+    "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\golden_portability.log"
+  },
+  {
+    "name": "uart-fault-injection",
+    "status": "PASS",
+    "exitcode": 0,
+    "seconds": 0.38196301460266113,
+    "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\uart-fault-injection.log"
+  },
+  {
+    "name": "versioned-metrics-report",
+    "status": "PASS",
+    "exitcode": 0,
+    "seconds": 0.5110735893249512,
+    "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\versioned-metrics-report.log"
+  },
+  {
+    "name": "release-provenance-check",
+    "status": "PASS",
+    "exitcode": 0,
+    "seconds": 0.2373642921447754,
+    "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\release-provenance-check.log"
+  },
+  {
+    "name": "verify_package.py",
+    "status": "PASS",
+    "exitcode": 0,
+    "seconds": 0.32613682746887207,
+    "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\verify_package.py.log"
+  },
+  {
+    "name": "verify_flash_image.py",
+    "status": "PASS",
+    "exitcode": 0,
+    "seconds": 0.09339213371276855,
+    "log": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\logs\\verify_flash_image.py.log"
+  },
+  {
+    "name": "skill_collection_hashes",
+    "status": "PASS",
+    "files": 333,
+    "mismatches": []
+  }
+]

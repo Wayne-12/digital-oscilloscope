@@ -1,0 +1,21 @@
+test_invalid_tolerance_rejected (test_goldencheck.ComparisonTests.test_invalid_tolerance_rejected) ... ok
+test_nonfinite_and_empty_cannot_pass (test_goldencheck.ComparisonTests.test_nonfinite_and_empty_cannot_pass) ... ok
+test_override_exact_pointer_and_typo (test_goldencheck.ComparisonTests.test_override_exact_pointer_and_typo) ... ok
+test_rmse_and_detail_cap (test_goldencheck.ComparisonTests.test_rmse_and_detail_cap) ... ok
+test_structure_not_silently_zipped (test_goldencheck.ComparisonTests.test_structure_not_silently_zipped) ... ok
+test_tolerance_boundary_and_relative (test_goldencheck.ComparisonTests.test_tolerance_boundary_and_relative) ... ok
+test_dft_known_impulse_dc_and_hann (test_goldencheck.ReferenceTests.test_dft_known_impulse_dc_and_hann) ... ok
+test_envelope_covers_once_and_ties (test_goldencheck.ReferenceTests.test_envelope_covers_once_and_ties) ... ok
+test_statistics_dc_and_impulse_fir (test_goldencheck.ReferenceTests.test_statistics_dc_and_impulse_fir) ... ok
+test_cli_exit_statuses (test_goldencheck.RunnerTests.test_cli_exit_statuses) ... ok
+test_command_failure_missing_and_timeout (test_goldencheck.RunnerTests.test_command_failure_missing_and_timeout) ... ok
+test_csv_bom_metadata_and_bad_values (test_goldencheck.RunnerTests.test_csv_bom_metadata_and_bad_values) ... ok
+test_custom_reference_from_importable_module (test_goldencheck.RunnerTests.test_custom_reference_from_importable_module) ... ok
+test_json_duplicate_and_nonfinite (test_goldencheck.RunnerTests.test_json_duplicate_and_nonfinite) ... ok
+test_metrics_import_and_json_selector (test_goldencheck.RunnerTests.test_metrics_import_and_json_selector) ... ok
+test_suite_artifacts_html_escape_and_no_overwrite (test_goldencheck.RunnerTests.test_suite_artifacts_html_escape_and_no_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.815s
+
+OK

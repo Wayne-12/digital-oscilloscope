@@ -1,0 +1,87 @@
+{
+  "format": "scope-uart-acceptance-v1",
+  "source": "hardware-uart",
+  "verdict": "SHORT_PASS",
+  "started_at": "2026-10-27T16:40:00.964132+08:00",
+  "baud": 921600,
+  "port": "COM12",
+  "device_id": "EGO1-FTDI-1234-COM12",
+  "conditions": "CSV export validation only; same OUTA-IN; 25MSPS sine100kHz DDS819; short run, no formal qualification",
+  "seed": 20261026,
+  "requested_soak_seconds": 8.0,
+  "requested_echo_seconds": 4.0,
+  "requested_echo_payload_bytes": 4096,
+  "restored": true,
+  "recovery": "PASS",
+  "echo_payload_bytes": 89144,
+  "echo_seconds": 4.01205200000004,
+  "soak_seconds": 8.181548600000042,
+  "captures": 39,
+  "qualified_bauds": [],
+  "firmware_sha256": "ddb4aca5667e40ea71628f1fa2ba850ad297a4c20d0bd7dfceb8c34d2acda7d9",
+  "firmware_artifact": "D:\\示波器\\FPGA\\output\\awg_921600_20261027\\scope_awg_25m.bit",
+  "time_basis": "monotonic wall seconds",
+  "source_sha256": {
+    "uart_acceptance.py": "99cb9e290c466e23e57edbb61b41eb4a795b999dff6c5468fb16879c68a28cfc",
+    "scope_protocol.py": "54beb2ec4ac4e89808d5efe50c2bf90fe916ba4d612eff3e7c9e454d4f5b76cf"
+  },
+  "limitations": [
+    "No temperature sensor: conditions are operator observations.",
+    "Request/response snapshots, not a continuous ADC stream; no unrequested frames counted as lost."
+  ],
+  "wall_elapsed_seconds": 13.79493739999998,
+  "build": "0xa4261027",
+  "capabilities": 63,
+  "original_configuration_hex": "004000000020000000000400020033ffcc0019000000f40100009a01000400000001a086010000000000330300000000",
+  "fpga_baseline_counters": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    479
+  ],
+  "tx_bytes": 100510,
+  "rx_bytes": 613496,
+  "protocol_responses": 830,
+  "requests": 389,
+  "completed_requests": 389,
+  "unanswered_requests": 0,
+  "capture_attempts": 39,
+  "incomplete_captures": 0,
+  "transport_errors": {
+    "sequence": 0,
+    "response_timeout": 0,
+    "capture_timeout": 0,
+    "echo_mismatch": 0
+  },
+  "pc_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "fpga_error_deltas": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0,
+    "unknown": 0,
+    "command": 0,
+    "framing": 0,
+    "overflow": 0
+  },
+  "otr_samples": 0,
+  "first_full_frame": {
+    "timestamp": 9789053494,
+    "samples": 16384,
+    "minimum": -91,
+    "maximum": 94
+  },
+  "soak_captures": 37,
+  "soak_protocol_responses": 738,
+  "finished_at": "2026-10-27T16:40:14.760052+08:00"
+}

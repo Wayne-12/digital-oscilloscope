@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1370" viewBox="0 0 2200 1370"><rect width="100%" height="100%" fill="white"/>
+<text x="1100" y="45" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="47" font-weight="700" fill="#20384B">系统硬件连接与关键输入、输出信号</text>
+<polyline points="1870,440 1870,135 190,135 190,440" fill="none" stroke="#247A65" stroke-width="4"/>
+<polygon points="190,440 182.1497540157948,424.92108631275215 197.8502459842052,424.92108631275215" fill="#247A65"/>
+<text x="1100" y="105" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="30" font-weight="400" fill="#247A65">SMA 模拟回环：OUTA → IN（自检 / 校准时连接）</text>
+<rect x="840" y="205" width="520" height="140" rx="12" fill="#F1F6FA" stroke="#20384B" stroke-width="3"/>
+<text x="1100.0" y="228.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#20384B">DC-DC 电源模块</text>
+<text x="1100.0" y="275.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">外部直流输入 6～30 V</text>
+<text x="1100.0" y="322.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">5 V 输出 / GND</text>
+<polyline points="840,275 330,275 330,440" fill="none" stroke="#B65031" stroke-width="4"/>
+<polygon points="330,440 322.14975401579477,424.92108631275215 337.85024598420523,424.92108631275215" fill="#B65031"/>
+<polyline points="1360,275 1740,275 1740,440" fill="none" stroke="#B65031" stroke-width="4"/>
+<polygon points="1740,440 1732.1497540157948,424.92108631275215 1747.8502459842052,424.92108631275215" fill="#B65031"/>
+<text x="560" y="245" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="29" font-weight="400" fill="#B65031">5 V 供电</text>
+<text x="1550" y="245" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="29" font-weight="400" fill="#B65031">5 V 供电</text>
+<rect x="60" y="440" width="430" height="240" rx="12" fill="#F1F6FA" stroke="#20384B" stroke-width="3"/>
+<text x="275.0" y="489.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#20384B">AD9226 采集模块</text>
+<text x="275.0" y="536.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">IN → 模拟前端 → ADC</text>
+<text x="275.0" y="583.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">12 位 / 25 MSPS</text>
+<text x="275.0" y="630.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">CLK 输入；D / OTR 输出</text>
+<rect x="790" y="440" width="620" height="240" rx="12" fill="#F1F6FA" stroke="#20384B" stroke-width="3"/>
+<text x="1100.0" y="489.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#20384B">EGO1 / XC7A35T FPGA</text>
+<text x="1100.0" y="536.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">采集 / 触发 / 存储 / 测量 / FFT</text>
+<text x="1100.0" y="583.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">MicroBlaze 控制与波形发生</text>
+<text x="1100.0" y="630.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">板载 SYS_CLK：100 MHz</text>
+<rect x="1670" y="440" width="470" height="240" rx="12" fill="#F1F6FA" stroke="#20384B" stroke-width="3"/>
+<text x="1905.0" y="489.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#20384B">AD9767 输出模块</text>
+<text x="1905.0" y="536.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">DAC → 滤波 / 放大 → OUTA</text>
+<text x="1905.0" y="583.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">14 位 A 通道 / 25 MHz</text>
+<text x="1905.0" y="630.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">DA / ACLK / WR1 输入</text>
+<polyline points="490,510 790,510" fill="none" stroke="#216EAA" stroke-width="4"/>
+<polygon points="790,510 774.9210863127522,517.8502459842052 774.9210863127522,502.14975401579477" fill="#216EAA"/>
+<text x="640" y="480" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#216EAA">D[11:0]、OTR</text>
+<polyline points="790,610 490,610" fill="none" stroke="#8553A5" stroke-width="4"/>
+<polygon points="490,610 505.07891368724785,602.1497540157948 505.07891368724785,617.8502459842052" fill="#8553A5"/>
+<text x="640" y="580" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#8553A5">CLK：25 MHz</text>
+<polyline points="1410,510 1670,510" fill="none" stroke="#216EAA" stroke-width="4"/>
+<polygon points="1670,510 1654.921086312752,517.8502459842052 1654.921086312752,502.14975401579477" fill="#216EAA"/>
+<text x="1540" y="480" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="29" font-weight="400" fill="#216EAA">DA[13:0]</text>
+<polyline points="1410,610 1670,610" fill="none" stroke="#8553A5" stroke-width="4"/>
+<polygon points="1670,610 1654.921086312752,617.8502459842052 1654.921086312752,602.1497540157948" fill="#8553A5"/>
+<text x="1540" y="580" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="29" font-weight="400" fill="#8553A5">ACLK、WR1</text>
+<text x="1100" y="1188" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="28" font-weight="400" fill="#20384B">EGO1 通过自身电源接口供电；各模块共地；数字接口 LVCMOS33</text>
+<rect x="60" y="915" width="530" height="185" rx="12" fill="#F1F6FA" stroke="#20384B" stroke-width="3"/>
+<text x="325.0" y="960.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#20384B">显示连接</text>
+<text x="325.0" y="1007.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">VGA → 有源转换器 → HDMI</text>
+<text x="325.0" y="1054.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">外接显示器：1024 × 600</text>
+<rect x="1610" y="915" width="530" height="185" rx="12" fill="#F1F6FA" stroke="#20384B" stroke-width="3"/>
+<text x="1875.0" y="960.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#20384B">电脑通信连接</text>
+<text x="1875.0" y="1007.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">板载 USB-UART → 电脑</text>
+<text x="1875.0" y="1054.5" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">921600 bit/s，8N1</text>
+<rect x="800" y="1005" width="600" height="150" rx="12" fill="#F1F6FA" stroke="#20384B" stroke-width="3"/>
+<text x="1100.0" y="1033.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#20384B">本地输入与控制</text>
+<text x="1100.0" y="1080.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">S0～S4：方向 / 确认按键</text>
+<text x="1100.0" y="1127.0" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="400" fill="#20384B">SW0：模块使能；SW7：控制权</text>
+<polyline points="890,680 890,825 325,825 325,915" fill="none" stroke="#216EAA" stroke-width="4"/>
+<polygon points="325,915 317.14975401579477,899.9210863127522 332.85024598420523,899.9210863127522" fill="#216EAA"/>
+<text x="520" y="792" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="27" font-weight="400" fill="#216EAA">R/G/B[3:0]、HSYNC、VSYNC</text>
+<polyline points="1310,680 1310,825 1875,825 1875,915" fill="none" stroke="#216EAA" stroke-width="4"/>
+<polygon points="1875,915 1867.1497540157948,899.9210863127522 1882.8502459842052,899.9210863127522" fill="#216EAA"/>
+<polygon points="1310,680 1317.8502459842052,695.0789136872478 1302.1497540157948,695.0789136872478" fill="#216EAA"/>
+<text x="1690" y="792" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="27" font-weight="400" fill="#216EAA">FPGA TX：T4；RX：N5</text>
+<polyline points="1100,1005 1100,680" fill="none" stroke="#8553A5" stroke-width="4"/>
+<polygon points="1100,680 1107.8502459842052,695.0789136872478 1092.1497540157948,695.0789136872478" fill="#8553A5"/>
+<text x="1240" y="927" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="27" font-weight="400" fill="#8553A5">按键 / 拨码输入</text>
+<text x="1100" y="1230" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="27" font-weight="400" fill="#20384B">方向以箭头为准：蓝色为数字数据 / 视频 / 通信，紫色为时钟 / 控制，棕红为供电，绿色为模拟回环</text>
+<text x="1100" y="1290" text-anchor="middle" dominant-baseline="central" font-family="Microsoft YaHei, sans-serif" font-size="27" font-weight="400" fill="#20384B">本图按项目连接与约束文件整理；模块内部电路见对应原理图。</text>
+</svg>

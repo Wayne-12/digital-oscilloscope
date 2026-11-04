@@ -1,0 +1,81 @@
+{
+  "format": "scope-uart-acceptance-v1",
+  "source": "hardware-uart",
+  "verdict": "FAIL",
+  "started_at": "2026-10-26T21:02:14.718762+08:00",
+  "baud": 921600,
+  "port": "COM12",
+  "device_id": "EGO1-FTDI-1234-COM12",
+  "conditions": "Preflight before requested formal soak; existing loopback; measured configuration: 25MSPS sine100kHz peak819; supply gain and ambient not independently measured",
+  "seed": 20261026,
+  "requested_soak_seconds": 1.0,
+  "requested_echo_seconds": 0.1,
+  "requested_echo_payload_bytes": 64,
+  "restored": false,
+  "recovery": "NOT_RUN",
+  "echo_payload_bytes": 2620,
+  "echo_seconds": 0.11677899999995134,
+  "soak_seconds": 0,
+  "captures": 0,
+  "qualified_bauds": [],
+  "firmware_sha256": "e69221cabb545f2de1bee2b12d8493a1ad43083c7928a519f45ac4312fb1ea0d",
+  "firmware_artifact": "D:\\示波器\\releases\\scope_20261026_uart_smoke_v1\\firmware\\scope_analysis_1024_25m.bit",
+  "time_basis": "monotonic wall seconds",
+  "source_sha256": {
+    "uart_acceptance.py": "b7fcb2c63bb5ddcd5b24e82ab833d5f1b2653d1f88d8509898510469db199252",
+    "scope_protocol.py": "a502f78afec94ab078456e1119e9442675774e6375973356dce082af71010cde"
+  },
+  "limitations": [
+    "No temperature sensor: conditions are operator observations.",
+    "Request/response snapshots, not a continuous ADC stream; no unrequested frames counted as lost."
+  ],
+  "wall_elapsed_seconds": 0.4697691000001214,
+  "build": "0xa0261026",
+  "capabilities": 7,
+  "original_configuration_hex": "00400000002000000000040002000000000000000000000000000000000000000001a086010000000000330300000000",
+  "fpga_baseline_counters": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11
+  ],
+  "tx_bytes": 3162,
+  "rx_bytes": 3375,
+  "protocol_responses": 17,
+  "requests": 17,
+  "completed_requests": 16,
+  "unanswered_requests": 1,
+  "capture_attempts": 1,
+  "incomplete_captures": 1,
+  "transport_errors": {
+    "sequence": 0,
+    "response_timeout": 0,
+    "capture_timeout": 0,
+    "echo_mismatch": 0
+  },
+  "pc_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "fpga_error_deltas": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0,
+    "unknown": 0,
+    "command": 1,
+    "framing": 0,
+    "overflow": 0
+  },
+  "otr_samples": 0,
+  "error": "ValueError('device rejected request')",
+  "restore_error": "ValueError(\"FPGA error counter increased: {'crc': 0, 'length': 0, 'version': 0, 'timeout': 0, 'unknown': 0, 'command': 1, 'framing': 0, 'overflow': 0}\")",
+  "finished_at": "2026-10-26T21:02:15.189588+08:00"
+}

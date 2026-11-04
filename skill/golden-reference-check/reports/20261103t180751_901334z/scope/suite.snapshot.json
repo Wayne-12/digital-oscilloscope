@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "name": "示波器历史采集导出一致性（离线文件检查）",
+  "cases": [
+    {
+      "id": "adc-nominal-voltage-all-16384-samples",
+      "evidence": "recorded-hardware-export-offline-consistency",
+      "description": "从历史导出读取 raw_code_12bit，按 V=5-raw*10000/4095 计算黄金值，比对同一文件 nominal_voltage_v。仅检查导出换算一致性，不证明新的硬件测量精度，不比对已标定的 display_voltage_v。",
+      "input": {"path": "data/scope_capture.csv", "format": "csv", "column": "raw_code_12bit"},
+      "reference": {"model": "affine", "params": {"scale": -0.002442002442002442, "offset": 5.0}},
+      "observed": {"path": "data/scope_capture.csv", "format": "csv", "column": "nominal_voltage_v"},
+      "tolerance": {"atol": 1e-12, "rtol": 0.0}
+    }
+  ],
+  "evidence_files": ["data/scope_capture_origin.json"]
+}

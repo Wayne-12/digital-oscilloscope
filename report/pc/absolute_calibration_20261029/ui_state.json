@@ -1,0 +1,10 @@
+{
+  "source": "offline-ui-layout-only",
+  "absolute_calibration_status": "NOT_CALIBRATED",
+  "status_text": "绝对电压：未标定 · 需要独立电压参考；原 ADC 量程保持不变",
+  "profile_present": false,
+  "apply_enabled": false,
+  "serial_opened": false,
+  "physical_accuracy_verified": false,
+  "dialog_note": "未标定 · 尚无独立参考测量数据"
+}

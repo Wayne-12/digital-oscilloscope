@@ -1,0 +1,67 @@
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Nov  4 02:42:24 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'NO'.
+INFO: [Common 17-748] XILINX_TCLAPP_REPO is set to 'D:/AMD/Xilinx/vivado_2025.2/2025.2/Vivado/data/XilinxTclStore'. Refresh XilinxTclStore catalog is disabled when XILINX_TCLAPP_REPO is set.
+source simulate.tcl -notrace
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "M:/integration/rtl/common/scope_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "L:/panel_stats.sv" into library work
+INFO: [VRFC 10-311] analyzing module panel_stats
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "L:/panel_wave_memory.sv" into library work
+INFO: [VRFC 10-311] analyzing module panel_wave_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "L:/panel_interpolator.sv" into library work
+INFO: [VRFC 10-311] analyzing module panel_interpolator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "L:/panel_screen.sv" into library work
+INFO: [VRFC 10-311] analyzing module panel_screen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "L:/tb_interpolator.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_interpolator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "L:/tb_panel.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_panel
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMD/Xilinx/vivado_2025.2/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_panel -s panel_sim 
+Multi-threading is on. Using 26 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.scope_pkg
+Compiling module work.panel_interpolator
+Compiling module work.tb_interpolator
+Compiling module work.panel_stats
+Compiling module work.panel_wave_memory
+Compiling module work.panel_screen
+Compiling module work.tb_panel
+Built simulation snapshot panel_sim
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Nov  4 02:42:31 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/panel_sim/xsim_script.tcl
+# xsim {panel_sim} -autoloadwcfg -tclbatch {run.tcl}
+Time resolution is 1 ps
+source run.tcl
+## run 300 ms
+INTERPOLATION_TEST_PASS
+PANEL_RTL_TEST_PASS
+$finish called at time : 258116363624 ps : File "L:/tb_panel.sv" Line 188
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:45 . Memory (MB): peak = 219.312 ; gain = 0.000
+## quit
+INFO: xsimkernel Simulation Memory Usage: 10228 KB (Peak: 10228 KB), Simulation CPU Usage: 18671 ms
+INFO: [Common 17-206] Exiting xsim at Wed Nov  4 02:43:18 2026...
+PANEL_SIMULATION_PASS
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 02:43:18 2026...

@@ -1,0 +1,22 @@
+{
+  "software_verdict": "PASS",
+  "pc_tests": 149,
+  "pc_test_seconds": 12.408,
+  "ruff": "PASS",
+  "actual_absolute_calibration": "NOT_CALIBRATED",
+  "real_external_reference_points": 0,
+  "independent_voltage_reference_available": false,
+  "serial_opened_this_task": false,
+  "analog_range_changed": false,
+  "relative_baseline_overwritten": false,
+  "scope": "External-reference DC calibration workflow implemented; no real absolute-accuracy qualification",
+  "source_sha256": {
+    "示波器显示界面.py": "3890dc6d492f8cfbe8e980d7e0eb7ee012191cb95b545aeb4ab3dc2f413f5bbe",
+    "PC/protocol/absolute_calibration.py": "afac39fe210a3dcfd61168777c50061f40b12b4ec6b60dbbb2cd650e4f563dbd",
+    "PC/ui/absolute_calibration_dialog.py": "4d1568218397b0662af36cb4b0f812a47a7b1f6f6287ccdfc40d469eeb2eed85",
+    "PC/protocol/summary_report.py": "39a1f8c470ed4e361f2fe7978c9ae863238cc7386ffb412517a423201f1a1e24",
+    "PC/tests/test_absolute_calibration.py": "b67c1875dec76d6140e18bea45e21cb12df2d9cfca1b13032707ece97e7f8d3a",
+    "PC/tests/test_summary_report.py": "d9e99242abe5a38ce10f103746c2e36a2980ebe69c4f7691549057b4074db362",
+    "FPGA/scripts/package_saturation.py": "34b62155942a252661a8d49aa6a535b8eebbf4719e7ca4f9b76022acdc837cf8"
+  }
+}

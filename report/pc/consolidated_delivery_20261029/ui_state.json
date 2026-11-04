@@ -1,0 +1,10 @@
+{
+  "source": "offline-ui-layout-only",
+  "pc_release": "2026.10.29-r1",
+  "serial_opened": false,
+  "dds_digital_limit_hz": 12500000.0,
+  "dds_note": "闭环已测频点：10 kHz～12.49 MHz\n相对幅度±3 dB的已测频点至8 MHz",
+  "absolute_calibration_present": false,
+  "guide_loaded": true,
+  "no_false_absolute_calibration": true
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "seed": 42,
+  "source": "fresh RTL FFT wrapper output versus matching AMD bit-accurate C model",
+  "cases": [
+    {
+      "case": 0,
+      "inverse": false,
+      "bins": 1024,
+      "mismatches": 0,
+      "first_mismatches": []
+    },
+    {
+      "case": 1,
+      "inverse": true,
+      "bins": 1024,
+      "mismatches": 0,
+      "first_mismatches": []
+    },
+    {
+      "case": 2,
+      "inverse": false,
+      "bins": 1024,
+      "mismatches": 0,
+      "first_mismatches": []
+    },
+    {
+      "case": 3,
+      "inverse": false,
+      "bins": 1024,
+      "mismatches": 0,
+      "first_mismatches": []
+    },
+    {
+      "case": 4,
+      "inverse": false,
+      "bins": 1024,
+      "mismatches": 0,
+      "first_mismatches": []
+    }
+  ],
+  "model_zip_sha256": "e5825a15c8ce9cfc8337540fea1765bb873df0cd3377b9cb3348f7682216db0c",
+  "scope": "FFT IP complex outputs only; not analog accuracy or complete physical spectrum bins",
+  "bins_compared": 5120
+}

@@ -1,0 +1,84 @@
+{
+  "full_regression": {
+    "status": "FAIL",
+    "report": "D:\\示波器\\FPGA\\reports\\system\\20261104_024439_2255338c",
+    "completed_foundations": [
+      "smoke",
+      "scope_pkg",
+      "loopback",
+      "measure",
+      "uart",
+      "multires",
+      "spectrum"
+    ],
+    "active_layers": [
+      "unit",
+      "integration"
+    ]
+  },
+  "implementation": {
+    "status": "PASS",
+    "release_verified": true,
+    "wns_ns": 0.581,
+    "tns_ns": 0.0,
+    "whs_ns": 0.028,
+    "ths_ns": 0.0,
+    "wpws_ns": 3.0,
+    "resources": {
+      "lut": {
+        "used": 15199.0,
+        "available": 20800.0
+      },
+      "ff": {
+        "used": 11841.0,
+        "available": 41600.0
+      },
+      "bram_tile": {
+        "used": 45.0,
+        "available": 50.0
+      },
+      "dsp": {
+        "used": 49.0,
+        "available": 90.0
+      }
+    },
+    "cdc_warning_rows": [
+      "CDC-15  Warning      15  Clock enable controlled CDC structure detected",
+      "CDC-17  Warning     113  MUX hold controlled CDC structure detected"
+    ],
+    "methodology_warning_rows": [
+      [
+        "LUTAR-1",
+        "LUT drives async reset alert",
+        "3"
+      ],
+      [
+        "SYNTH-5",
+        "Mapped onto distributed RAM because of timing constraints",
+        "112"
+      ],
+      [
+        "SYNTH-6",
+        "Timing of a RAM block might be sub-optimal",
+        "33"
+      ],
+      [
+        "SYNTH-10",
+        "Wide multiplier",
+        "21"
+      ],
+      [
+        "TIMING-18",
+        "Missing input or output delay",
+        "14"
+      ],
+      [
+        "XDCB-5",
+        "Runtime inefficient way to find pin objects",
+        "1"
+      ]
+    ]
+  },
+  "live": "PASS",
+  "qspi": "PASS"
+}

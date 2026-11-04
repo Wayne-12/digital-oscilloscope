@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Wed Oct 28 23:48:49 2026
+| Host         : LAPTOP-R5DN2NPP running 64-bit major release  (build 9200)
+| Command      : report_cdc -details -file R:/reports/cdc_repair/after_synth_cdc.rpt
+| Design       : scope_cpu_board_top
+| Device       : 7a35t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+ID     Severity  Count  Description
+-----  --------  -----  -------------------------------------------------------
+CDC-3  Info          2  1-bit synchronized with ASYNC_REG property
+CDC-9  Info          3  Asynchronous reset synchronized with ASYNC_REG property
+
+Source Clock: input port clock
+Destination Clock: clk_out1_scope_clk_wiz
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                              Depth  Exception   Source (From)    Destination (To)
+---  -----  --------  -------------------------------------------------------  -----  ----------  ---------------  -------------------------------------------------
+  1  CDC-9  Info      Asynchronous reset synchronized with ASYNC_REG property      2  False Path  reset_n          reset_sync/g_rising.release_ff_reg[0]/PRE
+  2  CDC-9  Info      Asynchronous reset synchronized with ASYNC_REG property      2  False Path  module_switch    safety/enable_sync/enable_ff_reg[0]/CLR
+  3  CDC-9  Info      Asynchronous reset synchronized with ASYNC_REG property      2  False Path  reset_n          safety/reset_sync/g_falling.release_ff_reg[0]/PRE
+  4  CDC-3  Info      1-bit synchronized with ASYNC_REG property                   2  False Path  module_switch    switch_meta_reg/D
+  5  CDC-3  Info      1-bit synchronized with ASYNC_REG property                   2  False Path  fpga_uart_rx_n5  uart/transport/receiver/rx_meta_reg/D
+

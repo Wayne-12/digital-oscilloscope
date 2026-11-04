@@ -1,0 +1,12 @@
+LAYER_START unit
+FOUNDATION_PASS suite=smoke report=Z:\FPGA\reports\smoke\20261104_024440_0a51804e
+FOUNDATION_PASS suite=scope_pkg report=Z:\FPGA\reports\scope_pkg\20261104_024544_de13ec96
+UNIT_LAYER_PASS tests=11
+LAYER_START integration
+FOUNDATION_PASS suite=loopback report=Z:\FPGA\reports\loopback\20261104_025605_661c4c82
+FOUNDATION_PASS suite=measure report=Z:\FPGA\reports\measure\20261104_025935_c6fdfa39
+FOUNDATION_PASS suite=uart report=Z:\FPGA\reports\uart\20261104_030138_a68d117a
+FOUNDATION_PASS suite=multires report=Z:\FPGA\reports\multires\20261104_030211_eb080c93
+FOUNDATION_PASS suite=spectrum report=Z:\FPGA\reports\spectrum\20261104_030301_0767a8d6
+SYSTEM_REGRESSION_FAIL report=D:\示波器\FPGA\reports\system\20261104_024439_2255338c
+FIRST_ERROR {"code": "SUITE_innovation", "detail": "exit=1; \nSet-Content: Z:\\FPGA\\scripts\\run_innovation_tb.ps1:119\r\nLine |\r\n 119 |  … n -Depth 14|Set-Content -LiteralPath (Join-Path $report manifest.json …\r\n     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Could not find a part of the path 'Z:\\FPGA\\reports\\innovation\\20261104_031105_ea0935f8\\manifest.json'.\r\n", "time_ns": null}

@@ -1,0 +1,223 @@
+{
+  "result": "PASS",
+  "file": "D:\\示波器\\任意波形.csv",
+  "points": 1024,
+  "formula": "normalize(sin(theta)+0.35*sin(2*theta)+0.20*sin(3*theta))",
+  "frames": [
+    {
+      "frequency_set_hz": 10000,
+      "amplitude_code": 819,
+      "fit": {
+        "phase_index": 368,
+        "gain": 0.0018049393089620354,
+        "normalized_rms_error": 0.023168660394755604,
+        "correlation": 0.9997315705605733,
+        "adc_vpp": 122.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -60,
+        "maximum": 62,
+        "mean": 0,
+        "vpp": 122,
+        "rms": 37,
+        "sum": -7287,
+        "square_sum": 22370349,
+        "period_q16": 49207706,
+        "frequency": 33296,
+        "duty_ppm": 506293,
+        "periods": 20
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    },
+    {
+      "frequency_set_hz": 100000,
+      "amplitude_code": 819,
+      "fit": {
+        "phase_index": 280,
+        "gain": 0.00180586038375142,
+        "normalized_rms_error": 0.02154627170035794,
+        "correlation": 0.9997678521415924,
+        "adc_vpp": 122.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -61,
+        "maximum": 63,
+        "mean": 1,
+        "vpp": 124,
+        "rms": 37,
+        "sum": 21236,
+        "square_sum": 22684096,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 507000,
+        "periods": 64
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    },
+    {
+      "frequency_set_hz": 500000,
+      "amplitude_code": 819,
+      "fit": {
+        "phase_index": 19,
+        "gain": 0.0018077242167889801,
+        "normalized_rms_error": 0.021270661990003912,
+        "correlation": 0.9997737538756009,
+        "adc_vpp": 121.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -60,
+        "maximum": 62,
+        "mean": 1,
+        "vpp": 122,
+        "rms": 37,
+        "sum": 22146,
+        "square_sum": 22784624,
+        "period_q16": 3276599,
+        "frequency": 500031,
+        "duty_ppm": 505614,
+        "periods": 326
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    },
+    {
+      "frequency_set_hz": 100000,
+      "amplitude_code": 1638,
+      "fit": {
+        "phase_index": 611,
+        "gain": 0.0036092083021985527,
+        "normalized_rms_error": 0.011236668615621666,
+        "correlation": 0.9999368666463019,
+        "adc_vpp": 239.0
+      },
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -119,
+        "maximum": 122,
+        "mean": 1,
+        "vpp": 241,
+        "rms": 75,
+        "sum": 16785,
+        "square_sum": 91031377,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 503508,
+        "periods": 65
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    }
+  ],
+  "checks": {
+    "upload_crc_exact_1024_point_readback": "PASS",
+    "three_frequencies_real_analog_shape_and_amplitude": "PASS",
+    "ui_load_select_apply_adc_autoscale": "PASS"
+  },
+  "build": "0xaf311031",
+  "before_awg": {
+    "valid": false,
+    "uploading": false,
+    "selected": false,
+    "received": 0,
+    "active_crc": 0,
+    "staging_crc": 65535
+  },
+  "table_crc": "0DEE",
+  "amplitude_double_ratio": 1.959016393442623,
+  "counter_before": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    144,
+    0,
+    11227
+  ],
+  "counter_after": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    144,
+    0,
+    11286
+  ],
+  "ui_fit": {
+    "phase_index": 241,
+    "gain": 0.0036083521137291927,
+    "normalized_rms_error": 0.011354327378802119,
+    "correlation": 0.9999355375471827,
+    "adc_vpp": 239.0
+  },
+  "ui_awg_text": "波形表：已校验 · 已选择 · CRC 0DEE",
+  "restored": true,
+  "after_awg": {
+    "valid": true,
+    "uploading": false,
+    "selected": false,
+    "received": 1024,
+    "active_crc": 3566,
+    "staging_crc": 3566
+  },
+  "final_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      144,
+      0,
+      11343
+    ],
+    "pc_crc": 0
+  },
+  "remaining_table": "New custom table remains in volatile RAM, unselected; CSV is persistent on PC"
+}

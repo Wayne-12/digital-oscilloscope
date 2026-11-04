@@ -1,0 +1,192 @@
+{
+  "pc_release": "2026.10.29-r2",
+  "source": "hardware-uart",
+  "flash_written": false,
+  "dds_configuration_verified_and_saved": true,
+  "frames": [
+    {
+      "mode": 2,
+      "timestamp": 15487769712,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -33,
+        "maximum": 39,
+        "mean": 2,
+        "vpp": 72,
+        "rms": 24,
+        "sum": 40842,
+        "square_sum": 9591550,
+        "period_q16": 16381952,
+        "frequency": 100013,
+        "duty_ppm": 504813,
+        "periods": 64
+      }
+    },
+    {
+      "mode": 2,
+      "timestamp": 15499404964,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -34,
+        "maximum": 38,
+        "mean": 2,
+        "vpp": 72,
+        "rms": 24,
+        "sum": 39808,
+        "square_sum": 9583938,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 504125,
+        "periods": 64
+      }
+    },
+    {
+      "mode": 2,
+      "timestamp": 15510997963,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -34,
+        "maximum": 39,
+        "mean": 2,
+        "vpp": 73,
+        "rms": 24,
+        "sum": 40094,
+        "square_sum": 9591170,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 505125,
+        "periods": 64
+      }
+    },
+    {
+      "mode": 0,
+      "timestamp": 15523365963,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -34,
+        "maximum": 39,
+        "mean": 2,
+        "vpp": 73,
+        "rms": 24,
+        "sum": 40541,
+        "square_sum": 9583793,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 504375,
+        "periods": 64
+      }
+    },
+    {
+      "mode": 0,
+      "timestamp": 15535042463,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -33,
+        "maximum": 38,
+        "mean": 2,
+        "vpp": 71,
+        "rms": 24,
+        "sum": 40025,
+        "square_sum": 9581587,
+        "period_q16": 16386048,
+        "frequency": 99988,
+        "duty_ppm": 505312,
+        "periods": 64
+      }
+    },
+    {
+      "mode": 0,
+      "timestamp": 15546635714,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -34,
+        "maximum": 39,
+        "mean": 2,
+        "vpp": 73,
+        "rms": 24,
+        "sum": 40445,
+        "square_sum": 9595157,
+        "period_q16": 16382976,
+        "frequency": 100006,
+        "duty_ppm": 503469,
+        "periods": 64
+      }
+    }
+  ],
+  "configuration_hex": "004000000020000000000200040033ffcc0019000000f40100009a01000400000001a086010000000000330300000000",
+  "before_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1821
+    ],
+    "pc_crc": 0
+  },
+  "after_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1860
+    ],
+    "pc_crc": 0
+  },
+  "result": "PASS",
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  }
+}

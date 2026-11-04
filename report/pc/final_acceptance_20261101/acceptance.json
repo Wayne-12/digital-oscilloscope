@@ -1,0 +1,89 @@
+{
+  "result": "FAIL",
+  "physical_panel": "User confirmed six pages and local controls normal; SW7 ON",
+  "checks": {},
+  "limits": [
+    "Finite final functional run; no new absolute AC accuracy or overload qualification"
+  ],
+  "build": "0xaf311031",
+  "frames": [
+    {
+      "wave": 0,
+      "timestamp": 75733153648,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -40,
+        "maximum": 42,
+        "mean": 2,
+        "vpp": 82,
+        "rms": 28,
+        "sum": 25386,
+        "square_sum": 12601860,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 512375,
+        "periods": 64
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    },
+    {
+      "wave": 1,
+      "timestamp": 75771762647,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": true,
+        "duty_valid": true,
+        "error": false,
+        "count": 16384,
+        "minimum": -42,
+        "maximum": 45,
+        "mean": 1,
+        "vpp": 87,
+        "rms": 39,
+        "sum": 23716,
+        "square_sum": 25239546,
+        "period_q16": 16384000,
+        "frequency": 100000,
+        "duty_ppm": 500000,
+        "periods": 64
+      },
+      "saturation": {
+        "count": 16384,
+        "saturated_samples": 0,
+        "events": 0,
+        "diagnostic": false
+      }
+    }
+  ],
+  "error": "TimeoutError('设备响应超时；请检查固件、端口与波特率')",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\示波器\\PC\\tools\\final_acceptance_20261101.py\", line 86, in <module>\n    env = client.exchange(p.READ_ENVELOPE,struct.pack('<H',800),record_length=16384,envelope_buckets=800)\n  File \"D:\\示波器\\PC\\tools\\final_acceptance_20261101.py\", line 22, in traced_exchange\n    return exchange_original(self, kind, payload, *args, **kwargs)\n  File \"D:\\示波器\\示波器显示界面.py\", line 470, in exchange\n    raise TimeoutError(\"设备响应超时；请检查固件、端口与波特率\")\nTimeoutError: 设备响应超时；请检查固件、端口与波特率\n",
+  "restored": true,
+  "final_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      25485
+    ],
+    "pc_crc": 0
+  }
+}

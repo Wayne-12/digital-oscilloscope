@@ -1,0 +1,2 @@
+{"kind": "0x20", "payload": "", "sequence_next": 495, "error": "TimeoutError('设备响应超时；请检查固件、端口与波特率')"}
+{"kind": "0x32", "payload": "2003", "sequence_next": 248, "error": "TimeoutError('设备响应超时；请检查固件、端口与波特率')"}

@@ -1,0 +1,31 @@
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Nov  4 02:45:42 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'NO'.
+INFO: [Common 17-748] XILINX_TCLAPP_REPO is set to 'D:/AMD/Xilinx/vivado_2025.2/2025.2/Vivado/data/XilinxTclStore'. Refresh XilinxTclStore catalog is disabled when XILINX_TCLAPP_REPO is set.
+source scripts/test_cdc_safety.tcl
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# set binary [file normalize [file join [file dirname [info nameofexecutable]] .. ..]]
+# cd [file join $root build]
+# set core ../rtl/scope_core.sv
+# if {[info exists ::env(SCOPE_CDC_BASELINE)] && $::env(SCOPE_CDC_BASELINE) eq "1"} {set core ../integration/rtl/top/scope_core.sv}
+# set sources [list ../integration/rtl/common/scope_pkg.sv ../integration/rtl/clock_reset/scope_reset_sync.sv \
+#  ../integration/rtl/clock_reset/scope_enable_sync.sv ../integration/rtl/clock_reset/scope_safe_ctrl.sv $core ../tests/tb_cdc_safety.sv]
+# lappend sources [file join [file dirname $binary] data verilog src glbl.v]
+# foreach {tool args} [list xvlog [concat -sv $sources] xelab [list tb_cdc_safety glbl -L unisims_ver -s cdc_safety_sim] xsim [list cdc_safety_sim -runall]] {
+#  if {[catch {exec [file join $binary ${tool}.bat] {*}$args 2>@1} result]} {puts $result;error "SIM_TOOL_FAILED $tool"}
+#  set f [open [file join $root reports ${tool}_cdc_safety.txt] w];puts $f $result;close $f
+#  if {$tool eq "xsim" && ![string match {*CDC_SAFETY_TEST_PASS*} $result]} {error "CDC_SAFETY_TEST_FAILED see xsim_cdc_safety.txt"}
+#  puts "CDC_SAFETY_STAGE_PASS $tool"
+# }
+CDC_SAFETY_STAGE_PASS xvlog
+CDC_SAFETY_STAGE_PASS xelab
+CDC_SAFETY_STAGE_PASS xsim
+# exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 02:45:53 2026...

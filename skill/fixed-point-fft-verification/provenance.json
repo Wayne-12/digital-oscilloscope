@@ -1,0 +1,26 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "FPGA/scripts/fft_bitaccurate_reference.py",
+      "snapshot": "references/source/source_01.py",
+      "sha256": "3577e27fac8ca5f30ba98e8125d9b13294fd1b00f942e910bc6920ced973d4e6"
+    },
+    {
+      "original_path": "FPGA/scripts/audit_board_analysis.py",
+      "snapshot": "references/source/source_02.py",
+      "sha256": "586285c17331a5b4609e88ee375d8fa1fc063f2e3ca090c9a630b35ae9c556ee"
+    },
+    {
+      "original_path": "docs/verification/fpga_measure_fft_1024_20261026.md",
+      "snapshot": "references/source/source_03.md",
+      "sha256": "9a28d9379874c2b16d83cd191638dabf6fcca419212b59252dfb35d9ba42bcd1"
+    },
+    {
+      "original_path": "FPGA/reports/board/20261026_162503_verified/manifest.json",
+      "snapshot": "references/source/source_04.json",
+      "sha256": "b3df3db16a6f2d4a8ed60655095defefe840f83f2e4cafb1e5c8850fea4c7759"
+    }
+  ]
+}

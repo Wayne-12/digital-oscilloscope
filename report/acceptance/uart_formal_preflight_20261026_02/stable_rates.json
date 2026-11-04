@@ -1,0 +1,9 @@
+{
+  "source_report": "D:\\示波器\\PC\\acceptance_runs\\uart_formal_preflight_20261026_02\\report.json",
+  "qualified_bauds": [],
+  "device_id": "EGO1-FTDI-1234-COM12",
+  "firmware_sha256": "e69221cabb545f2de1bee2b12d8493a1ad43083c7928a519f45ac4312fb1ea0d",
+  "build": "0xa0261026",
+  "conditions": "Preflight: user confirmed SW0 enabled; existing OUTA-IN; supply/gain/ambient not independently measured",
+  "scope": "Only this device, firmware artifact and recorded setup."
+}

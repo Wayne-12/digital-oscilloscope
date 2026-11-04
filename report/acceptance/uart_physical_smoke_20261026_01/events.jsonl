@@ -1,0 +1,4 @@
+{"at": "2026-10-26T19:45:36.541790+08:00", "event": "start", "captures": 0, "echo_bytes": 0, "soak_seconds": 0}
+{"at": "2026-10-26T19:45:38.698997+08:00", "event": "uart-complete", "captures": 0, "echo_bytes": 44604, "soak_seconds": 0}
+{"at": "2026-10-26T19:46:08.723674+08:00", "event": "soak-progress", "captures": 137, "echo_bytes": 44604, "soak_seconds": 30.0233532000002, "last_frame": {"timestamp": 11042645993, "samples": 2048, "minimum": -59, "maximum": 62}}
+{"at": "2026-10-26T19:46:10.174064+08:00", "event": "finished", "captures": 139, "echo_bytes": 44604, "soak_seconds": 30.0233532000002}

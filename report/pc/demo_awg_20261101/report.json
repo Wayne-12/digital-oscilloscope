@@ -1,0 +1,81 @@
+{
+  "result": "PASS",
+  "file": "D:\\示波器\\任意波形.csv",
+  "levels": [
+    -1,
+    -0.5,
+    0,
+    0.5,
+    1,
+    0.5,
+    0,
+    -0.5
+  ],
+  "points_per_step": 128,
+  "frequency_hz": 10000,
+  "digital_amplitude_percent": 20,
+  "shape_fit": {
+    "phase_index": 101,
+    "gain": 0.003610732486035583,
+    "normalized_rms_error": 0.03594937262227502,
+    "correlation": 0.9993536123955653,
+    "adc_vpp": 241.0
+  },
+  "measurement": {
+    "stats_valid": true,
+    "period_valid": true,
+    "duty_valid": true,
+    "error": false,
+    "count": 16384,
+    "minimum": -119,
+    "maximum": 122,
+    "mean": 3,
+    "vpp": 241,
+    "rms": 73,
+    "sum": 56620,
+    "square_sum": 86501772,
+    "period_q16": 163840000,
+    "frequency": 10000,
+    "duty_ppm": 375800,
+    "periods": 6
+  },
+  "saturation": {
+    "count": 16384,
+    "saturated_samples": 0,
+    "events": 0,
+    "diagnostic": false
+  },
+  "ui_awg_text": "波形表：已校验 · 已选择 · CRC CC2D",
+  "timebase": "20 µs/div",
+  "vertical": "100 mV/div",
+  "table_crc": "CC2D",
+  "table_exact_readback": true,
+  "counters_before": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    144,
+    0,
+    13111
+  ],
+  "counters_after": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    144,
+    0,
+    13170
+  ],
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  }
+}

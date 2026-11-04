@@ -1,0 +1,620 @@
+[
+  {
+    "path": "D:\\示波器\\latest_source_stage_20261104",
+    "reason": "重复暂存区或生成缓存",
+    "files": 1137,
+    "bytes": 95212243
+  },
+  {
+    "path": "D:\\示波器\\.poster-review",
+    "reason": "重复暂存区或生成缓存",
+    "files": 182,
+    "bytes": 67473571
+  },
+  {
+    "path": "D:\\示波器\\tmp",
+    "reason": "重复暂存区或生成缓存",
+    "files": 1419,
+    "bytes": 552466863
+  },
+  {
+    "path": "D:\\示波器\\__pycache__",
+    "reason": "重复暂存区或生成缓存",
+    "files": 2,
+    "bytes": 588954
+  },
+  {
+    "path": "D:\\示波器\\xelab.pb",
+    "reason": "重复暂存区或生成缓存",
+    "files": 1,
+    "bytes": 0
+  },
+  {
+    "path": "D:\\示波器\\constraints_diff.html",
+    "reason": "重复暂存区或生成缓存",
+    "files": 1,
+    "bytes": 35930
+  },
+  {
+    "path": "D:\\示波器\\cleanup_pending_20261104.json",
+    "reason": "旧清理过程临时记录，摘要已保留",
+    "files": 1,
+    "bytes": 20793
+  },
+  {
+    "path": "D:\\示波器\\cleanup_plan_20261104.json",
+    "reason": "旧清理过程临时记录，摘要已保留",
+    "files": 1,
+    "bytes": 69818
+  },
+  {
+    "path": "D:\\示波器\\cleanup_results_20261104.json",
+    "reason": "旧清理过程临时记录，摘要已保留",
+    "files": 1,
+    "bytes": 77555
+  },
+  {
+    "path": "D:\\示波器\\cleanup_tests_20261104.log",
+    "reason": "旧清理过程临时记录，摘要已保留",
+    "files": 1,
+    "bytes": 16215
+  },
+  {
+    "path": "D:\\示波器\\latest_repository_sync_plan.json",
+    "reason": "旧版整理计划、恢复编码及重复过程文件",
+    "files": 1,
+    "bytes": 16142
+  },
+  {
+    "path": "D:\\示波器\\latest_version_cache_cleanup.json",
+    "reason": "旧版整理计划、恢复编码及重复过程文件",
+    "files": 1,
+    "bytes": 905
+  },
+  {
+    "path": "D:\\示波器\\latest_version_cleanup_plan.json",
+    "reason": "旧版整理计划、恢复编码及重复过程文件",
+    "files": 1,
+    "bytes": 53917
+  },
+  {
+    "path": "D:\\示波器\\latest_version_cleanup_results.json",
+    "reason": "旧版整理计划、恢复编码及重复过程文件",
+    "files": 1,
+    "bytes": 62047
+  },
+  {
+    "path": "D:\\示波器\\latest_version_recovery.json",
+    "reason": "旧版整理计划、恢复编码及重复过程文件",
+    "files": 1,
+    "bytes": 14244028
+  },
+  {
+    "path": "D:\\示波器\\输出",
+    "reason": "海报编辑中间版本或工具会话日志；最终海报已保存",
+    "files": 9,
+    "bytes": 24466405
+  },
+  {
+    "path": "D:\\示波器\\outputs\\trigger_hardware_check.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 6072
+  },
+  {
+    "path": "D:\\示波器\\outputs\\trigger_uart_confirm.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2490
+  },
+  {
+    "path": "D:\\示波器\\软核\\updatemem.jou",
+    "reason": "海报编辑中间版本或工具会话日志；最终海报已保存",
+    "files": 1,
+    "bytes": 1301
+  },
+  {
+    "path": "D:\\示波器\\软核\\updatemem.log",
+    "reason": "海报编辑中间版本或工具会话日志；最终海报已保存",
+    "files": 1,
+    "bytes": 1858
+  },
+  {
+    "path": "D:\\示波器\\软核\\build\\tool_tmp",
+    "reason": "工具缓存或隔离复测工作区；正式文件及报告已汇总",
+    "files": 197,
+    "bytes": 28944955
+  },
+  {
+    "path": "D:\\示波器\\VGA显示部分\\output\\tool_tmp",
+    "reason": "工具缓存或隔离复测工作区；正式文件及报告已汇总",
+    "files": 197,
+    "bytes": 28944955
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\workspace",
+    "reason": "工具缓存或隔离复测工作区；正式文件及报告已汇总",
+    "files": 546,
+    "bytes": 176899659
+  },
+  {
+    "path": "D:\\示波器\\outputs\\bandwidth_01a1a0e3\\build.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 11036
+  },
+  {
+    "path": "D:\\示波器\\outputs\\board_voltage_20261030\\test_ui_voltage.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2368
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\accuracy2_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 128325
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\accuracy_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 128819
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\before_targets.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 60279
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\build.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 7834
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\build_ui_profile.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2859
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\c1_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 63452
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\c1_csv_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 64886
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\c2_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 70651
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\c3_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 77439
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\edit_targets.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3004
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\estimate.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5849
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\estimate_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 105519
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\record_c1.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2423
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\record_c1_csv.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3460
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\record_c2_csv.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3512
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\record_c3_csv.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3801
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\record_v1_csv.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3715
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\record_v2_csv.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3583
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\update_accuracy.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3876
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\update_accuracy_2.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2541
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\v1_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 84088
+  },
+  {
+    "path": "D:\\示波器\\outputs\\measurement_20261029\\v2_before.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 91072
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\add_10vpp_overload.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5109
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\add_9p5vpp.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5870
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\add_9vpp.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5670
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\add_actual_recovery.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 6157
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\add_amplitude_correction.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5961
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\add_fixed_clip.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5011
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_10vpp.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 169491
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_4vpp.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 71914
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_5percent.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 152973
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_6vpp.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 61626
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_8vpp.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 58480
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_9p5.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 142812
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_9vpp_clean.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 121941
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_actual_recovery.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 187803
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_baseline.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 36676
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_correction.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 96545
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_fixed_clip.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 132316
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_initial_replace.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 137073
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_recheck.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 87814
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\before_snapshot.png",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 74791
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\build.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 9887
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\build_clean.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 6941
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\collect_clean_data.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 4050
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\fill_4vpp.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 4631
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\fill_6vpp.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 4927
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\fill_8vpp.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5242
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\fill_baseline.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 6450
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\fill_recheck.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 6721
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\fill_snapshot.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2758
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\recalculate_5percent.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2098
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\replace_initial_2vpp.mjs",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 6103
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_retest_20261102\\update_reports.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 8364
+  },
+  {
+    "path": "D:\\示波器\\outputs\\rewrite_part2_20261102\\build_part2.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 30085
+  },
+  {
+    "path": "D:\\示波器\\outputs\\rewrite_part4_20261102\\build_part4.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 4175
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\hardware_live_checks.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 5518
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\prepare_readonly_flash.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 1469
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\run_offline_revalidation.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 1729
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\verify_cold_uart.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 876
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\verify_fft_exact.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 3556
+  },
+  {
+    "path": "D:\\示波器\\PC\\protocol\\__pycache__",
+    "reason": "Python缓存",
+    "files": 24,
+    "bytes": 474966
+  },
+  {
+    "path": "D:\\示波器\\PC\\tests\\__pycache__",
+    "reason": "Python缓存",
+    "files": 41,
+    "bytes": 698989
+  },
+  {
+    "path": "D:\\示波器\\PC\\ui\\__pycache__",
+    "reason": "Python缓存",
+    "files": 2,
+    "bytes": 33540
+  },
+  {
+    "path": "D:\\示波器\\软核\\scripts\\__pycache__",
+    "reason": "Python缓存",
+    "files": 1,
+    "bytes": 10634
+  },
+  {
+    "path": "D:\\示波器\\提炼\\goldencheck\\__pycache__",
+    "reason": "Python缓存",
+    "files": 5,
+    "bytes": 39087
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_report_update_20261102\\qa_0",
+    "reason": "报告排版预览或修改前备份；正式文档已汇总",
+    "files": 27,
+    "bytes": 9169321
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_report_update_20261102\\qa_1",
+    "reason": "报告排版预览或修改前备份；正式文档已汇总",
+    "files": 23,
+    "bytes": 4760423
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_report_update_20261102\\qa_old",
+    "reason": "报告排版预览或修改前备份；正式文档已汇总",
+    "files": 0,
+    "bytes": 0
+  },
+  {
+    "path": "D:\\示波器\\outputs\\otr_report_update_20261102\\修改前备份",
+    "reason": "报告排版预览或修改前备份；正式文档已汇总",
+    "files": 2,
+    "bytes": 20670847
+  },
+  {
+    "path": "D:\\示波器\\outputs\\rewrite_part2_20261102\\qa",
+    "reason": "报告排版预览或修改前备份；正式文档已汇总",
+    "files": 55,
+    "bytes": 6734416
+  },
+  {
+    "path": "D:\\示波器\\outputs\\rewrite_part2_20261102\\qa_final",
+    "reason": "报告排版预览或修改前备份；正式文档已汇总",
+    "files": 29,
+    "bytes": 6681485
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\flash_readonly\\tmp",
+    "reason": "工具缓存或隔离复测工作区；正式文件及报告已汇总",
+    "files": 0,
+    "bytes": 0
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\flash_readonly\\cold_boot.jou",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 1044
+  },
+  {
+    "path": "D:\\示波器\\outputs\\skill_revalidation_20261104_024036\\flash_readonly\\flash_run.jou",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 1042
+  },
+  {
+    "path": "D:\\示波器\\outputs\\board_voltage_20261030\\before\\make_assets.py",
+    "reason": "一次性数据表/报告编辑代码或生成中间文件",
+    "files": 1,
+    "bytes": 2188
+  },
+  {
+    "path": "D:\\示波器\\最终提交目录\\digital_oscilloscope\\build\\work",
+    "reason": "迁移验证生成的临时工作区，构建时可重新生成",
+    "files": 216,
+    "bytes": 59816605
+  },
+  {
+    "path": "D:\\示波器\\最终提交目录\\digital_oscilloscope\\build\\__pycache__",
+    "reason": "校验过程Python缓存",
+    "files": 1,
+    "bytes": 5315
+  }
+]

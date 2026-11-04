@@ -1,0 +1,175 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>黄金参考验证报告</title><style>
+body{font:15px/1.6 system-ui,sans-serif;max-width:1400px;margin:36px auto;padding:0 24px;color:#182638;background:#f5f7fa}
+table{border-collapse:collapse;background:white;width:100%;font-size:13px}td,th{border:1px solid #d7dfe8;padding:8px;text-align:left;overflow-wrap:anywhere}
+.scroll{overflow:auto}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:white;padding:16px}details{margin:12px 0}.note{padding:16px;background:#e5edf8}
+</style><h1>预期失败：错误检出示例 · ERROR</h1>
+<p>2026-11-03T18:07:55.334472+00:00 · {&#x27;PASS&#x27;: 0, &#x27;FAIL&#x27;: 2, &#x27;ERROR&#x27;: 1}</p>
+<p class="note">PASS 只说明配置的输入、参考模型及容差下结果一致。离线文件比对不等于本次上板验收。
+reference_seconds 为主机参考计算时间；observed_wall_seconds 含外部进程启动、文件 I/O 和运行时间，不能视为 FPGA 延迟。
+资源及性能指标缺失时显示 UNAVAILABLE；导入指标的来源与适用范围见下表和 JSON。</p>
+<div class="scroll"><table><thead><tr><th>id</th><th>status</th><th>evidence</th><th>compared</th><th>mismatches</th><th>max_abs_error</th><th>rmse</th><th>reference_seconds</th><th>observed_wall_seconds</th></tr></thead>
+<tbody><tr><td>numeric-mismatch</td><td>FAIL</td><td>deliberate-negative-test</td><td>4</td><td>1</td><td>1</td><td>0.5</td><td>5.300000339047983e-06</td><td>None</td></tr><tr><td>length-mismatch</td><td>FAIL</td><td>deliberate-negative-test</td><td>4</td><td>1</td><td>0.0</td><td>0.0</td><td>4.399997123982757e-06</td><td>None</td></tr><tr><td>missing-output</td><td>ERROR</td><td>deliberate-negative-test</td><td>—</td><td>—</td><td>—</td><td>—</td><td>3.6000019463244826e-06</td><td>—</td></tr></tbody></table></div><h2>性能 / 资源证据</h2>
+<div class="scroll"><table><thead><tr><th>name</th><th>value</th><th>unit</th><th>status</th><th>scope</th><th>source_sha256</th></tr></thead><tbody><tr><td>hardware_latency</td><td>None</td><td>s</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr><tr><td>hardware_throughput</td><td>None</td><td>samples/s</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr><tr><td>resource_utilization</td><td>None</td><td>%</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr></tbody></table></div>
+<h2>套件配置与附加证据</h2><pre>{
+  &quot;configuration&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\negative_suite.json&quot;,
+    &quot;sha256&quot;: &quot;9f8f941a5159b59ed8ae875e37430be56f20c8c0772b57e69f8929dbe9bf685c&quot;
+  },
+  &quot;evidence_files&quot;: [],
+  &quot;evidence_error&quot;: null,
+  &quot;metrics&quot;: [
+    {
+      &quot;name&quot;: &quot;hardware_latency&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;s&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    },
+    {
+      &quot;name&quot;: &quot;hardware_throughput&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;samples/s&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    },
+    {
+      &quot;name&quot;: &quot;resource_utilization&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;%&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    }
+  ]
+}</pre>
+<h2>逐项详情与溯源</h2><details><summary>numeric-mismatch: FAIL</summary><pre>{
+  &quot;id&quot;: &quot;numeric-mismatch&quot;,
+  &quot;evidence&quot;: &quot;deliberate-negative-test&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;status&quot;: &quot;FAIL&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\small.json&quot;,
+    &quot;sha256&quot;: &quot;9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/small.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_000_input.json&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;identity&quot;,
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 5.300000339047983e-06,
+  &quot;observed&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\wrong.json&quot;,
+    &quot;sha256&quot;: &quot;a9cbff2701fc04c11b6672977c425d5991226a9430092c69eadf8a389a112ecb&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/wrong.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_000_observed.json&quot;
+  },
+  &quot;observed_wall_seconds&quot;: null,
+  &quot;compared&quot;: 4,
+  &quot;numeric_compared&quot;: 4,
+  &quot;mismatches&quot;: 1,
+  &quot;max_abs_error&quot;: 1,
+  &quot;max_relative_error_nonzero_reference&quot;: 0.3333333333333333,
+  &quot;rmse&quot;: 0.5,
+  &quot;details&quot;: [
+    {
+      &quot;path&quot;: &quot;/3&quot;,
+      &quot;reason&quot;: &quot;outside tolerance&quot;,
+      &quot;expected&quot;: &quot;3&quot;,
+      &quot;actual&quot;: &quot;4&quot;
+    }
+  ],
+  &quot;details_truncated&quot;: false,
+  &quot;expected_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_000_expected.json&quot;,
+    &quot;sha256&quot;: &quot;9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140&quot;
+  },
+  &quot;actual_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_000_actual.json&quot;,
+    &quot;sha256&quot;: &quot;a9cbff2701fc04c11b6672977c425d5991226a9430092c69eadf8a389a112ecb&quot;
+  }
+}</pre></details><details><summary>length-mismatch: FAIL</summary><pre>{
+  &quot;id&quot;: &quot;length-mismatch&quot;,
+  &quot;evidence&quot;: &quot;deliberate-negative-test&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;status&quot;: &quot;FAIL&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\small.json&quot;,
+    &quot;sha256&quot;: &quot;9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/small.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_001_input.json&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;identity&quot;,
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 4.399997123982757e-06,
+  &quot;observed&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\short.json&quot;,
+    &quot;sha256&quot;: &quot;c70ec9db4cc282e7fdbec3ecb24f4ac3f5a5c83e9ccaec63fc4e318c71859880&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/short.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_001_observed.json&quot;
+  },
+  &quot;observed_wall_seconds&quot;: null,
+  &quot;compared&quot;: 4,
+  &quot;numeric_compared&quot;: 3,
+  &quot;mismatches&quot;: 1,
+  &quot;max_abs_error&quot;: 0.0,
+  &quot;max_relative_error_nonzero_reference&quot;: 0.0,
+  &quot;rmse&quot;: 0.0,
+  &quot;details&quot;: [
+    {
+      &quot;path&quot;: &quot;&quot;,
+      &quot;reason&quot;: &quot;array lengths differ&quot;,
+      &quot;expected&quot;: &quot;4&quot;,
+      &quot;actual&quot;: &quot;3&quot;
+    }
+  ],
+  &quot;details_truncated&quot;: false,
+  &quot;expected_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_001_expected.json&quot;,
+    &quot;sha256&quot;: &quot;9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140&quot;
+  },
+  &quot;actual_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_001_actual.json&quot;,
+    &quot;sha256&quot;: &quot;c70ec9db4cc282e7fdbec3ecb24f4ac3f5a5c83e9ccaec63fc4e318c71859880&quot;
+  }
+}</pre></details><details><summary>missing-output: ERROR</summary><pre>{
+  &quot;id&quot;: &quot;missing-output&quot;,
+  &quot;evidence&quot;: &quot;deliberate-negative-test&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;status&quot;: &quot;ERROR&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\small.json&quot;,
+    &quot;sha256&quot;: &quot;9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/small.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_002_input.json&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;identity&quot;,
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 3.6000019463244826e-06,
+  &quot;error&quot;: &quot;FileNotFoundError: [Errno 2] No such file or directory: &#x27;C:\\\\Users\\\\lenovo\\\\AppData\\\\Local\\\\Temp\\\\goldencheck_portable_bxxn1s2b\\\\standalone\\\\examples\\\\data\\\\not_present.json&#x27;&quot;
+}</pre></details>
+<h2>运行环境</h2><pre>{
+  &quot;tool_version&quot;: &quot;1.0.0&quot;,
+  &quot;python&quot;: &quot;3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]&quot;,
+  &quot;platform&quot;: &quot;Windows-11-10.0.22621-SP0&quot;,
+  &quot;executable&quot;: &quot;D:\\Python\\python3.14\\python3.14.7\\python.exe&quot;
+}</pre>
+<p>完整机器报告：report.json；汇总：summary.csv；导入指标：metrics.csv；输入副本及参考/实际输出：artifacts/。</p></html>

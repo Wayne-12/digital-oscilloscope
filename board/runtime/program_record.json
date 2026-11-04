@@ -1,0 +1,45 @@
+{
+  "programmed_at": "2026-11-01T22:53:53.908611+08:00",
+  "target": "1234-tulA",
+  "device": "xc7a35t_0",
+  "idcode": "0362d093",
+  "firmware_build": "0xAF311031",
+  "bit_sha256": "0b1367b5b6f3fb67ff642ffd496b6a27c66f9af27c41d21cda73d07bbada9f97",
+  "done": 1,
+  "volatile_jtag_only": false,
+  "flash_written": true,
+  "screen_visually_verified": true,
+  "knob_calibration": {
+    "sweep_degrees": 270,
+    "max_mv": 2212,
+    "min_mv": 108,
+    "steps": 360
+  },
+  "knob_always_visible": true,
+  "single_loopback_unit": "mV",
+  "harmonic_display": "percent_2_decimal_H2_to_H5_over_H1",
+  "footer_position": "bottom_right",
+  "selftest_result_backgrounds": {
+    "pending": "neutral",
+    "running": "neutral",
+    "pass": "green",
+    "fail": "red"
+  },
+  "fine_adjustment": "minimum_integer_unit_or_one_displayed_kHz_or_one_pixel_or_one_range_step",
+  "selftest_diagnosis": {
+    "precheck_module": true,
+    "placeholder_centered": true,
+    "snapshot": true,
+    "unexecuted_placeholder": true
+  },
+  "waveform_cycle": "right: DC -> triangle -> square -> sine -> DC; left: reverse",
+  "cursor_color": "light_blue_rgb444_9cf",
+  "display_acceptance": "User confirmed true power cycle, automatic startup and trigger type wrap in both directions",
+  "flash_programmed_at": "2026-11-01T22:53:53.908628+08:00",
+  "flash_record": "release/flash_record.json",
+  "flash_cold_boot_verified": true,
+  "current_configuration_source": "QSPI",
+  "cpu_software_revision": "trigger_cycle_20261101",
+  "trigger_type_cycle": "Both directions, nine types, center confirms",
+  "trigger_cycle_physical_keys_verified": true
+}

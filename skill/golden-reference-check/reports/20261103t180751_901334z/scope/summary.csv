@@ -1,0 +1,2 @@
+﻿id,status,evidence,compared,mismatches,max_abs_error,rmse,reference_seconds,observed_wall_seconds,error
+adc-nominal-voltage-all-16384-samples,PASS,recorded-hardware-export-offline-consistency,16384,0,8.881784197001252e-16,1.2643266404855218e-16,0.0020438999999896623,,

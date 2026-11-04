@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "name": "预期失败：错误检出示例",
+  "cases": [
+    {
+      "id": "numeric-mismatch",
+      "evidence": "deliberate-negative-test",
+      "input": {
+        "path": "data/small.json"
+      },
+      "reference": {
+        "model": "identity"
+      },
+      "observed": {
+        "path": "data/wrong.json"
+      }
+    },
+    {
+      "id": "length-mismatch",
+      "evidence": "deliberate-negative-test",
+      "input": {
+        "path": "data/small.json"
+      },
+      "reference": {
+        "model": "identity"
+      },
+      "observed": {
+        "path": "data/short.json"
+      }
+    },
+    {
+      "id": "missing-output",
+      "evidence": "deliberate-negative-test",
+      "input": {
+        "path": "data/small.json"
+      },
+      "reference": {
+        "model": "identity"
+      },
+      "observed": {
+        "path": "data/not_present.json"
+      }
+    }
+  ]
+}

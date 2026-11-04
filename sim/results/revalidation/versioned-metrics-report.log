@@ -1,0 +1,12 @@
+
+test_actual_timing_and_fractional_bram (test_summary_report.SummaryReportTests.test_actual_timing_and_fractional_bram) ... ok
+test_atomic_utf8_export (test_summary_report.SummaryReportTests.test_atomic_utf8_export) ... ok
+test_external_reference_metadata_and_display_are_distinct_from_nominal (test_summary_report.SummaryReportTests.test_external_reference_metadata_and_display_are_distinct_from_nominal) ... ok
+test_historical_pass_does_not_qualify_new_image (test_summary_report.SummaryReportTests.test_historical_pass_does_not_qualify_new_image) ... ok
+test_no_false_zero_for_missing_or_foreign_evidence (test_summary_report.SummaryReportTests.test_no_false_zero_for_missing_or_foreign_evidence) ... ok
+test_tampered_image_refused (test_summary_report.SummaryReportTests.test_tampered_image_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.180s
+
+OK

@@ -1,0 +1,40 @@
+LIVE_WAVE_PASS 0
+LIVE_WAVE_PASS 1
+LIVE_WAVE_PASS 2
+LIVE_WAVE_PASS 3
+{
+  "status": "PASS",
+  "source": "live COM12 921600",
+  "checks": {
+    "echo_400": {
+      "status": "PASS",
+      "seconds": 6.39100000000326
+    },
+    "four_wave_capture_measurement_fft_peak_envelope_roi_repeat": "PASS"
+  },
+  "limits": [
+    "same EGO1 only",
+    "relative digital checks only; no external absolute accuracy reference"
+  ],
+  "before": {
+    "build": "0xaf311031",
+    "config": "00400000002000000000040002000000000000000000000000000000000000000001a086010000000000330300000000",
+    "capture_config": "02000000a0252600",
+    "awg_status": "01000000000400000000ffff00000000",
+    "status": "0400010000400000002000000000000000000000000000000000000000000000010000000000000000000000b1010000"
+  },
+  "after": {
+    "build": "0xaf311031",
+    "config": "00400000002000000000040002000000000000000000000000000000000000000001a086010000000000330300000000",
+    "capture_config": "02000000a0252600",
+    "awg_status": "01000000000400000000ffff00000000",
+    "status": "060001000040000000200000000000000000000000000000000000000000000001000000000000000000000080030000"
+  },
+  "restored": true,
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  }
+}

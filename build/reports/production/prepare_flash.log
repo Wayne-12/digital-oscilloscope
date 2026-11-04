@@ -1,0 +1,83 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sun Nov  1 22:50:18 2026
+# Process ID         : 34596
+# Current directory  : L:/
+# Command line       : vivado.exe -mode batch -notrace -source prepare_flash.tcl -log output/prepare_flash.log -journal output/prepare_flash.jou
+# Log file           : L:/output/prepare_flash.log
+# Journal file       : L:/output/prepare_flash.jou
+# Running On         : LAPTOP-R5DN2NPP
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22621
+# Processor Detail   : Intel(R) Core(TM) i7-14700HX
+# CPU Frequency      : 2304 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 16944 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 25534 MB
+# Available Virtual  : 9904 MB
+#-----------------------------------------------------------
+source prepare_flash.tcl -notrace
+
+****** updatemem v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Sun Nov  1 22:50:23 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source D:/AMD/Xilinx/vivado_2025.2/2025.2/Vivado/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo L:/cpu_memory.mmi -data L:/output/panel.elf -proc uart/cpu/inst/microblaze_I -bit L:/flash_base.bit -out L:/release/display_final.bit -force
+Loading bitfile L:/flash_base.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream L:/release/display_final.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+INFO: [Common 17-206] Exiting updatemem at Sun Nov  1 22:50:28 2026...
+Command: write_cfgmem -force -format mcs -size 8 -interface SPIx1 -loadbit {up 0x00000000 L:/release/display_final.bit} -file L:/release/display_final.mcs
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile L:/release/display_final.bit
+Writing file L:/release/display_final.mcs
+Writing log file L:/release/display_final.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX1
+Size               8M
+Start Address      0x00000000
+End Address        0x007FFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Nov  1 22:50:28 2026    L:/release/display_final.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+Command: write_cfgmem -force -format bin -size 8 -interface SPIx1 -loadbit {up 0x00000000 L:/release/display_final.bit} -file L:/release/display_final.bin
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile L:/release/display_final.bit
+Writing file L:/release/display_final.bin
+Writing log file L:/release/display_final.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               8M
+Start Address      0x00000000
+End Address        0x007FFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Nov  1 22:50:28 2026    L:/release/display_final.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+PANEL_FLASH_PREPARE_PASS
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  1 22:50:30 2026...

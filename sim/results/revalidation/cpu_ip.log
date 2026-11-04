@@ -1,0 +1,53 @@
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Nov  4 02:41:06 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'NO'.
+INFO: [Common 17-748] XILINX_TCLAPP_REPO is set to 'D:/AMD/Xilinx/vivado_2025.2/2025.2/Vivado/data/XilinxTclStore'. Refresh XilinxTclStore catalog is disabled when XILINX_TCLAPP_REPO is set.
+source scripts/create_cpu_ip.tcl
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# set output [file join $root build cpu_ip]
+# file mkdir $output
+# create_project scope_cpu [file join $output project] -part xc7a35tcsg324-1 -force
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 557.469 ; gain = 218.707
+# set existing [file join $output scope_microblaze scope_microblaze.xci]
+# if {[file exists $existing]} {read_ip $existing} else {
+#  create_ip -name microblaze_mcs -vendor xilinx.com -library ip -module_name scope_microblaze -dir $output
+# }
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/AMD/Xilinx/vivado_2025.2/2025.2/Vivado/data/ip'.
+# set wanted [list CONFIG.FREQ {25} CONFIG.MEMSIZE {32768} CONFIG.USE_IO_BUS {1} CONFIG.DEBUG_ENABLED {0} CONFIG.USE_UART_RX {0} CONFIG.USE_UART_TX {0}]
+# set_property -dict $wanted [get_ips scope_microblaze]
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+INFO: [xilinx.com:ip:microblaze:11.0-9] /microblaze_I: Setting C_BASE_VECTORS to 0x00000000.
+# set receipt [open [file join $root reports cpu_ip_readback.txt] w]
+# foreach {key value} $wanted {
+#  set actual [get_property $key [get_ips scope_microblaze]]
+#  puts $receipt "$key requested=$value actual=$actual"
+#  if {$actual != $value} {error "CONFIG_READBACK_FAILED $key"}
+# }
+# close $receipt
+# generate_target all [get_ips scope_microblaze]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'scope_microblaze'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'scope_microblaze'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'scope_microblaze'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'scope_microblaze'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'scope_microblaze'...
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
+Exporting to file r:/build/cpu_ip/scope_microblaze/bd_0/hw_handoff/scope_microblaze.hwh
+Generated Hardware Definition File r:/build/cpu_ip/scope_microblaze/bd_0/synth/scope_microblaze.hwdef
+generate_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 671.980 ; gain = 7.422
+# write_ip_tcl -force [get_ips scope_microblaze] [file join $root build recreate_cpu_ip.tcl]
+# puts {CPU_IP_GENERATED_OFFLINE}
+CPU_IP_GENERATED_OFFLINE
+# close_project
+# exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  4 02:41:40 2026...

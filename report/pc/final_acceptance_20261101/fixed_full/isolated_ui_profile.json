@@ -1,0 +1,14 @@
+{
+  "format": "scope-ui-hardware-v1",
+  "trigger": {
+    "kind": 0,
+    "threshold": 0.023892,
+    "hysteresis": 0.028387,
+    "low": -0.5,
+    "high": 0.5,
+    "width_min": 1e-06,
+    "width_max": 1.9999999999999998e-05,
+    "amplitude": 1.0,
+    "observation": 1024
+  }
+}

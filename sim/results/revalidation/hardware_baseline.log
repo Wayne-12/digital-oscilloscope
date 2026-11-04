@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\示波器\软核\scripts\hardware_client.py", line 7, in <module>
+    import serial
+  File "D:\示波器\.venv-ui\Lib\site-packages\serial\__init__.py", line 29, in <module>
+    from serial.serialwin32 import Serial
+  File "D:\示波器\.venv-ui\Lib\site-packages\serial\serialwin32.py", line 15, in <module>
+    import ctypes
+  File "D:\Python\python3.14\python3.14.7\Lib\ctypes\__init__.py", line 10, in <module>
+    from _ctypes import Union, Structure, Array
+ImportError: DLL load failed while importing _ctypes: 出现了内部错误。

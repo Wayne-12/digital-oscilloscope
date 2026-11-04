@@ -1,0 +1,4 @@
+﻿name,value,unit,status,scope,source_sha256
+hardware_latency,,s,UNAVAILABLE,No evidence supplied,
+hardware_throughput,,samples/s,UNAVAILABLE,No evidence supplied,
+resource_utilization,,%,UNAVAILABLE,No evidence supplied,

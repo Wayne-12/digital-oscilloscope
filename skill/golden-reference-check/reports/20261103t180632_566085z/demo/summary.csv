@@ -1,0 +1,5 @@
+﻿id,status,evidence,compared,mismatches,max_abs_error,rmse,reference_seconds,observed_wall_seconds,error
+statistics-known-values,PASS,synthetic-hand-calculated,6,0,0.0,0.0,2.010000025620684e-05,,
+envelope-uneven-and-ties,PASS,synthetic-hand-calculated,21,0,0.0,0.0,1.759999940986745e-05,,
+fir-independent-process,PASS,synthetic-software-dut,11,0,0.0,0.0,2.1900003048358485e-05,0.08416050000232644,
+fft-vs-direct-dft,PASS,synthetic-software-dut,128,0,1.564276554096122e-14,2.4432038830428515e-15,0.0006371999988914467,0.08827770000061719,

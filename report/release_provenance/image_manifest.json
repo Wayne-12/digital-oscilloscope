@@ -1,0 +1,12 @@
+{
+  "firmware_build": "0xAF311031",
+  "sha256": {
+    "output/cpu_vga_runtime.bit": "0b1367b5b6f3fb67ff642ffd496b6a27c66f9af27c41d21cda73d07bbada9f97",
+    "output/panel.elf": "f8b0c7508edd8ade16f410476b272140ec48a81d3a7f2a20e3c2cd6494c98cd8",
+    "output/source_snapshot.json": "23912546a1cf4fe29a695bd5b84909cc8ed462a282cb29c13c5ad805bcb3fc32",
+    "release/display_final.bit": "e44612057d2b8461f55acc5a41d85ee740d07f16caccebadca7e2a2a53025169",
+    "release/display_final.bin": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+    "release/display_final.mcs": "a9bb8e60bea6a50825b24c74241e742846e7555f239cb0f00038f2aa7f301dcd"
+  },
+  "cleanup_note": "Source inventory pruned; all ELF/BIT/BIN/MCS hashes unchanged; no new hardware programming."
+}

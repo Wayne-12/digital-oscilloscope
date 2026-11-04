@@ -1,0 +1,22 @@
+{
+  "format": "scope-ui-hardware-v1",
+  "trigger": {
+    "kind": 0,
+    "threshold": 0.02029,
+    "hysteresis": 0.004884,
+    "low": -0.499389,
+    "high": 0.499389,
+    "width_min": 1e-06,
+    "width_max": 1.9999999999999998e-05,
+    "amplitude": 1.001221,
+    "observation": 1024
+  },
+  "dds": {
+    "wave": 3,
+    "frequency": 1000000.0,
+    "amplitude": 0.5,
+    "phase": 0.0,
+    "offset": 0,
+    "enable": false
+  }
+}

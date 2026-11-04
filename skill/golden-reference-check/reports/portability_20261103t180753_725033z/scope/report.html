@@ -1,0 +1,107 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>黄金参考验证报告</title><style>
+body{font:15px/1.6 system-ui,sans-serif;max-width:1400px;margin:36px auto;padding:0 24px;color:#182638;background:#f5f7fa}
+table{border-collapse:collapse;background:white;width:100%;font-size:13px}td,th{border:1px solid #d7dfe8;padding:8px;text-align:left;overflow-wrap:anywhere}
+.scroll{overflow:auto}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:white;padding:16px}details{margin:12px 0}.note{padding:16px;background:#e5edf8}
+</style><h1>示波器历史采集导出一致性（离线文件检查） · PASS</h1>
+<p>2026-11-03T18:07:55.190520+00:00 · {&#x27;PASS&#x27;: 1, &#x27;FAIL&#x27;: 0, &#x27;ERROR&#x27;: 0}</p>
+<p class="note">PASS 只说明配置的输入、参考模型及容差下结果一致。离线文件比对不等于本次上板验收。
+reference_seconds 为主机参考计算时间；observed_wall_seconds 含外部进程启动、文件 I/O 和运行时间，不能视为 FPGA 延迟。
+资源及性能指标缺失时显示 UNAVAILABLE；导入指标的来源与适用范围见下表和 JSON。</p>
+<div class="scroll"><table><thead><tr><th>id</th><th>status</th><th>evidence</th><th>compared</th><th>mismatches</th><th>max_abs_error</th><th>rmse</th><th>reference_seconds</th><th>observed_wall_seconds</th></tr></thead>
+<tbody><tr><td>adc-nominal-voltage-all-16384-samples</td><td>PASS</td><td>recorded-hardware-export-offline-consistency</td><td>16384</td><td>0</td><td>8.881784197001252e-16</td><td>1.2643266404855218e-16</td><td>0.0019728999977814965</td><td>None</td></tr></tbody></table></div><h2>性能 / 资源证据</h2>
+<div class="scroll"><table><thead><tr><th>name</th><th>value</th><th>unit</th><th>status</th><th>scope</th><th>source_sha256</th></tr></thead><tbody><tr><td>hardware_latency</td><td>None</td><td>s</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr><tr><td>hardware_throughput</td><td>None</td><td>samples/s</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr><tr><td>resource_utilization</td><td>None</td><td>%</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr></tbody></table></div>
+<h2>套件配置与附加证据</h2><pre>{
+  &quot;configuration&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\scope_suite.json&quot;,
+    &quot;sha256&quot;: &quot;31086d749dc24bb4e8d88bd2fbd8ab4a927551203e9916cc008e36efade29325&quot;
+  },
+  &quot;evidence_files&quot;: [
+    {
+      &quot;source&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\scope_capture_origin.json&quot;,
+      &quot;sha256&quot;: &quot;b8866921b8943af02dd3471ea850979b4155b15fad4e23d3ec20ad43b938e65d&quot;,
+      &quot;artifact&quot;: &quot;artifacts\\evidence_000.json&quot;
+    }
+  ],
+  &quot;evidence_error&quot;: null,
+  &quot;metrics&quot;: [
+    {
+      &quot;name&quot;: &quot;hardware_latency&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;s&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    },
+    {
+      &quot;name&quot;: &quot;hardware_throughput&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;samples/s&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    },
+    {
+      &quot;name&quot;: &quot;resource_utilization&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;%&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    }
+  ]
+}</pre>
+<h2>逐项详情与溯源</h2><details><summary>adc-nominal-voltage-all-16384-samples: PASS</summary><pre>{
+  &quot;id&quot;: &quot;adc-nominal-voltage-all-16384-samples&quot;,
+  &quot;evidence&quot;: &quot;recorded-hardware-export-offline-consistency&quot;,
+  &quot;description&quot;: &quot;从历史导出读取 raw_code_12bit，按 V=5-raw*10000/4095 计算黄金值，比对同一文件 nominal_voltage_v。仅检查导出换算一致性，不证明新的硬件测量精度，不比对已标定的 display_voltage_v。&quot;,
+  &quot;status&quot;: &quot;PASS&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\scope_capture.csv&quot;,
+    &quot;sha256&quot;: &quot;a29427ea8081714d010a6d3c091a5500ca530006a135b516d55429ffddbe44b0&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/scope_capture.csv&quot;,
+      &quot;format&quot;: &quot;csv&quot;,
+      &quot;column&quot;: &quot;raw_code_12bit&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_000_input.csv&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;affine&quot;,
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 0.0019728999977814965,
+  &quot;observed&quot;: {
+    &quot;path&quot;: &quot;C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_bxxn1s2b\\standalone\\examples\\data\\scope_capture.csv&quot;,
+    &quot;sha256&quot;: &quot;a29427ea8081714d010a6d3c091a5500ca530006a135b516d55429ffddbe44b0&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/scope_capture.csv&quot;,
+      &quot;format&quot;: &quot;csv&quot;,
+      &quot;column&quot;: &quot;nominal_voltage_v&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_000_observed.csv&quot;
+  },
+  &quot;observed_wall_seconds&quot;: null,
+  &quot;compared&quot;: 16384,
+  &quot;numeric_compared&quot;: 16384,
+  &quot;mismatches&quot;: 0,
+  &quot;max_abs_error&quot;: 8.881784197001252e-16,
+  &quot;max_relative_error_nonzero_reference&quot;: 7.06231190033403e-15,
+  &quot;rmse&quot;: 1.2643266404855218e-16,
+  &quot;details&quot;: [],
+  &quot;details_truncated&quot;: false,
+  &quot;expected_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_000_expected.json&quot;,
+    &quot;sha256&quot;: &quot;fb75f5db791207cd9b722fa55940733f16cc4b0b0cbd9f54e9a8ccf886ece63d&quot;
+  },
+  &quot;actual_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_000_actual.json&quot;,
+    &quot;sha256&quot;: &quot;24de8f387b60fbb182b6b2fcb7168daa3766d6d8fa19caea948d09aad33b7b3f&quot;
+  }
+}</pre></details>
+<h2>运行环境</h2><pre>{
+  &quot;tool_version&quot;: &quot;1.0.0&quot;,
+  &quot;python&quot;: &quot;3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]&quot;,
+  &quot;platform&quot;: &quot;Windows-11-10.0.22621-SP0&quot;,
+  &quot;executable&quot;: &quot;D:\\Python\\python3.14\\python3.14.7\\python.exe&quot;
+}</pre>
+<p>完整机器报告：report.json；汇总：summary.csv；导入指标：metrics.csv；输入副本及参考/实际输出：artifacts/。</p></html>

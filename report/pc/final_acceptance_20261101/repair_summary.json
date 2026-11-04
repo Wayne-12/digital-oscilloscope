@@ -1,0 +1,15 @@
+{
+  "diagnosis": "Display formatting starved CPU byte bridge beyond 4ms receive timeout",
+  "before_echo_failures": 13,
+  "before_echo_requests": 400,
+  "after_echo_failures": 0,
+  "after_echo_requests": 400,
+  "reconnect_sessions": 20,
+  "low_amplitude_peak": 819,
+  "low_amplitude_selftest_runs": 2,
+  "low_amplitude_frames": 70,
+  "active_bit_sha256": "b72886c8f81beaf89249b3c71cf05a523858e7bf377e5c83274fc3c08c71f374",
+  "flash_written": false,
+  "restored": true,
+  "startup_caveat": "After JTAG with SW7 ON first acquisition returned ERR_BUSY; local RUN followed by PC handoff recovered; separate startup condition remains recorded"
+}

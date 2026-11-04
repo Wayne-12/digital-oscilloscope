@@ -1,0 +1,682 @@
+{
+  "verdict": "PASS",
+  "run_id": "20261027_225049_174fb8fc",
+  "seeds": [
+    20261027
+  ],
+  "cases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "system_only": true,
+  "fault_injected_case": null,
+  "toolchain": "D:\\AMD\\Xilinx\\vivado_2025.2\\2025.2\\Vivado\\bin",
+  "build": "X:\\tmp\\fpga_ascii\\compiler_tmp\\scope_system_20261027_225049_174fb8fc",
+  "connected": [
+    {
+      "case": 0,
+      "config": {
+        "amplitude": 0,
+        "case": 0,
+        "frequency_hz": 0,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 0,
+        "trigger_threshold": 0,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 748,
+      "frame_length": 16384,
+      "live_gaps": 0,
+      "live_samples": 16944,
+      "measured_frequency_hz": 0,
+      "measurement_golden": [
+        16384,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 0,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 0,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    },
+    {
+      "case": 1,
+      "config": {
+        "amplitude": 6000,
+        "case": 1,
+        "frequency_hz": 10000,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 0,
+        "trigger_threshold": 0,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 2043,
+      "frame_length": 16384,
+      "live_gaps": 0,
+      "live_samples": 18239,
+      "measured_frequency_hz": 10000,
+      "measurement_golden": [
+        16384,
+        -1500,
+        1500,
+        49,
+        3000,
+        1061,
+        800704,
+        18446672162,
+        5,
+        163840000,
+        10000,
+        500000,
+        0,
+        1
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 0,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 3000,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    },
+    {
+      "case": 2,
+      "config": {
+        "amplitude": 2000,
+        "case": 2,
+        "frequency_hz": 100000,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 0,
+        "trigger_threshold": 0,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 541,
+      "frame_length": 16384,
+      "live_gaps": 0,
+      "live_samples": 17034,
+      "measured_frequency_hz": 100000,
+      "measurement_golden": [
+        16384,
+        -500,
+        500,
+        2,
+        1000,
+        354,
+        36447,
+        2048757999,
+        64,
+        16384000,
+        100000,
+        500000,
+        0,
+        1
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 0,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 1000,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    },
+    {
+      "case": 3,
+      "config": {
+        "amplitude": 6000,
+        "case": 3,
+        "frequency_hz": 100000,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 0,
+        "trigger_threshold": 0,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 541,
+      "frame_length": 16384,
+      "live_gaps": 0,
+      "live_samples": 17034,
+      "measured_frequency_hz": 100000,
+      "measurement_golden": [
+        16384,
+        -1500,
+        1500,
+        7,
+        3000,
+        1061,
+        109314,
+        18428862630,
+        64,
+        16384000,
+        100000,
+        500000,
+        0,
+        1
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 0,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 3000,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    },
+    {
+      "case": 4,
+      "config": {
+        "amplitude": 6000,
+        "case": 4,
+        "frequency_hz": 1000977,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 0,
+        "trigger_threshold": 0,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 507,
+      "frame_length": 16384,
+      "live_gaps": 0,
+      "live_samples": 17034,
+      "measured_frequency_hz": 1000978,
+      "measurement_golden": [
+        16384,
+        -1500,
+        1500,
+        0,
+        3000,
+        1061,
+        0,
+        18435692096,
+        655,
+        1636799,
+        1000978,
+        499969,
+        0,
+        1
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 0,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 3000,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    },
+    {
+      "case": 5,
+      "config": {
+        "amplitude": 6000,
+        "case": 5,
+        "frequency_hz": 100000,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 0,
+        "trigger_threshold": 1750,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 1309,
+      "frame_length": 16384,
+      "live_gaps": 0,
+      "live_samples": 17505,
+      "measured_frequency_hz": 101563,
+      "measurement_golden": [
+        16384,
+        -1950,
+        1950,
+        7,
+        3900,
+        1061,
+        107876,
+        18435431116,
+        65,
+        16131938,
+        101563,
+        499938,
+        0,
+        1
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 0,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 3900,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    },
+    {
+      "case": 6,
+      "config": {
+        "amplitude": 6000,
+        "case": 6,
+        "frequency_hz": 100000,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 8,
+        "trigger_threshold": 0,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 1308,
+      "frame_length": 16384,
+      "live_gaps": 0,
+      "live_samples": 17504,
+      "measured_frequency_hz": 100000,
+      "measurement_golden": [
+        16384,
+        -1500,
+        1500,
+        7,
+        3000,
+        1061,
+        109314,
+        18428862630,
+        64,
+        16384000,
+        100000,
+        500000,
+        0,
+        1
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 1,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 3000,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    },
+    {
+      "case": 7,
+      "config": {
+        "amplitude": 6000,
+        "case": 7,
+        "frequency_hz": 10000,
+        "pre_samples": 8192,
+        "record_length": 16384,
+        "sample_rate_hz": 25000000,
+        "seed": 20261027,
+        "trigger_kind": 0,
+        "trigger_threshold": 0,
+        "wave_count": 128,
+        "wave_offset": 8128
+      },
+      "first_error_time_ns": null,
+      "first_timestamp": 2043,
+      "frame_length": 16384,
+      "live_gaps": 1,
+      "live_samples": 18239,
+      "measured_frequency_hz": 10000,
+      "measurement_golden": [
+        16384,
+        -1500,
+        1500,
+        49,
+        3000,
+        1061,
+        800704,
+        18446672162,
+        5,
+        163840000,
+        10000,
+        500000,
+        0,
+        1
+      ],
+      "measurement_input_first_timestamp": 494,
+      "measurement_input_last_timestamp": 16877,
+      "measurement_input_samples": 16384,
+      "otr_samples": 0,
+      "output_bytes": 639,
+      "output_frames": 9,
+      "peak_to_peak": 3000,
+      "seed": 20261027,
+      "trigger_index": 8192,
+      "verdict": "PASS",
+      "wave_compared": 128
+    }
+  ],
+  "foundation": [],
+  "use_cases": [
+    {
+      "name": "safe_start",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        0
+      ],
+      "foundation_suites": [
+        "safe",
+        "smoke"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "mid_loopback",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        0
+      ],
+      "foundation_suites": [
+        "loopback"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "sine_10khz",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        1
+      ],
+      "foundation_suites": [
+        "capture",
+        "uart"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "sine_100khz",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        2,
+        3
+      ],
+      "foundation_suites": [
+        "measure"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "coherent_1mhz",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        4
+      ],
+      "foundation_suites": [
+        "spectrum"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "single_point_spike",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        5
+      ],
+      "foundation_suites": [
+        "multires",
+        "innovation"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "otr_injection",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        6
+      ],
+      "foundation_suites": [
+        "capture",
+        "uart"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "uart_fault",
+      "verdict": "NOT_RUN",
+      "connected_cases": [],
+      "foundation_suites": [
+        "uart"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    },
+    {
+      "name": "emergency_disable",
+      "verdict": "NOT_RUN",
+      "connected_cases": [
+        7
+      ],
+      "foundation_suites": [
+        "safe"
+      ],
+      "seeds": [
+        20261027
+      ],
+      "first_error_time_ns": null
+    }
+  ],
+  "unit_reports": [],
+  "phase_history": [
+    "system"
+  ],
+  "prerequisites_verified": false,
+  "active_layer": "system",
+  "environment": {
+    "TEMP": "X:/tmp/fpga_ascii/compiler_tmp",
+    "TMP": "X:/tmp/fpga_ascii/compiler_tmp",
+    "APPDATA": "X:/tmp/fpga_ascii/tool_appdata",
+    "SCOPE_SIM_ROOT": "X:/tmp/fpga_ascii",
+    "SCOPE_SIM_PROJECT_ROOT": "X:/",
+    "SCOPE_NATIVE_PROJECT_DIR": "X:/tmp/fpga_ascii/native_31488_c5340104/scope_smoke",
+    "XILINX_LOCAL_USER_DATA": "NO",
+    "XILINX_TCLAPP_REPO": "D:/AMD/Xilinx/vivado_2025.2/2025.2/Vivado/data/XilinxTclStore"
+  },
+  "first_error": null,
+  "source_sha256": {
+    "FPGA\\rtl\\adc_if\\adc_capture.sv": "64a55916a6558f4ca13e81a32fbf2a547c36a460a91bea8f67c2cd2c54833ba2",
+    "FPGA\\rtl\\capture\\bram_capture.sv": "5100905211ba34efac05973f04629fb547a7bcd79e33407a5eccb953ec197cab",
+    "FPGA\\rtl\\capture\\capture_bram.sv": "cf4913802d2dbafba9fce813a4ebfabe4bafb6a8da22d1630cf3ddfba343241b",
+    "FPGA\\rtl\\clock_reset\\scope_enable_sync.sv": "f5301427a80202291a2f287329ad78eb0d56bab8a0dceefed636fcc0429e3137",
+    "FPGA\\rtl\\clock_reset\\scope_reset_sync.sv": "15bbe411af25871d996f061ee079cac4387752127bd6d2bee1afc6d4e3fc3d92",
+    "FPGA\\rtl\\clock_reset\\scope_safe_ctrl.sv": "2407a13c95c403c4afc7af86bd3ffe7438899d7843c166a0d6a518e37e61657a",
+    "FPGA\\rtl\\common\\fft_window_pkg.sv": "45e90ae93db7075bc30b73f36f6f939240a322b4160aded665c63fb7b24935c9",
+    "FPGA\\rtl\\common\\innovation_pkg.sv": "3ec5bce3e352f9c44a84bd41054d4a3f727575e8bfb8dd80c5eec408a7594661",
+    "FPGA\\rtl\\common\\multires_pkg.sv": "e9d5c1c09b9adda43d0b21759c1afaf960c95ef888f78bfda71513cd64376b3f",
+    "FPGA\\rtl\\common\\protocol_pkg.sv": "125f460a55c67204fc58ef3fd399e8840b643af4177a36a1e0c7d1390c5dbda1",
+    "FPGA\\rtl\\common\\sample_stream_if.sv": "f3f296aff7839911ba04b9b6da696829ce8656c937024e09c4407dfeb0018a30",
+    "FPGA\\rtl\\common\\scope_async_fifo.sv": "9f0f88f97c2ce6847b33c11d589d378d53d7922e2feb51fd910fcbf3da44b2da",
+    "FPGA\\rtl\\common\\scope_dds_rate_adapter.sv": "7850d9a0544958a51e58b29dde682372d3a6374c0d306c162afa675da3381271",
+    "FPGA\\rtl\\common\\scope_pkg.sv": "aca9119daeb8eb0fec8d87b488ff8daa647df2597f35c0493797a9e658878757",
+    "FPGA\\rtl\\common\\spectrum_pkg.sv": "dcac5fd176c8f26e3e6cb2e2519c9c68a42b8ed172050bb0a76fdd0921ac54b1",
+    "FPGA\\rtl\\dac_dds\\dds_core.sv": "965a81693ce7826247819e54f8a4087843b73b9de60d2959779b8a368da7d709",
+    "FPGA\\rtl\\dac_dds\\dds_sine_lut.sv": "f1956a217a4ea64820d22148dc54e4bed1871aa8db2c31d43dce230d233cb724",
+    "FPGA\\rtl\\dac_dds\\scope_board_dds.sv": "de0a52f1c3e7c251ade4b150218d5504fb92e0fd47446f5665197154c6cc86ff",
+    "FPGA\\rtl\\innovation\\calibration_apply.sv": "2c8e571bcc7ffff3bc26400195e4360976e391e3ae3ef043b83b37ee9be87fad",
+    "FPGA\\rtl\\innovation\\capture_moments.sv": "86af350a8dde41e7c54264893f4530adf69225b3a8e33789623fa0498bad867f",
+    "FPGA\\rtl\\innovation\\capture_result_stream.sv": "32fc9bff0718c1dd1302f49b471da3d6829d107b1976caaaba243ee538c48f6f",
+    "FPGA\\rtl\\innovation\\capture_result_uart.sv": "3c09d3d2a222ff6dd603030e0d82c9cbca8ded4f30fe1aa9e50797b76bdd1053",
+    "FPGA\\rtl\\innovation\\health_compare.sv": "08633d37c446d7962b0f4053e29458993f1ae9fc48a32e7e4b3329e4fe67f7bc",
+    "FPGA\\rtl\\innovation\\relative_calibrator.sv": "d98e6f37ad0476f9f84ba83fd2e0c016a591cf8acc464c1f7e02d8bfc833ad64",
+    "FPGA\\rtl\\measure\\fft_hann_lut.sv": "a758ba594baa17ff2ffbe59780b07c646cc5e22056832a1fc9dc1344709395f6",
+    "FPGA\\rtl\\measure\\fft_ip_wrapper.sv": "49e23f566d824885519d9489d754afd56144f8aeff50430f89c71ee77f3794a8",
+    "FPGA\\rtl\\measure\\frame_saturation_counter.sv": "7981c82ee7c94561ac66079a0d27073f3509ec6f23d21a590017fd07e3c6753e",
+    "FPGA\\rtl\\measure\\frozen_frame_analysis.sv": "1322a411f700cc4cff2cf0e2990058bde6e26cf82a60bd374e7138be00ebb3fd",
+    "FPGA\\rtl\\measure\\measure_udiv.sv": "3c7bf11e3178513a59d045a3b8a140a0998a14cb40144c399860769e839985b8",
+    "FPGA\\rtl\\measure\\measurement_core.sv": "f1b47d88e2d261b8cf5bbdf7d28c103ce250b8843b2ababd41419b3b2ad1c30e",
+    "FPGA\\rtl\\measure\\spectrum_analyzer.sv": "b3b0beae34a1353b3d822657278c34c882c8b7e328f502674e6c9d1195526ddf",
+    "FPGA\\rtl\\measure\\spectrum_isqrt.sv": "42285224e6da580bb0039e691d0a5425d43eba75ae9511e3fc91e98d34d3a53a",
+    "FPGA\\rtl\\multires\\multires_envelope.sv": "1d02af358e9b9fcaf176df4619230b8ae575f6f7bd61a0457e7856911c4e0437",
+    "FPGA\\rtl\\top\\scope_board_top.sv": "03713d6479ec02f008d1423d10cd8950cdea12beab3edb72d941a813d458f2eb",
+    "FPGA\\rtl\\top\\scope_core.sv": "ac5d9704790ab453a2e691dd9c27bb27302bd2f73e15b216d3060e878bec48b1",
+    "FPGA\\rtl\\top\\scope_hw_top.sv": "933db859a10745d221147c830c5bca8ddb0ed14519f4ec97fb069f92996295e3",
+    "FPGA\\rtl\\top\\smoke_counter.sv": "ddc30b75558664ffd44f94614e6ff4b305c95afe654866c5005a413a0ef6e083",
+    "FPGA\\rtl\\trigger\\trigger_core.sv": "9df4f76bdf33ec1629f80131684c99ea1a057d9c052e86ba61956eb966a92c81",
+    "FPGA\\rtl\\trigger\\trigger_edge.sv": "ca7d901c6c1eb34bdcf91663dcd7c548734b7b131bc2ac94032ec72d8c108bbc",
+    "FPGA\\rtl\\uart_proto\\byte_fifo.sv": "41abb1c01a4541c868c418b45869f9d22aed159b5ed7635a81ced7624d9f8a55",
+    "FPGA\\rtl\\uart_proto\\frame_rx.sv": "2ddf359d9d7b0200831c60912659ee9985a4d3c2ff37acd3510344379d824e1b",
+    "FPGA\\rtl\\uart_proto\\frame_tx.sv": "fd63d70b8656a1d3dc913e5487008e8c47448607ba21240a35302e51ab0f6d18",
+    "FPGA\\rtl\\uart_proto\\protocol_commands.sv": "84b756c97db161721be303a8b7b0e93ff813e288c41e9dfe27f80a7698a221b1",
+    "FPGA\\rtl\\uart_proto\\protocol_envelope_tx.sv": "630ef2aa164b166504dbfad7e5492ba260f02fed7f8c8b0ca460eef1f4d662bd",
+    "FPGA\\rtl\\uart_proto\\protocol_wave_tx.sv": "4736c5aff04a407c709cba9706ee3043d3ac0626f1c13225596895f989a0218e",
+    "FPGA\\rtl\\uart_proto\\scope_protocol_core.sv": "5bc374cf0f98e7e97662d19fff784f22dc39f2b19cc906040a4ca8132bd0b29e",
+    "FPGA\\rtl\\uart_proto\\scope_uart_endpoint.sv": "50a0f5d4a90660ec34fe8121c482cfc8448308a7322de15cf94ec96bab79bcb7",
+    "FPGA\\rtl\\uart_proto\\uart_rx.sv": "d8f9e01a2b3cc4d4bf2e3ea0b0819a88240ce5accee77fa78c8d9693ae445437",
+    "FPGA\\rtl\\uart_proto\\uart_transport.sv": "025164b1b7ed2c7da7ca3022005b0f4c89599f3d509dd7d67ee68543422021da",
+    "FPGA\\rtl\\uart_proto\\uart_tx.sv": "1bb979f8f9997e7d75d5810e5223d8e8e96b9285535888939e0f7739d21a3c1e",
+    "FPGA\\sim\\models\\ad9226_model.sv": "4de2db03a1e00503af67cd7afacd3b93630f0165be88bb8eb4e755d1453a67d7",
+    "FPGA\\sim\\models\\ad9767_model.sv": "e331958f5823338a99ae3b120de6676226334957e077475bfc3b35912743849c",
+    "FPGA\\sim\\models\\ideal_clock.sv": "68b247c10a2d874db4bb6a4fa154aa0a7f31127e210e73fdb93aa5408fb769f9",
+    "FPGA\\sim\\models\\loopback_channel_model.sv": "f87478f285a958f0961264a01628ae45cbab64750c0c581e28c55e3763aa79df",
+    "FPGA\\sim\\models\\sample_record_readout_model.sv": "2656a9c246fa11df1c31721a86a1b70bf9e19205c9faf239f0c30c3f154d8bc0",
+    "FPGA\\sim\\models\\scope_pin_model.sv": "267136e8290a094a07299aa22f961b70e76b2a179802682487ed69bb8375ff7d",
+    "FPGA\\sim\\models\\scope_pkg_import_probe.sv": "224b6e5fa2bb60f280234e9b22f0e6ad02f87ae56993d9a7515f0f3d5f1c1a86",
+    "FPGA\\sim\\models\\system_capture_backend.sv": "7baec461ab85e09f9f6dc807b15ac3639748687b44f11342315b3ab326e8b315",
+    "FPGA\\sim\\tb\\ad9226_scenario.sv": "4459aa22dfc1866d3f58bc17927ab207b6e2cb0e12912673776aebdf1c01f92e",
+    "FPGA\\sim\\tb\\capture_scenario.sv": "c0eb4220acbcc31a70614f09df2a77fc17ffa7dd4fb28855bb68dce3969effb6",
+    "FPGA\\sim\\tb\\dds_safe_scenario.sv": "22e9ff08e8f5c7fe1daa1aec8d953bab0750bd8eaac3d8882eb0d9fd2cf6af4c",
+    "FPGA\\sim\\tb\\dds_scenario.sv": "1abe33ec26b7e17f29333e4edb137e13ab945306ebd97aba99407a08aaec898e",
+    "FPGA\\sim\\tb\\loopback_scenario.sv": "119868b5e7dc13dc51140faeec9f1b3299edc9ee805d8fb2da8b1bd29b748dc7",
+    "FPGA\\sim\\tb\\measure_capture_scenario.sv": "d1aabe45213c4c360d458c06e783c1c44fa1381b4a0e97dfd8bc2f4158b35e43",
+    "FPGA\\sim\\tb\\safe_scenario.sv": "00511884ece113c24889ddf14eac3041ebb2229e2fba91bed7883a27d5afc767",
+    "FPGA\\sim\\tb\\tb_ad9226.sv": "0d810dfecd79895f1b966fd053a91c562d65398e0ab55cea74352990d62cadc3",
+    "FPGA\\sim\\tb\\tb_ad9767_fault.sv": "69480dd1334dcf21e48b95ae26327fd2f99e7af730a436fedb61386b2f8aa1e5",
+    "FPGA\\sim\\tb\\tb_adc_capture.sv": "50106041781536e15be14bd62c33166955ac99672a45b946ce8db5ff175cfdd5",
+    "FPGA\\sim\\tb\\tb_awg.sv": "2e0f30a2d0442abc9ca564dbbcfa04aa03c61150bb4bbe732940780380d1843a",
+    "FPGA\\sim\\tb\\tb_capture.sv": "57b4c30cf1e1bbd70f849ac58db65cd00fa97b6bea60fd1089828889eee0ec69",
+    "FPGA\\sim\\tb\\tb_capture_bram.sv": "87628c1ad775e2ce67f821c8dc3ff96c2cf6a8ce78f35360eeb63e172c35788e",
+    "FPGA\\sim\\tb\\tb_dds.sv": "885f4a84b211f5ea6e2d1c7b6ea8cb878691fb6d2866a702a6f0f4f0713ab10b",
+    "FPGA\\sim\\tb\\tb_dds_dac.sv": "31d1a59d33ae230e0d9ee6b246a87dc781f395c97f5dccf17753dd161f0fdadd",
+    "FPGA\\sim\\tb\\tb_envelope.sv": "5fffbaf6bf41ad776bb8eedd2bf67025a061648ac701bb0603770193d04f305b",
+    "FPGA\\sim\\tb\\tb_fft.sv": "5d3dce5be8d3f2c3930cfef4b2d9bad463c3e66ae6706ec03479ef1241bc916a",
+    "FPGA\\sim\\tb\\tb_fft_wrapper.sv": "21389b606367e22c466704113fe0759345739e49f72b8a54c526578abd3d4fb2",
+    "FPGA\\sim\\tb\\tb_frame_saturation.sv": "d700d97128ca47a650985305d159cbfab8b46ee40c034fb2a125e88999515a53",
+    "FPGA\\sim\\tb\\tb_hw_safe.sv": "34990fd9b5b4678297136809cf5f7ee20cd8fd6bc86953db4f73441d15298271",
+    "FPGA\\sim\\tb\\tb_innovation_capture.sv": "5aa6d84da737129b8fac8a57c2ad9413e410217338a5adbe1f187b6b7f5dd700",
+    "FPGA\\sim\\tb\\tb_innovation_control.sv": "349e0d2bef9250200b4b40f54f7ef2187fe7c01f86d3924c90e03c3a33c0cff0",
+    "FPGA\\sim\\tb\\tb_innovation_health.sv": "3b7bbd9850d00fff69f665b7c287f7cab392b2b627a94ee62a5fc8ff84bf5af0",
+    "FPGA\\sim\\tb\\tb_innovation_units.sv": "ecb105b4fa3f5390846bc3ece4ad5da889382f943fb8911ac1a7e442347d949e",
+    "FPGA\\sim\\tb\\tb_loopback.sv": "11b96c3a72948e1ccbd65814c8be7ffd14e07128d6d3632f52b3594a43f1022f",
+    "FPGA\\sim\\tb\\tb_measure.sv": "76fd4c995f5a4f2445011799871cf3df1360f50b2d83cea64aee1ff93b51d42f",
+    "FPGA\\sim\\tb\\tb_measure_capture.sv": "00aff054a279b999467ddfdf0fe8fb37e0329f811b189d64edf11198c5f8d7d0",
+    "FPGA\\sim\\tb\\tb_multires.sv": "cd78553d8cea9bf16c0ef651c782923c7a11021d440e6a75d94466d761e40ce7",
+    "FPGA\\sim\\tb\\tb_multires_capture.sv": "0e62ed92d395db386fa7c5e11b2e8a11374c181903113a9ed33dfd177823c411",
+    "FPGA\\sim\\tb\\tb_multires_fault.sv": "68727b0592583387f733d4facd94bb579c3196606f10a9ac493450eaebcbbf55",
+    "FPGA\\sim\\tb\\tb_protocol.sv": "215723e9d54d538f57f1593133a3d9929f0a90c5fab8dde688d8d558c8c7e42d",
+    "FPGA\\sim\\tb\\tb_safe.sv": "b9533bb41393a1fbed121d45c052f11f0eb7f18aac0662aa651d206f3091b97c",
+    "FPGA\\sim\\tb\\tb_safe_seq.sv": "d9250cae1f82a5bf9bba47276244aa99d0984b93cc9f4297a4a04277b305922c",
+    "FPGA\\sim\\tb\\tb_scope_board.sv": "2bcc280e775e8bd7b6d8c8ee5f9b49c57bd7c637cf84f68840f16e13606e55ca",
+    "FPGA\\sim\\tb\\tb_scope_board_dds.sv": "32d67baef9e46857a2c4c7b3a5e4f1e38f1eb39c1828d9008ce56d6e8e1d8958",
+    "FPGA\\sim\\tb\\tb_scope_pkg.sv": "57ba9cbf90d42a95de9bc2c44f21f57fe5e123a5698ef7655bd071cc0a3cf9d7",
+    "FPGA\\sim\\tb\\tb_scope_system.sv": "a6370f6b9ee48fc5b86669ae0a34f0a93a98b8e6a36211049ec9e05e93ed4ca7",
+    "FPGA\\sim\\tb\\tb_smoke.sv": "fcf5b9da53debd6ae63b0307693c46bc290a8a8d2044deb219615030205ac177",
+    "FPGA\\sim\\tb\\tb_spectrum.sv": "7bb0d4c0ed333b80bc5f3881359ef41560b10f8f154a7f956f4b29c4ad51e993",
+    "FPGA\\sim\\tb\\tb_spectrum_capture.sv": "a73d1dcd2a16cd812f10e89f1f8b0db75ba8e04174e5e7cbd45d66d4af274618",
+    "FPGA\\sim\\tb\\tb_spectrum_control.sv": "f7e8d22af715e8632c0325def8eae7859e1c8c3ec153f5bb3915e097b7cc3e7f",
+    "FPGA\\sim\\tb\\tb_spectrum_isqrt.sv": "3d99fc27a527ba7cb1c6258a5fae2c3b7965bde6094f51f20602cf322c6e5404",
+    "FPGA\\sim\\tb\\tb_system_case.sv": "3b72ed7e505cdf7ef9efc17e11c4bc01ed2fae3937a4e6a1b0f311fcdf1239ca",
+    "FPGA\\sim\\tb\\tb_trigger.sv": "3f186d1197085b18c3c88caffc3fc4c2e5acd1dfd59cac4c58fcb468c3622464",
+    "FPGA\\sim\\tb\\tb_uart_bits.sv": "485b3f0556b7c231c28e8add039f64a05568d0eb02497af011ee281e3bc0ac0a",
+    "FPGA\\sim\\tb\\tb_uart_bytes.sv": "2b08ed4adb39baac4e47c97ac88f53ce46d309ac7ae95df523e29cd6b1c27a48",
+    "FPGA\\sim\\tb\\tb_uart_phy.sv": "6fca378f7effc571274feda6ec013197db0f48332142196b65d7070b5684f12e",
+    "FPGA\\sim\\tb\\trigger_scenario.sv": "2d79bc91671cc92f447f7e7cefcdf64779da648057b0608a5056f3ae9475ced1",
+    "FPGA\\sim\\tb\\uart_capture_backend.sv": "29ca99d2c6f945f0d59ec6cca8c433f1cf7b9cf3d802622ffac3555e2169f419",
+    "FPGA\\scripts\\run_system_regression.py": "19580dc9dd4c40d2c6681efa937c8c55d0bd823b57ea418baf0194e796ee4a37",
+    "FPGA\\scripts\\generate_system_case.py": "77ea48b926b8c232c07cba57a81969cb7d6ce0685672332c8b1acf412ff88e1c",
+    "FPGA\\scripts\\audit_system_case.py": "355e2a89f589a031f5ca97bf1d50206b36f66ba0e5bb06b9a14aa25520c7d754",
+    "FPGA\\scripts\\generate_measure_vectors.py": "23bc08cf273becf944b2544fcfde2e6bbd4d33e68db7e03e7a5524a2e3a37eae",
+    "FPGA\\scripts\\run_unit_regression.py": "98619bdc1e37b7faa14716b13bb08d1ec7425b42ba88a9e10d5333198457cf34",
+    "FPGA\\scripts\\simulation_environment.py": "859599f9a4039f9ee4e966da22b70c9a3c2483e7e654f675b5a590257f06cdb9",
+    "FPGA\\scripts\\generate_protocol_unit_vectors.py": "c202305c34f085fb777e56dbcb4579b313bb073465b1b955cc50a38473382374",
+    "PC\\protocol\\scope_protocol.py": "54beb2ec4ac4e89808d5efe50c2bf90fe916ba4d612eff3e7c9e454d4f5b76cf"
+  },
+  "temporary_build_removed": true
+}

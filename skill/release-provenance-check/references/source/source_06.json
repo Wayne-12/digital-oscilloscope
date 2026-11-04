@@ -1,0 +1,37 @@
+{
+  "firmware_build": "0xAF311031",
+  "cpu_software_revision": "trigger_cycle_20261101",
+  "recorded_at": "2026-11-01T22:53:53.881850+08:00",
+  "part": "n25q64-3.3v-spi-x1_x2_x4",
+  "jedec": "20ba17",
+  "capacity_bytes": 8388608,
+  "configuration": {
+    "mode": "SPIx1",
+    "startup_clock": "CCLK",
+    "configuration_rate_mhz": 3
+  },
+  "runtime_bit_sha256": "0b1367b5b6f3fb67ff642ffd496b6a27c66f9af27c41d21cda73d07bbada9f97",
+  "tested_jtag_bit_sha256": "7b121eb066e6d259e9eff80f38dec66eb9997c916726305ed3662f367c871941",
+  "runtime_configuration_payload_sha256": "80e7e48e6c3728e78cfbee1b0b3365913f3a0bfc8e882cf38538972c46b35a6e",
+  "elf_sha256": "f8b0c7508edd8ade16f410476b272140ec48a81d3a7f2a20e3c2cd6494c98cd8",
+  "flash_bit_sha256": "e44612057d2b8461f55acc5a41d85ee740d07f16caccebadca7e2a2a53025169",
+  "flash_bin_sha256": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+  "readback_sha256": "2b9413f0a9e210fab7bc238beb672f9a6481bb1259d1036ec51e8c7f5fb36f3b",
+  "backup_sha256": "106acdc1090f5d024d88a891b37616803a3ea7c7567297ff40a595a4a95c1819",
+  "image_bytes": 2192012,
+  "hardware_report": "VGA显示部分\\release\\hardware_20261101_225114",
+  "program_verify": "PASS",
+  "independent_readback": "PASS",
+  "boot_registers": {
+    "mode": "001",
+    "done": 1,
+    "eos": 1,
+    "crc_error": 0
+  },
+  "true_power_cycle_user_confirmed": true,
+  "cold_boot_registers": "PASS",
+  "trigger_cycle_physical_keys_verified": true,
+  "parent_hardware": "Same accepted routed RTL/XDC/fonts; CPU ELF only; timing/CDC closure reused",
+  "status": "PASS_PROGRAM_READBACK_AND_TRUE_COLD_BOOT",
+  "cold_boot_verified_at": "2026-11-01T22:56:39.605953+08:00"
+}

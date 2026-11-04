@@ -1,0 +1,133 @@
+{
+  "source": "hardware-uart",
+  "flash_written": false,
+  "pc_release": "2026.10.29-r1",
+  "before_config_hex": "004000000020000000000200040033ffcc0019000000f40100009a01000400000101a086010000000000000000000000",
+  "before_mode_hex": "00000000a0252600",
+  "before_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1072
+    ],
+    "pc_crc": 0
+  },
+  "single": {
+    "result": "TimeoutError",
+    "message": "等待触发超时；采集已停止",
+    "elapsed": 1.119765900002676
+  },
+  "auto_frames": [
+    {
+      "timestamp": 9560998702,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": false,
+        "duty_valid": false,
+        "error": false,
+        "count": 16384,
+        "minimum": 0,
+        "maximum": 6,
+        "mean": 2,
+        "vpp": 6,
+        "rms": 3,
+        "sum": 39411,
+        "square_sum": 105903,
+        "period_q16": 0,
+        "frequency": 0,
+        "duty_ppm": 0,
+        "periods": 0
+      },
+      "min_volts": 0.0012210012210012167,
+      "max_volts": 0.015873015873015817
+    },
+    {
+      "timestamp": 9576247035,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": false,
+        "duty_valid": false,
+        "error": false,
+        "count": 16384,
+        "minimum": -1,
+        "maximum": 6,
+        "mean": 2,
+        "vpp": 7,
+        "rms": 2,
+        "sum": 37927,
+        "square_sum": 98905,
+        "period_q16": 0,
+        "frequency": 0,
+        "duty_ppm": 0,
+        "periods": 0
+      },
+      "min_volts": -0.0012210012210012167,
+      "max_volts": 0.015873015873015817
+    },
+    {
+      "timestamp": 9591446020,
+      "samples": 16384,
+      "measurement": {
+        "stats_valid": true,
+        "period_valid": false,
+        "duty_valid": false,
+        "error": false,
+        "count": 16384,
+        "minimum": 0,
+        "maximum": 5,
+        "mean": 2,
+        "vpp": 5,
+        "rms": 2,
+        "sum": 38111,
+        "square_sum": 99637,
+        "period_q16": 0,
+        "frequency": 0,
+        "duty_ppm": 0,
+        "periods": 0
+      },
+      "min_volts": 0.0012210012210012167,
+      "max_volts": 0.013431013431013383
+    }
+  ],
+  "after_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1107
+    ],
+    "pc_crc": 0
+  },
+  "parser_errors": {
+    "crc": 0,
+    "length": 0,
+    "version": 0,
+    "timeout": 0
+  },
+  "result": "PASS",
+  "after_config_hex": "004000000020000000000200040033ffcc0019000000f40100009a01000400000101a086010000000000000000000000",
+  "configuration_unchanged": true
+}

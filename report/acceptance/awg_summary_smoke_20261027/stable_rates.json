@@ -1,0 +1,9 @@
+{
+  "source_report": "D:\\示波器\\PC\\acceptance_runs\\awg_summary_smoke_20261027\\report.json",
+  "qualified_bauds": [],
+  "device_id": "EGO1-FTDI-1234-COM12",
+  "firmware_sha256": "ddb4aca5667e40ea71628f1fa2ba850ad297a4c20d0bd7dfceb8c34d2acda7d9",
+  "build": "0xa4261027",
+  "conditions": "CSV export validation only; same OUTA-IN; 25MSPS sine100kHz DDS819; short run, no formal qualification",
+  "scope": "Only this device, firmware artifact and recorded setup."
+}

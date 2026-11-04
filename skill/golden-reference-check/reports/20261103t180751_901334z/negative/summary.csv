@@ -1,0 +1,4 @@
+﻿id,status,evidence,compared,mismatches,max_abs_error,rmse,reference_seconds,observed_wall_seconds,error
+numeric-mismatch,FAIL,deliberate-negative-test,4,1,1,0.5,4.300000000512227e-06,,
+length-mismatch,FAIL,deliberate-negative-test,4,1,0.0,0.0,6.599999323952943e-06,,
+missing-output,ERROR,deliberate-negative-test,,,,,5.599998985417187e-06,,FileNotFoundError: [Errno 2] No such file or directory: 'D:\\示波器\\skills\\golden-reference-check\\examples\\data\\not_present.json'

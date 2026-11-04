@@ -1,0 +1,186 @@
+{
+  "started": 1793519390.7646027,
+  "events": [
+    {
+      "seconds": 0.13799500000004628,
+      "event": "LOCAL_CONTROL",
+      "frames": 1,
+      "dds_hz": 100000.0,
+      "threshold_v": 0.0,
+      "mode": 0
+    },
+    {
+      "seconds": 15.052581299999474,
+      "event": "PC_CONNECTED",
+      "frames": 1,
+      "dds_hz": 1000000.0,
+      "threshold_v": 0.001221,
+      "mode": 0
+    },
+    {
+      "seconds": 53.33767639999951,
+      "event": "LOCAL_CONTROL",
+      "frames": 58,
+      "dds_hz": 1000000.0,
+      "threshold_v": 0.019089,
+      "mode": 0
+    },
+    {
+      "seconds": 108.94066819999989,
+      "event": "PC_CONNECTED",
+      "frames": 58,
+      "dds_hz": 1000000.0,
+      "threshold_v": 0.001221,
+      "mode": 0
+    },
+    {
+      "seconds": 158.29413179999938,
+      "event": "LOCAL_CONTROL",
+      "frames": 136,
+      "dds_hz": 1000000.0,
+      "threshold_v": 0.001221,
+      "mode": 0
+    }
+  ],
+  "snapshots": [
+    {
+      "seconds": 20.999677099999644,
+      "frames": 10,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 26.99931419999939,
+      "frames": 20,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 32.99795489999997,
+      "frames": 30,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 38.99736499999926,
+      "frames": 40,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 45.99989789999927,
+      "frames": 50,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 110.49847669999963,
+      "frames": 60,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 116.49979519999943,
+      "frames": 70,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 122.49822700000004,
+      "frames": 80,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 128.49871629999961,
+      "frames": 90,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 134.49828499999967,
+      "frames": 100,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 140.4986734999993,
+      "frames": 110,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 146.49733039999956,
+      "frames": 120,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    },
+    {
+      "seconds": 152.5010485999992,
+      "frames": 130,
+      "parser_errors": {
+        "crc": 0,
+        "length": 0,
+        "version": 0,
+        "timeout": 0
+      }
+    }
+  ],
+  "current": {
+    "connected": false,
+    "local_control": true,
+    "running": false,
+    "frames": 136,
+    "state": "LOCAL · 显示屏控制中",
+    "footer": "快照 136  |  PC CRC 0  |  FPGA CRC 0  |  超时 0  |  RX 溢出 0  |  后端错误 0",
+    "logs": "15:49:50  演示模式已就绪；当前波形和校准数据均为软件生成。\n15:49:50  已切换到硬件串口\n15:49:50  已交给显示屏控制；SW7 ON 后自动重连并读取当前板端参数。\n15:50:05  设备支持板端包络与原始 ROI。\n15:50:05  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\n15:50:05  串口连接成功 · 921600 bit/s · 固件 0xAF311031 · 能力 63\n15:50:05  已读取板端参数；电脑与显示屏切换不自动覆盖触发或输出设置。\n15:50:05  已自动应用固定外部参考直流校正。\n15:50:27  请等待当前接收或配置确认完成后再启动采集。\n15:50:36  采集已停止\n15:50:37  Autoscale 已选择 · 200 ns/div · 200 mV/div · 触发 0.019 V · 迟滞 0.043 V；可撤销。\n15:50:37  配置已确认 · 命令 0x11\n15:50:44  已交给显示屏控制；SW7 ON 后自动重连并读取当前板端参数。\n15:51:39  设备支持板端包络与原始 ROI。\n15:51:39  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\n15:51:39  串口连接成功 · 921600 bit/s · 固件 0xAF311031 · 能力 63\n15:51:39  已读取板端参数；电脑与显示屏切换不自动覆盖触发或输出设置。\n15:51:39  已自动应用固定外部参考直流校正。\n15:52:29  已交给显示屏控制；SW7 ON 后自动重连并读取当前板端参数。"
+  }
+}

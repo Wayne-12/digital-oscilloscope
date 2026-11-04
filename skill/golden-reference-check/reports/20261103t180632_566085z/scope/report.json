@@ -1,0 +1,102 @@
+{
+  "format": "goldencheck-report-v1",
+  "suite": "示波器历史采集导出一致性（离线文件检查）",
+  "generated_at_utc": "2026-11-03T18:06:34.367471+00:00",
+  "configuration": {
+    "path": "D:\\示波器\\skills\\golden-reference-check\\examples\\scope_suite.json",
+    "sha256": "31086d749dc24bb4e8d88bd2fbd8ab4a927551203e9916cc008e36efade29325"
+  },
+  "environment": {
+    "tool_version": "1.0.0",
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "executable": "D:\\Python\\python3.14\\python3.14.7\\python.exe"
+  },
+  "cases": [
+    {
+      "id": "adc-nominal-voltage-all-16384-samples",
+      "evidence": "recorded-hardware-export-offline-consistency",
+      "description": "从历史导出读取 raw_code_12bit，按 V=5-raw*10000/4095 计算黄金值，比对同一文件 nominal_voltage_v。仅检查导出换算一致性，不证明新的硬件测量精度，不比对已标定的 display_voltage_v。",
+      "status": "PASS",
+      "input": {
+        "path": "D:\\示波器\\skills\\golden-reference-check\\examples\\data\\scope_capture.csv",
+        "sha256": "a29427ea8081714d010a6d3c091a5500ca530006a135b516d55429ffddbe44b0",
+        "selector": {
+          "path": "data/scope_capture.csv",
+          "format": "csv",
+          "column": "raw_code_12bit"
+        },
+        "artifact": "artifacts\\case_000_input.csv"
+      },
+      "reference": {
+        "callable": "affine",
+        "path": "D:\\示波器\\skills\\golden-reference-check\\goldencheck\\models.py",
+        "sha256": "50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d"
+      },
+      "reference_seconds": 0.002127199997630669,
+      "observed": {
+        "path": "D:\\示波器\\skills\\golden-reference-check\\examples\\data\\scope_capture.csv",
+        "sha256": "a29427ea8081714d010a6d3c091a5500ca530006a135b516d55429ffddbe44b0",
+        "selector": {
+          "path": "data/scope_capture.csv",
+          "format": "csv",
+          "column": "nominal_voltage_v"
+        },
+        "artifact": "artifacts\\case_000_observed.csv"
+      },
+      "observed_wall_seconds": null,
+      "compared": 16384,
+      "numeric_compared": 16384,
+      "mismatches": 0,
+      "max_abs_error": 8.881784197001252e-16,
+      "max_relative_error_nonzero_reference": 7.06231190033403e-15,
+      "rmse": 1.2643266404855218e-16,
+      "details": [],
+      "details_truncated": false,
+      "expected_artifact": {
+        "path": "artifacts\\case_000_expected.json",
+        "sha256": "fb75f5db791207cd9b722fa55940733f16cc4b0b0cbd9f54e9a8ccf886ece63d"
+      },
+      "actual_artifact": {
+        "path": "artifacts\\case_000_actual.json",
+        "sha256": "24de8f387b60fbb182b6b2fcb7168daa3766d6d8fa19caea948d09aad33b7b3f"
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "name": "hardware_latency",
+      "value": null,
+      "unit": "s",
+      "status": "UNAVAILABLE",
+      "scope": "No evidence supplied"
+    },
+    {
+      "name": "hardware_throughput",
+      "value": null,
+      "unit": "samples/s",
+      "status": "UNAVAILABLE",
+      "scope": "No evidence supplied"
+    },
+    {
+      "name": "resource_utilization",
+      "value": null,
+      "unit": "%",
+      "status": "UNAVAILABLE",
+      "scope": "No evidence supplied"
+    }
+  ],
+  "evidence_files": [
+    {
+      "source": "D:\\示波器\\skills\\golden-reference-check\\examples\\data\\scope_capture_origin.json",
+      "sha256": "b8866921b8943af02dd3471ea850979b4155b15fad4e23d3ec20ad43b938e65d",
+      "artifact": "artifacts\\evidence_000.json"
+    }
+  ],
+  "status": "PASS",
+  "summary": {
+    "PASS": 1,
+    "FAIL": 0,
+    "ERROR": 0
+  }
+}

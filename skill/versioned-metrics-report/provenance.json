@@ -1,0 +1,26 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "PC/protocol/summary_report.py",
+      "snapshot": "references/source/source_01.py",
+      "sha256": "39a1f8c470ed4e361f2fe7978c9ae863238cc7386ffb412517a423201f1a1e24"
+    },
+    {
+      "original_path": "PC/tests/test_summary_report.py",
+      "snapshot": "references/source/source_02.py",
+      "sha256": "d9e99242abe5a38ce10f103746c2e36a2980ebe69c4f7691549057b4074db362"
+    },
+    {
+      "original_path": "docs/verification/summary_csv_implementation_20261027.md",
+      "snapshot": "references/source/source_03.md",
+      "sha256": "05ff3c22ac9cf756606c0166627236f0d8fa1a04b3baf2d9fdffe9e393b30980"
+    },
+    {
+      "original_path": "FPGA/reports/summary_hardware/20261027_final/report.json",
+      "snapshot": "references/source/source_04.json",
+      "sha256": "18134bced2a4704f18fdd9ebf59b4b39ca4ee0f2a70dce7ae07978800f19fedc"
+    }
+  ]
+}

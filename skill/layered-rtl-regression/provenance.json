@@ -1,0 +1,26 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "FPGA/scripts/run_system_regression.py",
+      "snapshot": "references/source/source_01.py",
+      "sha256": "19580dc9dd4c40d2c6681efa937c8c55d0bd823b57ea418baf0194e796ee4a37"
+    },
+    {
+      "original_path": "FPGA/scripts/run_unit_regression.py",
+      "snapshot": "references/source/source_02.py",
+      "sha256": "98619bdc1e37b7faa14716b13bb08d1ec7425b42ba88a9e10d5333198457cf34"
+    },
+    {
+      "original_path": "PC/tests/test_regression_layers.py",
+      "snapshot": "references/source/source_03.py",
+      "sha256": "aebb58784b2bb7e9747abfb7992ad5eaef94caa3ce96450ba90c42f68e300be9"
+    },
+    {
+      "original_path": "FPGA/reports/system/20261027_223504_45686965/manifest.json",
+      "snapshot": "references/source/source_04.json",
+      "sha256": "992fafe1beffc81edd9dca2ab65e36e03536de211624d652ab9a3e87e51bf3e0"
+    }
+  ]
+}

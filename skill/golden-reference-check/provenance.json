@@ -1,0 +1,26 @@
+{
+  "source_workspace": "D:/示波器",
+  "packaged_date": "2026-11-04",
+  "files": [
+    {
+      "original_path": "提炼/README.md",
+      "snapshot": "references/source/source_01.md",
+      "sha256": "f001637f2409dcca2e906803ddfc5fb581e9065986b8a6d9e1d9850485fa9e18"
+    },
+    {
+      "original_path": "提炼/验收结果.md",
+      "snapshot": "references/source/source_02.md",
+      "sha256": "e17654d98590dd097a628466c9f57ef7d17791c11c0246a60f04e199913e0b36"
+    },
+    {
+      "original_path": "提炼/docs/提炼说明.md",
+      "snapshot": "references/source/source_03.md",
+      "sha256": "99f3d432a87599f5cc144bed8110265aa5f8caeeca28720426b34de4e97da97b"
+    },
+    {
+      "original_path": "提炼/docs/接入与接口说明.md",
+      "snapshot": "references/source/source_04.md",
+      "sha256": "b8d091f7782adb9d9f2ffa11a2935f09333273ebc942f4d37cf29289b0b82685"
+    }
+  ]
+}

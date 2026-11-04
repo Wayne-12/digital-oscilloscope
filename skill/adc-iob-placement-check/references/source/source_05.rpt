@@ -1,0 +1,888 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Oct 27 12:51:46 2026
+| Host         : LAPTOP-R5DN2NPP running 64-bit major release  (build 9200)
+| Command      : report_timing -from [get_ports {{adc_data[*]} adc_otr}] -to [get_cells -hier -filter {NAME =~ input_capture/raw_iob_reg* || NAME =~ input_capture/otr_iob_reg*}] -delay_type max -max_paths 20 -file R:/adc_iob_20261027_124818/artifacts/adc_input_setup.rpt
+| Design       : scope_board_top
+| Device       : 7a35t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             25.545ns  (required time - arrival time)
+  Source:                 adc_data[4]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[4]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.525ns  (logic 1.525ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.824ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.458ns = ( 38.542 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    A13                                               0.000    11.850 r  adc_data[4] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[4]
+    A13                  IBUF (Prop_ibuf_I_O)         1.525    13.375 r  adc_data_IBUF[4]_inst/O
+                         net (fo=1, routed)           0.000    13.375    input_capture/D[4]
+    ILOGIC_X0Y82         FDSE                                         r  input_capture/raw_iob_reg[4]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.516    38.542    input_capture/clk_sample
+    ILOGIC_X0Y82         FDSE                                         r  input_capture/raw_iob_reg[4]/C
+                         clock pessimism              0.483    39.025    
+                         clock uncertainty           -0.094    38.931    
+    ILOGIC_X0Y82         FDSE (Setup_fdse_C_D)       -0.011    38.920    input_capture/raw_iob_reg[4]
+  -------------------------------------------------------------------
+                         required time                         38.920    
+                         arrival time                         -13.375    
+  -------------------------------------------------------------------
+                         slack                                 25.545    
+
+Slack (MET) :             25.545ns  (required time - arrival time)
+  Source:                 adc_data[3]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[3]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.527ns  (logic 1.527ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.822ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.456ns = ( 38.544 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    A16                                               0.000    11.850 r  adc_data[3] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[3]
+    A16                  IBUF (Prop_ibuf_I_O)         1.527    13.377 r  adc_data_IBUF[3]_inst/O
+                         net (fo=1, routed)           0.000    13.377    input_capture/D[3]
+    ILOGIC_X0Y83         FDSE                                         r  input_capture/raw_iob_reg[3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.518    38.544    input_capture/clk_sample
+    ILOGIC_X0Y83         FDSE                                         r  input_capture/raw_iob_reg[3]/C
+                         clock pessimism              0.483    39.027    
+                         clock uncertainty           -0.094    38.933    
+    ILOGIC_X0Y83         FDSE (Setup_fdse_C_D)       -0.011    38.922    input_capture/raw_iob_reg[3]
+  -------------------------------------------------------------------
+                         required time                         38.922    
+                         arrival time                         -13.377    
+  -------------------------------------------------------------------
+                         slack                                 25.545    
+
+Slack (MET) :             25.548ns  (required time - arrival time)
+  Source:                 adc_data[5]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[5]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.522ns  (logic 1.522ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.824ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.458ns = ( 38.542 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    A14                                               0.000    11.850 r  adc_data[5] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[5]
+    A14                  IBUF (Prop_ibuf_I_O)         1.522    13.372 r  adc_data_IBUF[5]_inst/O
+                         net (fo=1, routed)           0.000    13.372    input_capture/D[5]
+    ILOGIC_X0Y81         FDSE                                         r  input_capture/raw_iob_reg[5]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.516    38.542    input_capture/clk_sample
+    ILOGIC_X0Y81         FDSE                                         r  input_capture/raw_iob_reg[5]/C
+                         clock pessimism              0.483    39.025    
+                         clock uncertainty           -0.094    38.931    
+    ILOGIC_X0Y81         FDSE (Setup_fdse_C_D)       -0.011    38.920    input_capture/raw_iob_reg[5]
+  -------------------------------------------------------------------
+                         required time                         38.920    
+                         arrival time                         -13.372    
+  -------------------------------------------------------------------
+                         slack                                 25.548    
+
+Slack (MET) :             25.553ns  (required time - arrival time)
+  Source:                 adc_data[7]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[7]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.514ns  (logic 1.514ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.828ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.462ns = ( 38.538 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    A18                                               0.000    11.850 r  adc_data[7] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[7]
+    A18                  IBUF (Prop_ibuf_I_O)         1.514    13.363 r  adc_data_IBUF[7]_inst/O
+                         net (fo=1, routed)           0.000    13.363    input_capture/D[7]
+    ILOGIC_X0Y79         FDSE                                         r  input_capture/raw_iob_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.512    38.538    input_capture/clk_sample
+    ILOGIC_X0Y79         FDSE                                         r  input_capture/raw_iob_reg[7]/C
+                         clock pessimism              0.483    39.021    
+                         clock uncertainty           -0.094    38.927    
+    ILOGIC_X0Y79         FDSE (Setup_fdse_C_D)       -0.011    38.916    input_capture/raw_iob_reg[7]
+  -------------------------------------------------------------------
+                         required time                         38.916    
+                         arrival time                         -13.363    
+  -------------------------------------------------------------------
+                         slack                                 25.553    
+
+Slack (MET) :             25.555ns  (required time - arrival time)
+  Source:                 adc_data[2]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[2]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.518ns  (logic 1.518ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.822ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.456ns = ( 38.544 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    A15                                               0.000    11.850 r  adc_data[2] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[2]
+    A15                  IBUF (Prop_ibuf_I_O)         1.518    13.367 r  adc_data_IBUF[2]_inst/O
+                         net (fo=1, routed)           0.000    13.367    input_capture/D[2]
+    ILOGIC_X0Y84         FDSE                                         r  input_capture/raw_iob_reg[2]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.518    38.544    input_capture/clk_sample
+    ILOGIC_X0Y84         FDSE                                         r  input_capture/raw_iob_reg[2]/C
+                         clock pessimism              0.483    39.027    
+                         clock uncertainty           -0.094    38.933    
+    ILOGIC_X0Y84         FDSE (Setup_fdse_C_D)       -0.011    38.922    input_capture/raw_iob_reg[2]
+  -------------------------------------------------------------------
+                         required time                         38.922    
+                         arrival time                         -13.367    
+  -------------------------------------------------------------------
+                         slack                                 25.555    
+
+Slack (MET) :             25.556ns  (required time - arrival time)
+  Source:                 adc_data[6]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[6]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.510ns  (logic 1.510ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.828ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.462ns = ( 38.538 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    B18                                               0.000    11.850 r  adc_data[6] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[6]
+    B18                  IBUF (Prop_ibuf_I_O)         1.510    13.359 r  adc_data_IBUF[6]_inst/O
+                         net (fo=1, routed)           0.000    13.359    input_capture/D[6]
+    ILOGIC_X0Y80         FDSE                                         r  input_capture/raw_iob_reg[6]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.512    38.538    input_capture/clk_sample
+    ILOGIC_X0Y80         FDSE                                         r  input_capture/raw_iob_reg[6]/C
+                         clock pessimism              0.483    39.021    
+                         clock uncertainty           -0.094    38.927    
+    ILOGIC_X0Y80         FDSE (Setup_fdse_C_D)       -0.011    38.916    input_capture/raw_iob_reg[6]
+  -------------------------------------------------------------------
+                         required time                         38.916    
+                         arrival time                         -13.359    
+  -------------------------------------------------------------------
+                         slack                                 25.556    
+
+Slack (MET) :             25.564ns  (required time - arrival time)
+  Source:                 adc_data[1]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[1]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.509ns  (logic 1.509ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.821ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.455ns = ( 38.545 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    B17                                               0.000    11.850 r  adc_data[1] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[1]
+    B17                  IBUF (Prop_ibuf_I_O)         1.509    13.358 r  adc_data_IBUF[1]_inst/O
+                         net (fo=1, routed)           0.000    13.358    input_capture/D[1]
+    ILOGIC_X0Y85         FDSE                                         r  input_capture/raw_iob_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.519    38.545    input_capture/clk_sample
+    ILOGIC_X0Y85         FDSE                                         r  input_capture/raw_iob_reg[1]/C
+                         clock pessimism              0.483    39.028    
+                         clock uncertainty           -0.094    38.934    
+    ILOGIC_X0Y85         FDSE (Setup_fdse_C_D)       -0.011    38.923    input_capture/raw_iob_reg[1]
+  -------------------------------------------------------------------
+                         required time                         38.923    
+                         arrival time                         -13.358    
+  -------------------------------------------------------------------
+                         slack                                 25.564    
+
+Slack (MET) :             25.564ns  (required time - arrival time)
+  Source:                 adc_data[0]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[0]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.509ns  (logic 1.509ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.821ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.455ns = ( 38.545 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    B16                                               0.000    11.850 r  adc_data[0] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[0]
+    B16                  IBUF (Prop_ibuf_I_O)         1.509    13.358 r  adc_data_IBUF[0]_inst/O
+                         net (fo=1, routed)           0.000    13.358    input_capture/D[0]
+    ILOGIC_X0Y86         FDSE                                         r  input_capture/raw_iob_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.519    38.545    input_capture/clk_sample
+    ILOGIC_X0Y86         FDSE                                         r  input_capture/raw_iob_reg[0]/C
+                         clock pessimism              0.483    39.028    
+                         clock uncertainty           -0.094    38.934    
+    ILOGIC_X0Y86         FDSE (Setup_fdse_C_D)       -0.011    38.923    input_capture/raw_iob_reg[0]
+  -------------------------------------------------------------------
+                         required time                         38.923    
+                         arrival time                         -13.358    
+  -------------------------------------------------------------------
+                         slack                                 25.564    
+
+Slack (MET) :             25.566ns  (required time - arrival time)
+  Source:                 adc_data[10]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[10]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.511ns  (logic 1.511ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.817ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.451ns = ( 38.549 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    B13                                               0.000    11.850 r  adc_data[10] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[10]
+    B13                  IBUF (Prop_ibuf_I_O)         1.511    13.361 r  adc_data_IBUF[10]_inst/O
+                         net (fo=1, routed)           0.000    13.361    input_capture/D[10]
+    ILOGIC_X0Y96         FDSE                                         r  input_capture/raw_iob_reg[10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.523    38.549    input_capture/clk_sample
+    ILOGIC_X0Y96         FDSE                                         r  input_capture/raw_iob_reg[10]/C
+                         clock pessimism              0.483    39.032    
+                         clock uncertainty           -0.094    38.938    
+    ILOGIC_X0Y96         FDSE (Setup_fdse_C_D)       -0.011    38.927    input_capture/raw_iob_reg[10]
+  -------------------------------------------------------------------
+                         required time                         38.927    
+                         arrival time                         -13.361    
+  -------------------------------------------------------------------
+                         slack                                 25.566    
+
+Slack (MET) :             25.575ns  (required time - arrival time)
+  Source:                 adc_data[11]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[11]/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.503ns  (logic 1.503ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.817ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.451ns = ( 38.549 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    B14                                               0.000    11.850 r  adc_data[11] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[11]
+    B14                  IBUF (Prop_ibuf_I_O)         1.503    13.352 r  adc_data_IBUF[11]_inst/O
+                         net (fo=1, routed)           0.000    13.352    input_capture/D[11]
+    ILOGIC_X0Y95         FDRE                                         r  input_capture/raw_iob_reg[11]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.523    38.549    input_capture/clk_sample
+    ILOGIC_X0Y95         FDRE                                         r  input_capture/raw_iob_reg[11]/C
+                         clock pessimism              0.483    39.032    
+                         clock uncertainty           -0.094    38.938    
+    ILOGIC_X0Y95         FDRE (Setup_fdre_C_D)       -0.011    38.927    input_capture/raw_iob_reg[11]
+  -------------------------------------------------------------------
+                         required time                         38.927    
+                         arrival time                         -13.352    
+  -------------------------------------------------------------------
+                         slack                                 25.575    
+
+Slack (MET) :             25.585ns  (required time - arrival time)
+  Source:                 adc_data[9]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[9]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.491ns  (logic 1.491ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.818ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.452ns = ( 38.548 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    F14                                               0.000    11.850 r  adc_data[9] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[9]
+    F14                  IBUF (Prop_ibuf_I_O)         1.491    13.340 r  adc_data_IBUF[9]_inst/O
+                         net (fo=1, routed)           0.000    13.340    input_capture/D[9]
+    ILOGIC_X0Y89         FDSE                                         r  input_capture/raw_iob_reg[9]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.522    38.548    input_capture/clk_sample
+    ILOGIC_X0Y89         FDSE                                         r  input_capture/raw_iob_reg[9]/C
+                         clock pessimism              0.483    39.031    
+                         clock uncertainty           -0.094    38.937    
+    ILOGIC_X0Y89         FDSE (Setup_fdse_C_D)       -0.011    38.926    input_capture/raw_iob_reg[9]
+  -------------------------------------------------------------------
+                         required time                         38.926    
+                         arrival time                         -13.340    
+  -------------------------------------------------------------------
+                         slack                                 25.585    
+
+Slack (MET) :             25.588ns  (required time - arrival time)
+  Source:                 adc_otr
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/otr_iob_reg/D
+                            (rising edge-triggered cell FDRE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.491ns  (logic 1.491ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.816ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.450ns = ( 38.550 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    D14                                               0.000    11.850 r  adc_otr (IN)
+                         net (fo=0)                   0.000    11.850    adc_otr
+    D14                  IBUF (Prop_ibuf_I_O)         1.491    13.340 r  adc_otr_IBUF_inst/O
+                         net (fo=1, routed)           0.000    13.340    input_capture/adc_otr_IBUF
+    ILOGIC_X0Y98         FDRE                                         r  input_capture/otr_iob_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.524    38.550    input_capture/clk_sample
+    ILOGIC_X0Y98         FDRE                                         r  input_capture/otr_iob_reg/C
+                         clock pessimism              0.483    39.033    
+                         clock uncertainty           -0.094    38.939    
+    ILOGIC_X0Y98         FDRE (Setup_fdre_C_D)       -0.011    38.928    input_capture/otr_iob_reg
+  -------------------------------------------------------------------
+                         required time                         38.928    
+                         arrival time                         -13.340    
+  -------------------------------------------------------------------
+                         slack                                 25.588    
+
+Slack (MET) :             25.588ns  (required time - arrival time)
+  Source:                 adc_data[8]
+                            (input port clocked by adc_external  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Destination:            input_capture/raw_iob_reg[8]/D
+                            (rising edge-triggered cell FDSE clocked by clk_out1_scope_clk_wiz  {rise@0.000ns fall@20.000ns period=40.000ns})
+  Path Group:             clk_out1_scope_clk_wiz
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            40.000ns  (clk_out1_scope_clk_wiz rise@40.000ns - adc_external rise@0.000ns)
+  Data Path Delay:        1.488ns  (logic 1.488ns (100.000%)  route 0.000ns (0.000%))
+  Logic Levels:           1  (IBUF=1)
+  Input Delay:            9.000ns
+  Clock Path Skew:        -3.818ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.452ns = ( 38.548 - 40.000 ) 
+    Source Clock Delay      (SCD):    2.850ns
+    Clock Pessimism Removal (CPR):    0.483ns
+  Clock Uncertainty:      0.094ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.175ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock adc_external rise edge)
+                                                      0.000     0.000 r  
+    P17                                               0.000     0.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000     0.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.478     1.478 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.233     2.711    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -6.965    -4.253 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.666    -2.587    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096    -2.491 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.667    -0.824    clk_sample
+    OLOGIC_X0Y97         ODDR (Prop_oddr_C_Q)         0.472    -0.352 r  adc_oddr/Q
+                         net (fo=1, routed)           0.001    -0.351    forwarded_adc
+    C14                  OBUFT (Prop_obuft_I_O)       3.200     2.850 r  adc_clock_buffer/O
+                         net (fo=0)                   0.000     2.850    adc_clk
+  -------------------------------------------------------------------    -------------------
+                         input delay                  9.000    11.850    
+    F13                                               0.000    11.850 r  adc_data[8] (IN)
+                         net (fo=0)                   0.000    11.850    adc_data[8]
+    F13                  IBUF (Prop_ibuf_I_O)         1.488    13.338 r  adc_data_IBUF[8]_inst/O
+                         net (fo=1, routed)           0.000    13.338    input_capture/D[8]
+    ILOGIC_X0Y90         FDSE                                         r  input_capture/raw_iob_reg[8]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk_out1_scope_clk_wiz rise edge)
+                                                     40.000    40.000 r  
+    P17                                               0.000    40.000 r  sys_clk_100 (IN)
+                         net (fo=0)                   0.000    40.000    clock_wizard/inst/sys_clk_100
+    P17                  IBUF (Prop_ibuf_I_O)         1.408    41.408 r  clock_wizard/inst/clkin1_ibufg/O
+                         net (fo=1, routed)           1.162    42.570    clock_wizard/inst/clk_in1_scope_clk_wiz
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT0)
+                                                     -7.221    35.348 r  clock_wizard/inst/mmcm_adv_inst/CLKOUT0
+                         net (fo=1, routed)           1.587    36.935    clock_wizard/inst/clk_out1_scope_clk_wiz
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    37.026 r  clock_wizard/inst/clkout1_buf/O
+                         net (fo=10527, routed)       1.522    38.548    input_capture/clk_sample
+    ILOGIC_X0Y90         FDSE                                         r  input_capture/raw_iob_reg[8]/C
+                         clock pessimism              0.483    39.031    
+                         clock uncertainty           -0.094    38.937    
+    ILOGIC_X0Y90         FDSE (Setup_fdse_C_D)       -0.011    38.926    input_capture/raw_iob_reg[8]
+  -------------------------------------------------------------------
+                         required time                         38.926    
+                         arrival time                         -13.338    
+  -------------------------------------------------------------------
+                         slack                                 25.588    
+
+
+
+

@@ -1,0 +1,68 @@
+{
+  "result": "PASS",
+  "checks": {
+    "cdc_critical_removed": true,
+    "asynchronous_safety_simulation": true,
+    "routed_timing": true,
+    "physical_cpu_execution_and_echo": true,
+    "dds_adc_measurement_fft": true,
+    "capture_modes": true,
+    "arbitrary_waveforms": true,
+    "frozen_frame_envelope_roi_ui": true,
+    "configuration_restored": true,
+    "no_unexpected_communication_errors": true
+  },
+  "build": "0xA4261028",
+  "revision": "cdc_repair_1",
+  "cdc_before": {
+    "CDC-1": {
+      "severity": "Critical",
+      "count": 845
+    },
+    "CDC-3": {
+      "severity": "Info",
+      "count": 2
+    },
+    "CDC-9": {
+      "severity": "Info",
+      "count": 3
+    },
+    "CDC-13": {
+      "severity": "Critical",
+      "count": 10
+    }
+  },
+  "cdc_after": {
+    "CDC-3": {
+      "severity": "Info",
+      "count": 2
+    },
+    "CDC-9": {
+      "severity": "Info",
+      "count": 3
+    }
+  },
+  "timing_ns": {
+    "setup_wns": 10.578,
+    "hold_whs": 0.028,
+    "pulse_width_wpws": 3.0
+  },
+  "frame_wire_bytes_per_second_mean": 88285.80131053361,
+  "uart_utilization_mean": 0.9579622538035332,
+  "echo_duplex_wire_bytes_per_second": 87649.87138777747,
+  "runtime_bit_sha256": "5577ad2c6f9c8cbec9a5d2bce5fcd138d8e3a1370eb447731b31d1c06d8bdd60",
+  "firmware_elf_sha256": "60ab174553841d3497114cc7c20d9c141c1412434d2f5ea132d03ad639ec0c85",
+  "rtl_overlay_hashes": {
+    "rtl\\scope_core.sv": "e69209321d837ac5e61d28784fb8df94aaed94d368d75e11372e0788f4a0fa66",
+    "rtl\\scope_cpu_board_top.sv": "40f2c0f69a5038d195f48a491e37d4e571bf8e5624852b3e00de85e9e52c5fb0"
+  },
+  "volatile_fpga_programming_performed": true,
+  "flash_programming_performed": false,
+  "new_timing_exceptions_or_waivers": false,
+  "limitations": [
+    "No long-duration soak or external power-loss/glitch validation",
+    "Digital simulation does not measure analog metastability or establish product safety certification",
+    "Other LUTAR, RAM async-control and performance methodology warnings remain"
+  ],
+  "report": "reports/cdc_repair/修复报告.md"
+}

@@ -1,0 +1,628 @@
+{
+  "result": "PARTIAL",
+  "digital_peak_before": 819,
+  "digital_peak_test": 1638,
+  "dc_codes": [
+    -1638,
+    -1228,
+    -820,
+    -410,
+    0,
+    410,
+    820,
+    1228,
+    1638
+  ],
+  "amplitudes": [
+    410,
+    820,
+    1228,
+    1638
+  ],
+  "selftest": {
+    "format": "scope-hardware-calibration-v1",
+    "source": "hardware-uart",
+    "status": "PASS",
+    "created": "2026-11-01T14:47:27.319253+08:00",
+    "device_id": "USB VID:PID=0403:6010 SER=1234",
+    "max_test_code": 1638,
+    "raw_frames": [
+      {
+        "file": "000_zero.npy",
+        "timestamp": 76741777696,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "zero"
+      },
+      {
+        "file": "001_zero.npy",
+        "timestamp": 76759419611,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "zero"
+      },
+      {
+        "file": "002_zero.npy",
+        "timestamp": 76776893221,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "zero"
+      },
+      {
+        "file": "003_dc_-1638.npy",
+        "timestamp": 76797177782,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-1638"
+      },
+      {
+        "file": "004_dc_-1638.npy",
+        "timestamp": 76815557274,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-1638"
+      },
+      {
+        "file": "005_dc_-1228.npy",
+        "timestamp": 76835872108,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-1228"
+      },
+      {
+        "file": "006_dc_-1228.npy",
+        "timestamp": 76853654679,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-1228"
+      },
+      {
+        "file": "007_dc_-820.npy",
+        "timestamp": 76874241092,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-820"
+      },
+      {
+        "file": "008_dc_-820.npy",
+        "timestamp": 76891976640,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-820"
+      },
+      {
+        "file": "009_dc_-410.npy",
+        "timestamp": 76911697865,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-410"
+      },
+      {
+        "file": "010_dc_-410.npy",
+        "timestamp": 76929379892,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_-410"
+      },
+      {
+        "file": "011_dc_0.npy",
+        "timestamp": 76949285396,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_0"
+      },
+      {
+        "file": "012_dc_0.npy",
+        "timestamp": 76967305257,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_0"
+      },
+      {
+        "file": "013_dc_410.npy",
+        "timestamp": 76988057267,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_410"
+      },
+      {
+        "file": "014_dc_410.npy",
+        "timestamp": 77006019069,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_410"
+      },
+      {
+        "file": "015_dc_820.npy",
+        "timestamp": 77026392000,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_820"
+      },
+      {
+        "file": "016_dc_820.npy",
+        "timestamp": 77044909701,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_820"
+      },
+      {
+        "file": "017_dc_1228.npy",
+        "timestamp": 77063901473,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_1228"
+      },
+      {
+        "file": "018_dc_1228.npy",
+        "timestamp": 77081108470,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_1228"
+      },
+      {
+        "file": "019_dc_1638.npy",
+        "timestamp": 77101268325,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_1638"
+      },
+      {
+        "file": "020_dc_1638.npy",
+        "timestamp": 77118705009,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_1638"
+      },
+      {
+        "file": "021_linear_410.npy",
+        "timestamp": 77138835092,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "linear_410"
+      },
+      {
+        "file": "022_linear_820.npy",
+        "timestamp": 77159196587,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "linear_820"
+      },
+      {
+        "file": "023_linear_1228.npy",
+        "timestamp": 77180557913,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "linear_1228"
+      },
+      {
+        "file": "024_linear_1638.npy",
+        "timestamp": 77200636408,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "linear_1638"
+      },
+      {
+        "file": "025_response_10000.npy",
+        "timestamp": 77221250166,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "response_10000"
+      },
+      {
+        "file": "026_response_25000.npy",
+        "timestamp": 77241214114,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "response_25000"
+      },
+      {
+        "file": "027_response_50000.npy",
+        "timestamp": 77261237777,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "response_50000"
+      },
+      {
+        "file": "028_response_100000.npy",
+        "timestamp": 77281060804,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "response_100000"
+      },
+      {
+        "file": "029_response_250000.npy",
+        "timestamp": 77301292699,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "response_250000"
+      },
+      {
+        "file": "030_response_500000.npy",
+        "timestamp": 77321664125,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "response_500000"
+      },
+      {
+        "file": "031_response_1000000.npy",
+        "timestamp": 77342243558,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "response_1000000"
+      },
+      {
+        "file": "032_harmonics.npy",
+        "timestamp": 77363197340,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "harmonics"
+      },
+      {
+        "file": "033_zero_recheck.npy",
+        "timestamp": 77383764794,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "zero_recheck"
+      },
+      {
+        "file": "034_dc_holdout_512.npy",
+        "timestamp": 77403708257,
+        "rate": 25000000,
+        "trigger": 8192,
+        "points": 16384,
+        "label": "dc_holdout_512"
+      }
+    ],
+    "restored": true,
+    "scope": "DAC+cable+ADC combined relative calibration; no absolute voltage reference",
+    "configuration_before_hex": "00400000002000000000000008009cff640037000000204e0000640000010000000140420f0000000000001000000000",
+    "firmware_build": "0xAF311031",
+    "capture_mode_before_hex": "00000000a0252600",
+    "awg_before": {
+      "valid": false,
+      "uploading": false,
+      "selected": false,
+      "received": 0,
+      "active_crc": 0,
+      "staging_crc": 65535
+    },
+    "rate": 25000000,
+    "zero": 0.0045242030105311195,
+    "noise": 0.0018713207793441765,
+    "zero_frame_means": [
+      0.00449752341842184,
+      0.004549392122634294,
+      0.0045256934905372245
+    ],
+    "dc_gain": 0.04778192958026834,
+    "intercept_code": 1.5043741861979194,
+    "dc_span_code": 156.30853271484375,
+    "dc_r2": 0.9999948968808609,
+    "dc_max_residual_code": 0.19802420391184228,
+    "dc_points": [
+      {
+        "code": -1638,
+        "mean_code": -76.73538208007812
+      },
+      {
+        "code": -1228,
+        "mean_code": -57.120452880859375
+      },
+      {
+        "code": -820,
+        "mean_code": -37.836761474609375
+      },
+      {
+        "code": -410,
+        "mean_code": -18.05474853515625
+      },
+      {
+        "code": 0,
+        "mean_code": 1.436798095703125
+      },
+      {
+        "code": 410,
+        "mean_code": 21.14776611328125
+      },
+      {
+        "code": 820,
+        "mean_code": 40.761383056640625
+      },
+      {
+        "code": 1228,
+        "mean_code": 60.36761474609375
+      },
+      {
+        "code": 1638,
+        "mean_code": 79.57315063476562
+      }
+    ],
+    "reference_gain": 0.04778192958026834,
+    "gain": 1.0,
+    "offset": 0.0048946866573819775,
+    "reference_kind": "first-run-self-reference",
+    "linearity": [
+      {
+        "dac_amplitude": 410,
+        "amplitude": 0.04778672487360981,
+        "mean": 0.005048283567385562,
+        "noise": 0.0019096640983304962,
+        "harmonic_amplitudes": [
+          0.00010655537916610514,
+          1.587040181079791e-05,
+          7.045521861657877e-05,
+          6.529348762673502e-05
+        ],
+        "frequency": 100000,
+        "actual_frequency": 99999.99892897904
+      },
+      {
+        "dac_amplitude": 820,
+        "amplitude": 0.09566402277315172,
+        "mean": 0.005208640301819056,
+        "noise": 0.0019094342540870203,
+        "harmonic_amplitudes": [
+          5.5295328153262205e-05,
+          0.00013890211161599912,
+          4.6275621112909375e-05,
+          4.128098613413686e-05
+        ],
+        "frequency": 100000,
+        "actual_frequency": 99999.99892897904
+      },
+      {
+        "dac_amplitude": 1228,
+        "amplitude": 0.14337585130160735,
+        "mean": 0.005130684355811764,
+        "noise": 0.0019406240114294528,
+        "harmonic_amplitudes": [
+          1.8169426594994455e-05,
+          4.5289206119237577e-05,
+          3.486337178307014e-05,
+          0.0001020458510002147
+        ],
+        "frequency": 100000,
+        "actual_frequency": 99999.99892897904
+      },
+      {
+        "dac_amplitude": 1638,
+        "amplitude": 0.19112855354852354,
+        "mean": 0.004908145268231226,
+        "noise": 0.0019564939066259385,
+        "harmonic_amplitudes": [
+          9.846383780113646e-05,
+          8.368889755658085e-05,
+          1.743808047530687e-05,
+          8.034638320287487e-05
+        ],
+        "frequency": 100000,
+        "actual_frequency": 99999.99892897904
+      }
+    ],
+    "linearity_max_relative_error": 0.0010352199876122459,
+    "response_frequency": [
+      10000,
+      25000,
+      50000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "response_db": [
+      -0.005948428152566678,
+      -0.003010491451298802,
+      -0.001995224928045097,
+      0.0,
+      0.003102817607919967,
+      -0.0005795037692515448,
+      -0.0006682737699005431
+    ],
+    "response_samples": [
+      {
+        "amplitude": 0.19099823471819716,
+        "mean": 0.005094764126296154,
+        "noise": 0.001939743825710717,
+        "harmonic_amplitudes": [
+          8.049322709462166e-05,
+          4.6147315846391925e-05,
+          1.3401373202566614e-05,
+          0.00010094537744179196
+        ],
+        "frequency": 10000,
+        "actual_frequency": 10000.000474974513
+      },
+      {
+        "amplitude": 0.19106284935855677,
+        "mean": 0.005046162255353358,
+        "noise": 0.0019236847626869847,
+        "harmonic_amplitudes": [
+          9.184652223814027e-05,
+          7.319646284307717e-05,
+          1.4633495023721262e-05,
+          9.102494702574672e-05
+        ],
+        "frequency": 25000,
+        "actual_frequency": 24999.998277053237
+      },
+      {
+        "amplitude": 0.19108518340379083,
+        "mean": 0.005087899548797242,
+        "noise": 0.00193332076589875,
+        "harmonic_amplitudes": [
+          5.458780055410374e-05,
+          7.901088242703199e-05,
+          1.9813076062687465e-05,
+          9.796500385278197e-05
+        ],
+        "frequency": 50000,
+        "actual_frequency": 50000.002374872565
+      },
+      {
+        "amplitude": 0.19112908238589754,
+        "mean": 0.0050865397121878314,
+        "noise": 0.0019428021282849506,
+        "harmonic_amplitudes": [
+          7.701204917443319e-05,
+          6.030511690807321e-05,
+          1.9465383932631554e-05,
+          9.967670195544914e-05
+        ],
+        "frequency": 100000,
+        "actual_frequency": 99999.99892897904
+      },
+      {
+        "amplitude": 0.1911973706837792,
+        "mean": 0.005107842360621686,
+        "noise": 0.0019379723322976016,
+        "harmonic_amplitudes": [
+          8.374789846194228e-05,
+          8.580174974490093e-05,
+          3.5409702109926784e-05,
+          0.00013512580266315813
+        ],
+        "frequency": 250000,
+        "actual_frequency": 250000.00023283064
+      },
+      {
+        "amplitude": 0.1911163310923031,
+        "mean": 0.005138860633040424,
+        "noise": 0.0019613967335426288,
+        "harmonic_amplitudes": [
+          9.463483903321673e-05,
+          7.524356606881605e-05,
+          1.0114765978980383e-05,
+          0.00012562439483029516
+        ],
+        "frequency": 500000,
+        "actual_frequency": 500000.0004656613
+      },
+      {
+        "amplitude": 0.19111437788879157,
+        "mean": 0.005276872801468685,
+        "noise": 0.0019570089975402263,
+        "harmonic_amplitudes": [
+          0.0002472839281639294,
+          0.00013628758495733218,
+          0.00015196832164559592,
+          0.00018279883436246561
+        ],
+        "frequency": 1000000,
+        "actual_frequency": 1000000.0009313226
+      }
+    ],
+    "harmonic_amplitudes": [
+      5.5880240036281935e-05,
+      8.487719288815947e-05,
+      4.46182693127703e-05,
+      0.00011753748904035824
+    ],
+    "tone_noise": 0.001926230455016533,
+    "polarity": "正向",
+    "zero_recheck": 0.0047771374675671385,
+    "holdout_zero_corrected": -0.00011754918981483897,
+    "holdout_dc_code": 512,
+    "holdout_dc_error_code": 0.11416361089219151,
+    "before_after": {
+      "zero": {
+        "expected_volts": 0.0,
+        "before_volts": 0.0047771374675671385,
+        "after_volts": -0.00011754918981483897,
+        "before_error_volts": 0.0047771374675671385,
+        "after_error_volts": -0.00011754918981483897
+      },
+      "dc_holdout": {
+        "expected_volts": 0.059741997423925254,
+        "before_volts": 0.06491547189789354,
+        "after_volts": 0.06002078524051156,
+        "before_error_volts": 0.005173474473968286,
+        "after_error_volts": 0.0002787878165863081
+      }
+    },
+    "comparison_reference": "first-run-relative-fit",
+    "fingerprint_comparison": "首次实测：以本次组合链路增益定义 1×；保存指纹后可比较漂移。",
+    "awg_after": {
+      "valid": false,
+      "uploading": false,
+      "selected": false,
+      "received": 0,
+      "active_crc": 0,
+      "staging_crc": 65535
+    },
+    "capture_mode_after_hex": "00000000a0252600",
+    "configuration_after_hex": "00400000002000000000000008009cff640037000000204e0000640000010000000140420f0000000000001000000000",
+    "parser_errors": {
+      "crc": 0,
+      "length": 0,
+      "version": 0,
+      "timeout": 0
+    },
+    "output_dir": "D:\\示波器\\PC\\calibration_runs\\20261101_144727_b20cf584"
+  },
+  "text": "实物自检完成，原配置已回读确认恢复。首次实测：以本次组合链路增益定义 1×；保存指纹后可比较漂移。\n校正只作用于显示，原始 ADC 码保留；仅代表本接线/旋钮位置的组合链路相对校准。\n记录：D:\\示波器\\PC\\calibration_runs\\20261101_144727_b20cf584",
+  "failed_command": {
+    "kind": "0x1",
+    "payload": "53434f50455f5549",
+    "error": "TimeoutError('设备响应超时；请检查固件、端口与波特率')"
+  },
+  "error": "TimeoutError('14:47:26  演示模式已就绪；当前波形和校准数据均为软件生成。\\n14:47:26  已切换到硬件串口\\n14:47:27  设备支持板端包络与原始 ROI。\\n14:47:27  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\\n14:47:27  串口连接成功 · 921600 bit/s · 固件 0xAF311031 · 能力 63\\n14:47:27  实物闭环自检开始：中码、九点直流、四档正弦、七点扫频；不改写 Flash。\\n14:47:54  实物校准参数已保存；下次自检将与保存的实测基线比较。\\n14:47:54  自检原始数据与报告：D:\\\\示波器\\\\PC\\\\calibration_runs\\\\20261101_144727_b20cf584\\n14:47:55  设备支持板端包络与原始 ROI。\\n14:47:55  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\\n14:47:57  高速握手未响应，正在尝试旧固件 115200。\\n14:47:59  错误：串口连接中断 · 设备响应超时；请检查固件、端口与波特率')",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\示波器\\PC\\tools\\retry_selftest_amplitude_20261101.py\", line 43, in <module>\n    w.toggle_connect();wait(lambda:w.hardware_connected and not w._commands_pending)\n                       ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\示波器\\PC\\tools\\retry_selftest_amplitude_20261101.py\", line 32, in wait\n    raise TimeoutError(w.logs.toPlainText())\nTimeoutError: 14:47:26  演示模式已就绪；当前波形和校准数据均为软件生成。\n14:47:26  已切换到硬件串口\n14:47:27  设备支持板端包络与原始 ROI。\n14:47:27  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\n14:47:27  串口连接成功 · 921600 bit/s · 固件 0xAF311031 · 能力 63\n14:47:27  实物闭环自检开始：中码、九点直流、四档正弦、七点扫频；不改写 Flash。\n14:47:54  实物校准参数已保存；下次自检将与保存的实测基线比较。\n14:47:54  自检原始数据与报告：D:\\示波器\\PC\\calibration_runs\\20261101_144727_b20cf584\n14:47:55  设备支持板端包络与原始 ROI。\n14:47:55  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\n14:47:57  高速握手未响应，正在尝试旧固件 115200。\n14:47:59  错误：串口连接中断 · 设备响应超时；请检查固件、端口与波特率\n",
+  "ui_log": "14:47:26  演示模式已就绪；当前波形和校准数据均为软件生成。\n14:47:26  已切换到硬件串口\n14:47:27  设备支持板端包络与原始 ROI。\n14:47:27  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\n14:47:27  串口连接成功 · 921600 bit/s · 固件 0xAF311031 · 能力 63\n14:47:27  实物闭环自检开始：中码、九点直流、四档正弦、七点扫频；不改写 Flash。\n14:47:54  实物校准参数已保存；下次自检将与保存的实测基线比较。\n14:47:54  自检原始数据与报告：D:\\示波器\\PC\\calibration_runs\\20261101_144727_b20cf584\n14:47:55  设备支持板端包络与原始 ROI。\n14:47:55  板端 DDS 已读回：1000000 Hz，峰值 4096 码；修改后需点击应用 DDS 配置。\n14:47:57  高速握手未响应，正在尝试旧固件 115200。\n14:47:59  错误：串口连接中断 · 设备响应超时；请检查固件、端口与波特率",
+  "restored": true,
+  "final_status": {
+    "flags": 6,
+    "backend_error": 0,
+    "length": 16384,
+    "pre": 8192,
+    "rate": 25000000,
+    "counters": [
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      36,
+      0,
+      25757
+    ],
+    "pc_crc": 0
+  },
+  "selftest_result": "PASS",
+  "reconnect": "FAIL"
+}

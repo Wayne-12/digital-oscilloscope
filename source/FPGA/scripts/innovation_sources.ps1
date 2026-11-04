@@ -1,9 +1,0 @@
-$InnovationRelativeSources=@(
- 'rtl/common/scope_pkg.sv','rtl/common/multires_pkg.sv','rtl/common/protocol_pkg.sv','rtl/common/fft_window_pkg.sv','rtl/common/spectrum_pkg.sv','rtl/common/innovation_pkg.sv','rtl/common/scope_async_fifo.sv',
- 'rtl/measure/measure_udiv.sv','rtl/measure/fft_hann_lut.sv','rtl/measure/fft_ip_wrapper.sv','rtl/measure/spectrum_isqrt.sv','rtl/measure/spectrum_analyzer.sv',
- 'rtl/dac_dds/dds_sine_lut.sv','rtl/dac_dds/dds_core.sv','rtl/adc_if/adc_capture.sv',
- 'rtl/trigger/trigger_edge.sv','rtl/trigger/trigger_core.sv','rtl/capture/capture_bram.sv','rtl/capture/bram_capture.sv',
- 'rtl/multires/multires_envelope.sv','rtl/uart_proto/frame_tx.sv',
- 'rtl/innovation/relative_calibrator.sv','rtl/innovation/calibration_apply.sv','rtl/innovation/health_compare.sv','rtl/innovation/capture_moments.sv','rtl/innovation/capture_result_stream.sv','rtl/innovation/capture_result_uart.sv',
- 'sim/models/ad9767_model.sv','sim/models/loopback_channel_model.sv','sim/models/ad9226_model.sv',
- 'sim/tb/tb_innovation_units.sv','sim/tb/tb_innovation_health.sv','sim/tb/tb_innovation_capture.sv','sim/tb/tb_innovation_control.sv')

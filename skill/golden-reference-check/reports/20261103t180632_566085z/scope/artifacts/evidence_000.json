@@ -1,0 +1,8 @@
+{
+  "original_file": "D:/示波器/示波器快照001.csv",
+  "copy": "scope_capture.csv",
+  "sha256": "a29427ea8081714d010a6d3c091a5500ca530006a135b516d55429ffddbe44b0",
+  "provenance": "Existing project CSV whose metadata labels source as 硬件 UART; copied byte-for-byte. No new hardware capture was made during extraction.",
+  "sample_count": 16384,
+  "scope": "Offline consistency between exported raw codes and nominal voltages. Does not validate calibration, ADC accuracy, analog bandwidth, or FPGA FFT. Original capture metadata is preserved in the CSV."
+}

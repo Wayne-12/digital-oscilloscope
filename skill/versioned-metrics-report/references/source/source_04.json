@@ -1,0 +1,29 @@
+{
+  "verdict": "PASS",
+  "source": "actual-ScopeWindow-export-summary-with-COM12",
+  "failed_export_preserves_connection": true,
+  "rows": 232,
+  "build": "0xA4261027",
+  "csv": "D:\\示波器\\FPGA\\reports\\summary_hardware\\20261027_final\\scope_summary.csv",
+  "categories": [
+    "communication",
+    "device",
+    "firmware",
+    "measurement",
+    "qualification",
+    "report",
+    "resource",
+    "spectrum",
+    "timing",
+    "uart-test"
+  ],
+  "setup_wns_ns": 8.234,
+  "hold_whs_ns": 0.017,
+  "bram_tiles": 13,
+  "dsp": 42,
+  "formal_current_image": false,
+  "historical_qualification_not_inherited": true,
+  "current_short_run_included": true,
+  "frame_timestamp": 13903985415,
+  "restored": true
+}

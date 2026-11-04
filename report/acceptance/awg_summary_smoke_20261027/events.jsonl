@@ -1,0 +1,3 @@
+{"at": "2026-10-27T16:40:00.967248+08:00", "event": "start", "captures": 0, "echo_bytes": 0, "soak_seconds": 0}
+{"at": "2026-10-27T16:40:05.127281+08:00", "event": "uart-complete", "captures": 0, "echo_bytes": 89144, "soak_seconds": 0}
+{"at": "2026-10-27T16:40:14.759953+08:00", "event": "finished", "captures": 39, "echo_bytes": 89144, "soak_seconds": 8.181548600000042}

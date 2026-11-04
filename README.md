@@ -1,43 +1,52 @@
-# 数字示波器方案包
+# 基于 FPGA 的数字示波器
 
-基于 EGO1 / XC7A35T 的数字示波器，包含 FPGA 功能代码、MicroBlaze 软核、1024×600 本地显示和 PC 操作界面。按“源码、硬件声明、启动服务、统一入口、设计报告”组织。
+本项目基于 EGO1（XC7A35T）、AD9226 和 AD9767，包含采集、触发、DDS、FFT、MicroBlaze 固件、本地显示及 Python 上位机。
+正式固化版本为 `0xAF311031`，CPU 修订为 `trigger_cycle_20261101`，PC 版本为 `2026.11.01-r6`。2026-11-04 中午的上位机改动已撤销；整理前根目录、暂存区和已有发布包的主程序 SHA256 均为 `98392a0fe86e0e551232be668aacd76dfbd805558bc491f663b77d41bd6fab83`。
 
 ```text
-digital-oscilloscope/
-├── hardware/
-│   └── HARDWARE.md              # 板卡、采样链路、工具链与版本声明
-├── source/
-│   ├── FPGA/                    # 功能 RTL、约束、仿真与生成脚本
-│   ├── 软核/                    # C 固件、启动、链接、邮箱、IP 创建脚本
-│   ├── VGA显示部分/             # 显示、菜单、整机入口与 release 镜像
-│   ├── PC/                      # PC 界面、串口协议、测试与工具
-│   ├── 示波器显示界面.py        # PC 主界面
-│   ├── docs/                    # 原设计与验证文档
-│   └── 参考数据/                # 校准和测量参考
-├── serve/
-│   └── README.md                # 运行环境和启动配置
-├── run.ps1                      # Windows 统一入口
-├── run.sh                       # Bash 入口（校验 / PC 界面）
-├── REPORT.md                    # 设计报告、验证依据和复现边界
-└── UPLOAD_MANIFEST.json         # 上传文件 SHA256 清单
+digital_oscilloscope/
+  README.md
+  src/       当前 RTL、C 固件、PC 程序及运行配置
+  sim/       测试源码、验证入口和测试结果
+  build/     重建脚本、IP 配置及综合实现报告
+  board/     正式镜像、固化恢复备份及上板入口
+  data/      纯测试数据和单独归类的模型参考数据
+  skill/     12 项可复用技能包
+  report/    正式报告、海报、视频、协作记录及文件溯源
 ```
 
-硬件版本 `0xAF311031`，CPU 修订 `control_handoff_1`，PC 界面 `2026.11.01-r6`（2026-11-01）。
+## 运行与校验
 
-## 快速使用
-
-Windows PowerShell：
+Python 3.10 及以上。在项目根目录运行：
 
 ```powershell
-./run.ps1 -Action verify
-python -m pip install -r ./source/PC/ui/requirements.txt
-./run.ps1 -Action ui
+python -m pip install -r src/pc/ui/requirements.txt
+python sim/verify_submission.py
+python src/pc/ui/launch_scope.py --offline
+python src/pc/ui/launch_scope.py --hardware --baud 921600 --port COM12
 ```
 
-串口与波特率在 PC 界面选择，板上 SW7 ON 交给电脑，OFF 回到本地；外部模块安全使能见硬件说明。
+串口按实际设备选择。`launch_scope.cmd` 默认使用 COM12。SW7 ON 交给电脑，OFF 使用本地控制。
+运行 `python sim/run_tests.py` 执行离线 PC 回归，结果写入 `sim/results/submission_pc_tests.log`。
+PC 说明位于 `src/pc/ui/user_guide.md`，测量指引位于 `src/pc/ui/measurement_guide.md`。
 
-Bash（需已安装 Python 3）：`bash run.sh verify` 或 `bash run.sh ui`。FPGA 与 MicroBlaze 构建使用 Windows Vivado 2025.2，详见 [启动说明](serve/README.md)。
+## 构建与上板
 
-原构建、固化和版本说明见 [显示屏说明](source/VGA显示部分/README.md)、[软核说明](source/软核/README.md)；设计与证据索引见 [REPORT.md](REPORT.md)。
+Windows、Vivado 2025.2、MicroBlaze 工具链及 MSVC；工具安装位置见 `build/scripts/`，Vivado 可用环境变量 `SCOPE_VIVADO_BIN` 覆盖。
 
-源码内部的相对目录保持一致；本次调整外层目录、入口和文档。仿真批量数据由生成脚本产生，未提交重复的 expected/vectors 目录。最终发布清单要求的依赖及镜像保留。Vivado 和 MicroBlaze 工具链自行安装，本包使用板端 RTL 和固件，无 AI 模型配置。
+```powershell
+./build/build.ps1 -Action stage
+./build/build.ps1 -Action simulate
+./build/build.ps1 -Action build
+```
+
+`build/work/` 是按需生成的完整临时工作区，不属于提交源码。重建产生的新文件写入该工作区，不覆盖 `board/` 中的正式镜像。
+`board/run.ps1` 提供 `program`、`prepare_flash`、`program_flash` 和 `verify_flash_boot`。重新固化前按 `board/hardware.md` 和 `report/design/display_readme.md` 检查供电、SW0 和接线。只读检查使用 `./board/run.ps1 -Action verify_flash_boot`。
+原始固化清单及源快照原样保存在 `report/release_provenance/`；当前提交树由 `report/submission_manifest.json` 校验。目录迁移仅调整主机脚本中的路径和名称，生产 RTL、C 源码、ELF、BIT、BIN、MCS 保持原始字节。2026-11-04 的独立验证报告在 `build/reports/revalidation/`，该次新位流未上板，正式镜像仍采用已固化版本。
+
+## 数据与报告
+
+`data/measured/` 保存实际采集 CSV 及四份纯数据工作簿；CSV 注释行、说明列、说明页和结论文字已去除，表头与数据保留。`data/model_reference/` 为模型生成数据。校正运行需要的原始证据与参数保存在 `src/`，不改动其校验绑定。
+测量条件、来源和校正范围见 `report/data_sources.md`，原路径与英文路径对应关系见 `report/path_mapping.json`。
+正式技术报告为 `report/submission/design_report.pdf`；其余提交材料位于 `report/submission/`；旧报告和验证证据的内容可能包含历史路径与版本，当前入口以本 README 为准。
+大模型协作整理记录见 `report/collaboration_record.md`。完整回归历史上曾被目录清理中断，该项不记为全部通过。

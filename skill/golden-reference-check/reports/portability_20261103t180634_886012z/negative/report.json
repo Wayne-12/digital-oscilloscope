@@ -1,0 +1,172 @@
+{
+  "format": "goldencheck-report-v1",
+  "suite": "预期失败：错误检出示例",
+  "generated_at_utc": "2026-11-03T18:06:36.532285+00:00",
+  "configuration": {
+    "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\examples\\negative_suite.json",
+    "sha256": "9f8f941a5159b59ed8ae875e37430be56f20c8c0772b57e69f8929dbe9bf685c"
+  },
+  "environment": {
+    "tool_version": "1.0.0",
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "executable": "D:\\Python\\python3.14\\python3.14.7\\python.exe"
+  },
+  "cases": [
+    {
+      "id": "numeric-mismatch",
+      "evidence": "deliberate-negative-test",
+      "description": "",
+      "status": "FAIL",
+      "input": {
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\examples\\data\\small.json",
+        "sha256": "9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140",
+        "selector": {
+          "path": "data/small.json"
+        },
+        "artifact": "artifacts\\case_000_input.json"
+      },
+      "reference": {
+        "callable": "identity",
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\goldencheck\\models.py",
+        "sha256": "50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d"
+      },
+      "reference_seconds": 5.40000110049732e-06,
+      "observed": {
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\examples\\data\\wrong.json",
+        "sha256": "a9cbff2701fc04c11b6672977c425d5991226a9430092c69eadf8a389a112ecb",
+        "selector": {
+          "path": "data/wrong.json"
+        },
+        "artifact": "artifacts\\case_000_observed.json"
+      },
+      "observed_wall_seconds": null,
+      "compared": 4,
+      "numeric_compared": 4,
+      "mismatches": 1,
+      "max_abs_error": 1,
+      "max_relative_error_nonzero_reference": 0.3333333333333333,
+      "rmse": 0.5,
+      "details": [
+        {
+          "path": "/3",
+          "reason": "outside tolerance",
+          "expected": "3",
+          "actual": "4"
+        }
+      ],
+      "details_truncated": false,
+      "expected_artifact": {
+        "path": "artifacts\\case_000_expected.json",
+        "sha256": "9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140"
+      },
+      "actual_artifact": {
+        "path": "artifacts\\case_000_actual.json",
+        "sha256": "a9cbff2701fc04c11b6672977c425d5991226a9430092c69eadf8a389a112ecb"
+      }
+    },
+    {
+      "id": "length-mismatch",
+      "evidence": "deliberate-negative-test",
+      "description": "",
+      "status": "FAIL",
+      "input": {
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\examples\\data\\small.json",
+        "sha256": "9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140",
+        "selector": {
+          "path": "data/small.json"
+        },
+        "artifact": "artifacts\\case_001_input.json"
+      },
+      "reference": {
+        "callable": "identity",
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\goldencheck\\models.py",
+        "sha256": "50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d"
+      },
+      "reference_seconds": 4.300000000512227e-06,
+      "observed": {
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\examples\\data\\short.json",
+        "sha256": "c70ec9db4cc282e7fdbec3ecb24f4ac3f5a5c83e9ccaec63fc4e318c71859880",
+        "selector": {
+          "path": "data/short.json"
+        },
+        "artifact": "artifacts\\case_001_observed.json"
+      },
+      "observed_wall_seconds": null,
+      "compared": 4,
+      "numeric_compared": 3,
+      "mismatches": 1,
+      "max_abs_error": 0.0,
+      "max_relative_error_nonzero_reference": 0.0,
+      "rmse": 0.0,
+      "details": [
+        {
+          "path": "",
+          "reason": "array lengths differ",
+          "expected": "4",
+          "actual": "3"
+        }
+      ],
+      "details_truncated": false,
+      "expected_artifact": {
+        "path": "artifacts\\case_001_expected.json",
+        "sha256": "9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140"
+      },
+      "actual_artifact": {
+        "path": "artifacts\\case_001_actual.json",
+        "sha256": "c70ec9db4cc282e7fdbec3ecb24f4ac3f5a5c83e9ccaec63fc4e318c71859880"
+      }
+    },
+    {
+      "id": "missing-output",
+      "evidence": "deliberate-negative-test",
+      "description": "",
+      "status": "ERROR",
+      "input": {
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\examples\\data\\small.json",
+        "sha256": "9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140",
+        "selector": {
+          "path": "data/small.json"
+        },
+        "artifact": "artifacts\\case_002_input.json"
+      },
+      "reference": {
+        "callable": "identity",
+        "path": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\goldencheck_portable_nyfof9yf\\standalone\\goldencheck\\models.py",
+        "sha256": "50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d"
+      },
+      "reference_seconds": 4.499997885432094e-06,
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\lenovo\\\\AppData\\\\Local\\\\Temp\\\\goldencheck_portable_nyfof9yf\\\\standalone\\\\examples\\\\data\\\\not_present.json'"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "hardware_latency",
+      "value": null,
+      "unit": "s",
+      "status": "UNAVAILABLE",
+      "scope": "No evidence supplied"
+    },
+    {
+      "name": "hardware_throughput",
+      "value": null,
+      "unit": "samples/s",
+      "status": "UNAVAILABLE",
+      "scope": "No evidence supplied"
+    },
+    {
+      "name": "resource_utilization",
+      "value": null,
+      "unit": "%",
+      "status": "UNAVAILABLE",
+      "scope": "No evidence supplied"
+    }
+  ],
+  "evidence_files": [],
+  "status": "ERROR",
+  "summary": {
+    "PASS": 0,
+    "FAIL": 2,
+    "ERROR": 1
+  }
+}

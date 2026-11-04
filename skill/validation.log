@@ -1,0 +1,169 @@
+unit-tests:release-provenance-check
+test_bad_digest_empty_manifest_and_alias_are_rejected (test_verify_manifest.ManifestTests.test_bad_digest_empty_manifest_and_alias_are_rejected) ... ok
+test_duplicate_json_entries_are_rejected (test_verify_manifest.ManifestTests.test_duplicate_json_entries_are_rejected) ... ok
+test_escaping_and_absolute_paths_are_rejected (test_verify_manifest.ManifestTests.test_escaping_and_absolute_paths_are_rejected) ... ok
+test_missing_image_is_rejected (test_verify_manifest.ManifestTests.test_missing_image_is_rejected) ... ok
+test_tamper_is_rejected (test_verify_manifest.ManifestTests.test_tamper_is_rejected) ... ok
+test_valid_image_and_windows_relative_separator (test_verify_manifest.ManifestTests.test_valid_image_and_windows_relative_separator) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.042s
+
+OK
+
+
+unit-tests:uart-fault-injection
+test_crc_vectors (test_scope_protocol.CodecTests.test_crc_vectors) ... ok
+test_fragmented_and_magic_payload (test_scope_protocol.CodecTests.test_fragmented_and_magic_payload) ... ok
+test_resync (test_scope_protocol.CodecTests.test_resync) ... ok
+test_timeout (test_scope_protocol.CodecTests.test_timeout) ... ok
+test_wave_sequence_wrap_and_timestamp_carry (test_scope_protocol.CodecTests.test_wave_sequence_wrap_and_timestamp_carry) ... ok
+test_counter_and_sequence_wrap (test_uart_acceptance.AcceptanceTests.test_counter_and_sequence_wrap) ... ok
+test_crc_error_kept_but_does_not_prevent_cleanup_commands (test_uart_acceptance.AcceptanceTests.test_crc_error_kept_but_does_not_prevent_cleanup_commands) ... ok
+test_echo_crc_missing_duplicate_noise_and_mismatch (test_uart_acceptance.AcceptanceTests.test_echo_crc_missing_duplicate_noise_and_mismatch) ... ok
+test_exact_baud_and_build (test_uart_acceptance.AcceptanceTests.test_exact_baud_and_build) ... ok
+test_fail_closed_qualification (test_uart_acceptance.AcceptanceTests.test_fail_closed_qualification) ... ok
+test_frozen_analysis_and_reject_stale_or_wrong_statistics (test_uart_acceptance.AcceptanceTests.test_frozen_analysis_and_reject_stale_or_wrong_statistics) ... ok
+test_full_and_multires_capture (test_uart_acceptance.AcceptanceTests.test_full_and_multires_capture) ... ok
+test_interrupt_still_restores_and_saves (test_uart_acceptance.AcceptanceTests.test_interrupt_still_restores_and_saves) ... ok
+test_invalid_duration_and_missing_hardware_inputs (test_uart_acceptance.AcceptanceTests.test_invalid_duration_and_missing_hardware_inputs) ... ok
+test_offline_report_restores_and_cannot_promote (test_uart_acceptance.AcceptanceTests.test_offline_report_restores_and_cannot_promote) ... ok
+test_otr_and_reserved_words (test_uart_acceptance.AcceptanceTests.test_otr_and_reserved_words) ... ok
+test_overflow_and_device_reset (test_uart_acceptance.AcceptanceTests.test_overflow_and_device_reset) ... ok
+test_restore_failure_disqualifies (test_uart_acceptance.AcceptanceTests.test_restore_failure_disqualifies) ... ok
+test_short_or_wrong_last_and_wrong_raw_metadata (test_uart_acceptance.AcceptanceTests.test_short_or_wrong_last_and_wrong_raw_metadata) ... ok
+test_stale_capture_timestamp (test_uart_acceptance.AcceptanceTests.test_stale_capture_timestamp) ... ok
+test_stream_gap (test_uart_acceptance.AcceptanceTests.test_stream_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.180s
+
+OK
+
+
+unit-tests:versioned-metrics-report
+test_actual_timing_and_fractional_bram (test_summary_report.SummaryReportTests.test_actual_timing_and_fractional_bram) ... ok
+test_atomic_utf8_export (test_summary_report.SummaryReportTests.test_atomic_utf8_export) ... ok
+test_external_reference_metadata_and_display_are_distinct_from_nominal (test_summary_report.SummaryReportTests.test_external_reference_metadata_and_display_are_distinct_from_nominal) ... ok
+test_historical_pass_does_not_qualify_new_image (test_summary_report.SummaryReportTests.test_historical_pass_does_not_qualify_new_image) ... ok
+test_no_false_zero_for_missing_or_foreign_evidence (test_summary_report.SummaryReportTests.test_no_false_zero_for_missing_or_foreign_evidence) ... ok
+test_tampered_image_refused (test_summary_report.SummaryReportTests.test_tampered_image_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.135s
+
+OK
+
+
+current-package-hashes
+MANIFEST_VERIFIED 219
+
+
+golden-reference-full-verification
+{
+  "status": "PASS",
+  "checks": {
+    "unit_tests": {
+      "status": "PASS",
+      "count": 16
+    },
+    "demo": {
+      "status": "PASS",
+      "suite_status": "PASS",
+      "summary": {
+        "PASS": 4,
+        "FAIL": 0,
+        "ERROR": 0
+      }
+    },
+    "scope": {
+      "status": "PASS",
+      "suite_status": "PASS",
+      "summary": {
+        "PASS": 1,
+        "FAIL": 0,
+        "ERROR": 0
+      }
+    },
+    "negative": {
+      "status": "PASS",
+      "suite_status": "ERROR",
+      "summary": {
+        "PASS": 0,
+        "FAIL": 2,
+        "ERROR": 1
+      }
+    }
+  },
+  "note": "Negative suite intentionally contains FAIL and ERROR. No hardware access performed."
+}
+Reports: D:\示波器\skills\golden-reference-check\reports\20261103T180751_901334Z
+
+
+golden-reference-isolated-portability
+Portability PASS: D:\示波器\skills\golden-reference-check\reports\portability_20261103T180753_725033Z
+
+
+isolated-unit-tests:uart-fault-injection
+test_crc_vectors (test_scope_protocol.CodecTests.test_crc_vectors) ... ok
+test_fragmented_and_magic_payload (test_scope_protocol.CodecTests.test_fragmented_and_magic_payload) ... ok
+test_resync (test_scope_protocol.CodecTests.test_resync) ... ok
+test_timeout (test_scope_protocol.CodecTests.test_timeout) ... ok
+test_wave_sequence_wrap_and_timestamp_carry (test_scope_protocol.CodecTests.test_wave_sequence_wrap_and_timestamp_carry) ... ok
+test_counter_and_sequence_wrap (test_uart_acceptance.AcceptanceTests.test_counter_and_sequence_wrap) ... ok
+test_crc_error_kept_but_does_not_prevent_cleanup_commands (test_uart_acceptance.AcceptanceTests.test_crc_error_kept_but_does_not_prevent_cleanup_commands) ... ok
+test_echo_crc_missing_duplicate_noise_and_mismatch (test_uart_acceptance.AcceptanceTests.test_echo_crc_missing_duplicate_noise_and_mismatch) ... ok
+test_exact_baud_and_build (test_uart_acceptance.AcceptanceTests.test_exact_baud_and_build) ... ok
+test_fail_closed_qualification (test_uart_acceptance.AcceptanceTests.test_fail_closed_qualification) ... ok
+test_frozen_analysis_and_reject_stale_or_wrong_statistics (test_uart_acceptance.AcceptanceTests.test_frozen_analysis_and_reject_stale_or_wrong_statistics) ... ok
+test_full_and_multires_capture (test_uart_acceptance.AcceptanceTests.test_full_and_multires_capture) ... ok
+test_interrupt_still_restores_and_saves (test_uart_acceptance.AcceptanceTests.test_interrupt_still_restores_and_saves) ... ok
+test_invalid_duration_and_missing_hardware_inputs (test_uart_acceptance.AcceptanceTests.test_invalid_duration_and_missing_hardware_inputs) ... ok
+test_offline_report_restores_and_cannot_promote (test_uart_acceptance.AcceptanceTests.test_offline_report_restores_and_cannot_promote) ... ok
+test_otr_and_reserved_words (test_uart_acceptance.AcceptanceTests.test_otr_and_reserved_words) ... ok
+test_overflow_and_device_reset (test_uart_acceptance.AcceptanceTests.test_overflow_and_device_reset) ... ok
+test_restore_failure_disqualifies (test_uart_acceptance.AcceptanceTests.test_restore_failure_disqualifies) ... ok
+test_short_or_wrong_last_and_wrong_raw_metadata (test_uart_acceptance.AcceptanceTests.test_short_or_wrong_last_and_wrong_raw_metadata) ... ok
+test_stale_capture_timestamp (test_uart_acceptance.AcceptanceTests.test_stale_capture_timestamp) ... ok
+test_stream_gap (test_uart_acceptance.AcceptanceTests.test_stream_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.175s
+
+OK
+
+
+isolated-unit-tests:versioned-metrics-report
+test_actual_timing_and_fractional_bram (test_summary_report.SummaryReportTests.test_actual_timing_and_fractional_bram) ... ok
+test_atomic_utf8_export (test_summary_report.SummaryReportTests.test_atomic_utf8_export) ... ok
+test_external_reference_metadata_and_display_are_distinct_from_nominal (test_summary_report.SummaryReportTests.test_external_reference_metadata_and_display_are_distinct_from_nominal) ... ok
+test_historical_pass_does_not_qualify_new_image (test_summary_report.SummaryReportTests.test_historical_pass_does_not_qualify_new_image) ... ok
+test_no_false_zero_for_missing_or_foreign_evidence (test_summary_report.SummaryReportTests.test_no_false_zero_for_missing_or_foreign_evidence) ... ok
+test_tampered_image_refused (test_summary_report.SummaryReportTests.test_tampered_image_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.132s
+
+OK
+
+
+isolated-unit-tests:release-provenance-check
+test_bad_digest_empty_manifest_and_alias_are_rejected (test_verify_manifest.ManifestTests.test_bad_digest_empty_manifest_and_alias_are_rejected) ... ok
+test_duplicate_json_entries_are_rejected (test_verify_manifest.ManifestTests.test_duplicate_json_entries_are_rejected) ... ok
+test_escaping_and_absolute_paths_are_rejected (test_verify_manifest.ManifestTests.test_escaping_and_absolute_paths_are_rejected) ... ok
+test_missing_image_is_rejected (test_verify_manifest.ManifestTests.test_missing_image_is_rejected) ... ok
+test_tamper_is_rejected (test_verify_manifest.ManifestTests.test_tamper_is_rejected) ... ok
+test_valid_image_and_windows_relative_separator (test_verify_manifest.ManifestTests.test_valid_image_and_windows_relative_separator) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.048s
+
+OK
+
+
+original-integrity:verify_package.py
+FINAL_PACKAGE_VERIFIED 219
+
+
+original-integrity:verify_flash_image.py
+FLASH_IMAGE_VERIFIED

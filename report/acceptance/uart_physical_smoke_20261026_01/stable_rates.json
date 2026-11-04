@@ -1,0 +1,9 @@
+{
+  "source_report": "D:\\示波器\\PC\\acceptance_runs\\uart_physical_smoke_20261026_01\\report.json",
+  "qualified_bauds": [],
+  "device_id": "EGO1-FTDI-1234-COM12",
+  "firmware_sha256": "e69221cabb545f2de1bee2b12d8493a1ad43083c7928a519f45ac4312fb1ea0d",
+  "build": "0xa0261026",
+  "conditions": "User reports hardware connected; existing OUTA-IN setup; readback: 25MSPS, sine100kHz, DDS peak819 enabled; supply/ambient/gain position not independently measured in this short check",
+  "scope": "Only this device, firmware artifact and recorded setup."
+}

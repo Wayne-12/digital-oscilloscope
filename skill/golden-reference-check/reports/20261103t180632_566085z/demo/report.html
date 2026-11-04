@@ -1,0 +1,249 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>黄金参考验证报告</title><style>
+body{font:15px/1.6 system-ui,sans-serif;max-width:1400px;margin:36px auto;padding:0 24px;color:#182638;background:#f5f7fa}
+table{border-collapse:collapse;background:white;width:100%;font-size:13px}td,th{border:1px solid #d7dfe8;padding:8px;text-align:left;overflow-wrap:anywhere}
+.scroll{overflow:auto}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:white;padding:16px}details{margin:12px 0}.note{padding:16px;background:#e5edf8}
+</style><h1>通用算法验证示例（软件合成数据） · PASS</h1>
+<p>2026-11-03T18:06:34.024761+00:00 · {&#x27;PASS&#x27;: 4, &#x27;FAIL&#x27;: 0, &#x27;ERROR&#x27;: 0}</p>
+<p class="note">PASS 只说明配置的输入、参考模型及容差下结果一致。离线文件比对不等于本次上板验收。
+reference_seconds 为主机参考计算时间；observed_wall_seconds 含外部进程启动、文件 I/O 和运行时间，不能视为 FPGA 延迟。
+资源及性能指标缺失时显示 UNAVAILABLE；导入指标的来源与适用范围见下表和 JSON。</p>
+<div class="scroll"><table><thead><tr><th>id</th><th>status</th><th>evidence</th><th>compared</th><th>mismatches</th><th>max_abs_error</th><th>rmse</th><th>reference_seconds</th><th>observed_wall_seconds</th></tr></thead>
+<tbody><tr><td>statistics-known-values</td><td>PASS</td><td>synthetic-hand-calculated</td><td>6</td><td>0</td><td>0.0</td><td>0.0</td><td>2.010000025620684e-05</td><td>None</td></tr><tr><td>envelope-uneven-and-ties</td><td>PASS</td><td>synthetic-hand-calculated</td><td>21</td><td>0</td><td>0.0</td><td>0.0</td><td>1.759999940986745e-05</td><td>None</td></tr><tr><td>fir-independent-process</td><td>PASS</td><td>synthetic-software-dut</td><td>11</td><td>0</td><td>0.0</td><td>0.0</td><td>2.1900003048358485e-05</td><td>0.08416050000232644</td></tr><tr><td>fft-vs-direct-dft</td><td>PASS</td><td>synthetic-software-dut</td><td>128</td><td>0</td><td>1.564276554096122e-14</td><td>2.4432038830428515e-15</td><td>0.0006371999988914467</td><td>0.08827770000061719</td></tr></tbody></table></div><h2>性能 / 资源证据</h2>
+<div class="scroll"><table><thead><tr><th>name</th><th>value</th><th>unit</th><th>status</th><th>scope</th><th>source_sha256</th></tr></thead><tbody><tr><td>hardware_latency</td><td>None</td><td>s</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr><tr><td>hardware_throughput</td><td>None</td><td>samples/s</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr><tr><td>resource_utilization</td><td>None</td><td>%</td><td>UNAVAILABLE</td><td>No evidence supplied</td><td>—</td></tr></tbody></table></div>
+<h2>套件配置与附加证据</h2><pre>{
+  &quot;configuration&quot;: {
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\demo_suite.json&quot;,
+    &quot;sha256&quot;: &quot;926010d0e55b8f450015fb3c000c6ae32218de44b0906dbf86f2fb321fddb634&quot;
+  },
+  &quot;evidence_files&quot;: [
+    {
+      &quot;source&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\dut_program.py&quot;,
+      &quot;sha256&quot;: &quot;b0db862507ba67b6cc508e9ec9c82ddfc2df60ac7e8d247244e5405ad4e313c7&quot;,
+      &quot;artifact&quot;: &quot;artifacts\\evidence_000.py&quot;
+    }
+  ],
+  &quot;evidence_error&quot;: null,
+  &quot;metrics&quot;: [
+    {
+      &quot;name&quot;: &quot;hardware_latency&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;s&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    },
+    {
+      &quot;name&quot;: &quot;hardware_throughput&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;samples/s&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    },
+    {
+      &quot;name&quot;: &quot;resource_utilization&quot;,
+      &quot;value&quot;: null,
+      &quot;unit&quot;: &quot;%&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;scope&quot;: &quot;No evidence supplied&quot;
+    }
+  ]
+}</pre>
+<h2>逐项详情与溯源</h2><details><summary>statistics-known-values: PASS</summary><pre>{
+  &quot;id&quot;: &quot;statistics-known-values&quot;,
+  &quot;evidence&quot;: &quot;synthetic-hand-calculated&quot;,
+  &quot;description&quot;: &quot;已知四点统计；期望 RMS=sqrt(5)&quot;,
+  &quot;status&quot;: &quot;PASS&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\data\\small.json&quot;,
+    &quot;sha256&quot;: &quot;9398ad09e47cf7be22f886607647ab220838de2551e66b6049a11e378d52f140&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/small.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_000_input.json&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;statistics&quot;,
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 2.010000025620684e-05,
+  &quot;observed&quot;: {
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\data\\stats_actual.json&quot;,
+    &quot;sha256&quot;: &quot;8b4307fbf78cad83149c8cbe6d1379868da2036e7cfcc64ba8fc55a64a41ac8e&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/stats_actual.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_000_observed.json&quot;
+  },
+  &quot;observed_wall_seconds&quot;: null,
+  &quot;compared&quot;: 6,
+  &quot;numeric_compared&quot;: 6,
+  &quot;mismatches&quot;: 0,
+  &quot;max_abs_error&quot;: 0.0,
+  &quot;max_relative_error_nonzero_reference&quot;: 0.0,
+  &quot;rmse&quot;: 0.0,
+  &quot;details&quot;: [],
+  &quot;details_truncated&quot;: false,
+  &quot;expected_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_000_expected.json&quot;,
+    &quot;sha256&quot;: &quot;05eb777e7096bf0cfa9f70cf3a1e0808f074cafda94d2d0a254b436d847f91d4&quot;
+  },
+  &quot;actual_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_000_actual.json&quot;,
+    &quot;sha256&quot;: &quot;8b4307fbf78cad83149c8cbe6d1379868da2036e7cfcc64ba8fc55a64a41ac8e&quot;
+  }
+}</pre></details><details><summary>envelope-uneven-and-ties: PASS</summary><pre>{
+  &quot;id&quot;: &quot;envelope-uneven-and-ties&quot;,
+  &quot;evidence&quot;: &quot;synthetic-hand-calculated&quot;,
+  &quot;description&quot;: &quot;7点分3桶，非整除分区、同值首索引&quot;,
+  &quot;status&quot;: &quot;PASS&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\data\\envelope_input.json&quot;,
+    &quot;sha256&quot;: &quot;296720d1ee7483480e6cc225bb9dca9c69555113703c0fb6e9d4c1f5f722eefc&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/envelope_input.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_001_input.json&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;envelope&quot;,
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 1.759999940986745e-05,
+  &quot;observed&quot;: {
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\data\\envelope_actual.json&quot;,
+    &quot;sha256&quot;: &quot;2660c3be84d19a128cc6a26546ce87b070be467c91b802fa4f7e32cab02d2202&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/envelope_actual.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_001_observed.json&quot;
+  },
+  &quot;observed_wall_seconds&quot;: null,
+  &quot;compared&quot;: 21,
+  &quot;numeric_compared&quot;: 21,
+  &quot;mismatches&quot;: 0,
+  &quot;max_abs_error&quot;: 0.0,
+  &quot;max_relative_error_nonzero_reference&quot;: 0.0,
+  &quot;rmse&quot;: 0.0,
+  &quot;details&quot;: [],
+  &quot;details_truncated&quot;: false,
+  &quot;expected_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_001_expected.json&quot;,
+    &quot;sha256&quot;: &quot;2660c3be84d19a128cc6a26546ce87b070be467c91b802fa4f7e32cab02d2202&quot;
+  },
+  &quot;actual_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_001_actual.json&quot;,
+    &quot;sha256&quot;: &quot;2660c3be84d19a128cc6a26546ce87b070be467c91b802fa4f7e32cab02d2202&quot;
+  }
+}</pre></details><details><summary>fir-independent-process: PASS</summary><pre>{
+  &quot;id&quot;: &quot;fir-independent-process&quot;,
+  &quot;evidence&quot;: &quot;synthetic-software-dut&quot;,
+  &quot;description&quot;: &quot;移位寄存器 FIR 对照直接卷积参考；不依赖示波器&quot;,
+  &quot;status&quot;: &quot;PASS&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\data\\fir_input.json&quot;,
+    &quot;sha256&quot;: &quot;9af6fd79d1fba2b9f731b3bd4d6d1557390a66497efc7bc4c4931acd2462804b&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/fir_input.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_002_input.json&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;fir&quot;,
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 2.1900003048358485e-05,
+  &quot;observed_wall_seconds&quot;: 0.08416050000232644,
+  &quot;command&quot;: {
+    &quot;argv&quot;: [
+      &quot;{python}&quot;,
+      &quot;dut_program.py&quot;,
+      &quot;fir&quot;,
+      &quot;{input}&quot;,
+      &quot;{output}&quot;
+    ],
+    &quot;returncode&quot;: 0,
+    &quot;timeout_seconds&quot;: 10
+  },
+  &quot;observed&quot;: {
+    &quot;mode&quot;: &quot;command&quot;,
+    &quot;sha256&quot;: &quot;997ce5b7ad8ab73f813ad96e9be32f3ae9dbca0ab96dffa131f3588050195bbd&quot;
+  },
+  &quot;compared&quot;: 11,
+  &quot;numeric_compared&quot;: 11,
+  &quot;mismatches&quot;: 0,
+  &quot;max_abs_error&quot;: 0.0,
+  &quot;max_relative_error_nonzero_reference&quot;: 0.0,
+  &quot;rmse&quot;: 0.0,
+  &quot;details&quot;: [],
+  &quot;details_truncated&quot;: false,
+  &quot;expected_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_002_expected.json&quot;,
+    &quot;sha256&quot;: &quot;796ebdf639f16d8370b84e6ba9ab8a6130ef4ccad1076645e5bf3ccf5edb7f1b&quot;
+  },
+  &quot;actual_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_002_actual.json&quot;,
+    &quot;sha256&quot;: &quot;796ebdf639f16d8370b84e6ba9ab8a6130ef4ccad1076645e5bf3ccf5edb7f1b&quot;
+  }
+}</pre></details><details><summary>fft-vs-direct-dft: PASS</summary><pre>{
+  &quot;id&quot;: &quot;fft-vs-direct-dft&quot;,
+  &quot;evidence&quot;: &quot;synthetic-software-dut&quot;,
+  &quot;description&quot;: &quot;独立基2FFT与直接DFT比对，64点全复谱&quot;,
+  &quot;status&quot;: &quot;PASS&quot;,
+  &quot;input&quot;: {
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\examples\\data\\fft_input.json&quot;,
+    &quot;sha256&quot;: &quot;a6cfcbe8c375724268621fc0205d07be3512aff855f2c39e4f6274721b39cf3f&quot;,
+    &quot;selector&quot;: {
+      &quot;path&quot;: &quot;data/fft_input.json&quot;
+    },
+    &quot;artifact&quot;: &quot;artifacts\\case_003_input.json&quot;
+  },
+  &quot;reference&quot;: {
+    &quot;callable&quot;: &quot;dft&quot;,
+    &quot;path&quot;: &quot;D:\\示波器\\skills\\golden-reference-check\\goldencheck\\models.py&quot;,
+    &quot;sha256&quot;: &quot;50c02e7c060a69b569d3feb25ea85930842a627223957e2591ab1a1ce4b8e88d&quot;
+  },
+  &quot;reference_seconds&quot;: 0.0006371999988914467,
+  &quot;observed_wall_seconds&quot;: 0.08827770000061719,
+  &quot;command&quot;: {
+    &quot;argv&quot;: [
+      &quot;{python}&quot;,
+      &quot;dut_program.py&quot;,
+      &quot;fft&quot;,
+      &quot;{input}&quot;,
+      &quot;{output}&quot;
+    ],
+    &quot;returncode&quot;: 0,
+    &quot;timeout_seconds&quot;: 10
+  },
+  &quot;observed&quot;: {
+    &quot;mode&quot;: &quot;command&quot;,
+    &quot;sha256&quot;: &quot;5ee5a69eae83726c5d33c189a4331d72be03da5a1e50eefc8bb9da46dc67417e&quot;
+  },
+  &quot;compared&quot;: 128,
+  &quot;numeric_compared&quot;: 128,
+  &quot;mismatches&quot;: 0,
+  &quot;max_abs_error&quot;: 1.564276554096122e-14,
+  &quot;max_relative_error_nonzero_reference&quot;: 26.229652505906063,
+  &quot;rmse&quot;: 2.4432038830428515e-15,
+  &quot;details&quot;: [],
+  &quot;details_truncated&quot;: false,
+  &quot;expected_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_003_expected.json&quot;,
+    &quot;sha256&quot;: &quot;e0f7083c41955ca0989f8d99c32867f9219bbb819bc5e2f29ecba09a15a8d1fd&quot;
+  },
+  &quot;actual_artifact&quot;: {
+    &quot;path&quot;: &quot;artifacts\\case_003_actual.json&quot;,
+    &quot;sha256&quot;: &quot;65133215bab671fca15beaf6352386246a719d8491b6229e812cfe200052861d&quot;
+  }
+}</pre></details>
+<h2>运行环境</h2><pre>{
+  &quot;tool_version&quot;: &quot;1.0.0&quot;,
+  &quot;python&quot;: &quot;3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]&quot;,
+  &quot;platform&quot;: &quot;Windows-11-10.0.22621-SP0&quot;,
+  &quot;executable&quot;: &quot;D:\\Python\\python3.14\\python3.14.7\\python.exe&quot;
+}</pre>
+<p>完整机器报告：report.json；汇总：summary.csv；导入指标：metrics.csv；输入副本及参考/实际输出：artifacts/。</p></html>

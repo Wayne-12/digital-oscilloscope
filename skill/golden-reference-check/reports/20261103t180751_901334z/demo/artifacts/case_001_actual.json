@@ -1,0 +1,29 @@
+[
+  {
+    "first": 0,
+    "last": 1,
+    "count": 2,
+    "minimum": -1,
+    "maximum": 2,
+    "min_index": 1,
+    "max_index": 0
+  },
+  {
+    "first": 2,
+    "last": 3,
+    "count": 2,
+    "minimum": 7,
+    "maximum": 7,
+    "min_index": 2,
+    "max_index": 2
+  },
+  {
+    "first": 4,
+    "last": 6,
+    "count": 3,
+    "minimum": -4,
+    "maximum": 3,
+    "min_index": 5,
+    "max_index": 6
+  }
+]
